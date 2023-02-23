@@ -1,4 +1,4 @@
-import Darkmodebutton from './darkmode';
+
 import Image from 'next/image';
 import {Link} from 'react-scroll/modules';
 import React, { useState, useEffect } from 'react';
