@@ -14,7 +14,7 @@ export default function Home(){
                 </p>
             </div>
 
-            <div className='w-full h-[60px] bg-gray-900 absolute bottom-0'></div>
+            <div className='w-full h-[30px] bg-gray-900 absolute bottom-0'></div>
         </div>
     )
 }
