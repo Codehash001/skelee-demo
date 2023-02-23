@@ -1,30 +1,25 @@
 
 import {Link} from 'react-scroll/modules';
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/swiper.min.css";
-import "swiper/components/effect-coverflow/effect-coverflow.min.css";
-import "swiper/components/pagination/pagination.min.css";
-import "swiper/components/navigation/navigation.min.css";
+import "swiper/css";
 
 import SwiperCore, {
   EffectCoverflow,
-  Pagination,
-  Navigation
-} from "swiper/core";
+  Autoplay
+} from "swiper";
 
-SwiperCore.use([EffectCoverflow, Pagination, Navigation]);
+SwiperCore.use(EffectCoverflow);
 
 export default function Slider() {
 
   return (
       <>
       <div className='flex flex-col w-full h-auto items-center font-Gotham'>
-        <h1 className='text-white text-[20px] text-center mt-10'>Skelee is a community of late gamers</h1>
+        <h1 className='text-white text-[20px] text-center mx-10'>Skelee is a community of late gamers</h1>
 
         {/* slider */}
 
         <Swiper
-        navigation={false}
         effect={"coverflow"}
         centeredSlides={true}
         slidesPerView={window.innerWidth < 768 ? 1 : "auto"}
@@ -36,7 +31,12 @@ export default function Slider() {
           modifier: 1,
           slideShadows: true
         }}
-        pagination={false}
+        spaceBetween={30}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        modules={[Autoplay,EffectCoverflow]}
         className="mySwiper"
       >
         <SwiperSlide>
