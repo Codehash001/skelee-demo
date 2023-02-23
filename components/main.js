@@ -3,7 +3,7 @@ import {Link} from 'react-scroll/modules';
 export default function Home(){
 
     return (
-        <div className="pt-[100px] h-screen font-Gotham" id='home'data-aos="fade">
+        <div className="h-screen font-Gotham" id='home'data-aos="fade">
             <div className='flex flex-col items-center justify-center'>
                 <h1 className='font-bold text-[80px]'>Home Page</h1>
                 <button className='text-center py-2 px-10 tracking-widest uppercase bg-gray-500 text-white font-bold rounded-full text-[60px] mt-10'>MINT NOW</button>
