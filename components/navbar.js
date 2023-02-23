@@ -13,101 +13,35 @@ export default function Navbar (){
   };
   
     return (
-            <div>
-            <div className="flex md:justify-between items-center justify-between font-Archivo px-2 xl:px-16 bg-transparent filter backdrop-blur-lg fixed z-[100] top-[10px]">
-                <div>
-                    Logo 
-                </div>
-                <div className='hidden md:flex'>
-                    <ul className='flex font-medium'>
-                        <li className="cursor-pointer mx-4 underline-none hover:underline-offset-1 hover:tracking-widest hover:textgray-700">
-                            <Link className="cursor-pointer" activeClass ="active" to='home' spy={true} smooth={true} duration={500}>Home</Link>
-                        </li>
-                        <li className="cursor-pointer mx-4 underline-none hover:underline-offset-1 hover:tracking-widest hover:textgray-700">
-                        <Link className="cursor-pointer" activeClass ="active" to='mint' spy={true} smooth={true} duration={500}>Mint</Link>
-                        </li>
-                        <li className="cursor-pointer mx-4 underline-none hover:underline-offset-1 hover:tracking-widest hover:textgray-700">
-                        <Link className="cursor-pointer" activeClass ="active" to='contact' spy={true} smooth={true} duration={500}>Contact us</Link>
-                        </li>
-                        <li className="cursor-pointer mx-4 underline-none hover:underline-offset-1 hover:tracking-widest hover:textgray-700">
-                        <Link className="cursor-pointer" activeClass ="active" to='faqs' spy={true} smooth={true} duration={500}>FAQs</Link>
-                        </li>
-                    </ul>
-                    <div className='flex items-center justify-between'>
-                    <div className='mx-6'>
-                        <Darkmodebutton/>
-                    </div>
-                    <button type="button" class="text-white dark:text-black font-semibold bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 rounded-sm text-sm px-5 py-2.5 text-center">Connect Wallet</button>
-                </div>
-                </div>
-                
-               
+            <>
+            <div className='top-0 sticky z-10 filter drop-shadow-md w-screen h-auto lg:px-16 font-Gotham '>
+              <div className='flex flex-col items-center w-full'>
 
-           <div onClick={handleNav}
-          className=' md:hidden rounded-md p-2 bg-white mx-2 cursor-pointer' >
-            <AiOutlineMenu size={18} />
-          </div>
+                <div className='w-full h-[40px] bg-gray-900 py-4'>
+                  <h1 className='text-center font-semibold uppercase text-white'>Mint is Live</h1>
+                </div>
 
-          </div>
-          
+                <div className='flex flex-col w-full h-[60px]'>
+                  <div className='w-[40%] flex items-center p-4 justify-between'>
+                    <h1 className='text-center font-medium'>Home</h1>
+                    <h1 className='text-center font-medium'>Roadmap</h1>
+                  </div>
 
-      {/* Mobile Menu */}
-      {/* Overlay */}
-      <div className={
-         nav? 'z-[120] md:hidden fixed left-0 top-0 w-full h-screen bg-gray-400/10 backdrop-filter backdrop-blur-sm' : ""
-        }>
-        
-        {/* Side Drawer Menu */}
-      <div className ={
-        nav? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-black p-10 ease-in duration-500 border-r-2"
-      :'fixed left-[-100%] top-0 p-10 ease-in duration-500 h-screen'
-      }>
-      <div className='flex w-full items-center justify-between'>
-      <Link className="cursor-pointer" acticeClass ="active" to='home' spy={true} smooth={true} duration={500}>
-                <a>
-                  <Image
-                    src="/Logoicon.png"
-                    width='45'
-                    height='45'
-                    alt='/'
-                    className="rounded-md"
-                  />
-                </a>
-              </Link>
-              <div onClick={handleNav}
-              className='rounded-full bg-gray-400 hover:shadow-lg hover:shadow-gray-600 p-3 cursor-pointer '>
-              <AiOutlineClose size={18} />
-             </div>
-          </div>
-          <div className='border-b py-4 flex flex-col mt-4'>
-              <p className='uppercase text-[18px] text-white font-Righteous text-center'>
-              SKLL
-              </p>
+                  <div className='w-[20%] flex items-center p-4 justify-between'>
+                    <h1 className='text-center font-medium'>Skelee Logo</h1>
+                  </div>
+
+                  <div className='w-[40%] flex items-center p-4 justify-between'>
+                    <h1 className='text-center font-medium'>Team</h1>
+                    <h1 className='text-center font-medium'>FAQ</h1>
+                    <button className='text-center p-4 tracking-widest uppercase bg-gray-500 text-white font-semibold rounded-full'>MINT</button>
+                  </div>
+
+                </div>
+
+              </div>
             </div>
-            <div  className='py-4 flex flex-col '>
-        <ul className='uppercase text-gray-200 font-Righteous text-center'>
-            <li  className='py-4 text-sm hover:text-white'>
-            <Link onClick={() => setNav(false)}  className="cursor-pointer" acticeClass ="active" to='about' spy={true} smooth={true} offset={-70} duration={500}>About</Link>
-            </li>
-            <li  className='py-4 text-sm hover:text-white'>
-              <a onClick={() => setNav(false)} className="cursor-pointer" href='/mint'>Mint</a>
-            </li>
-            <li  className='py-4 text-sm hover:text-white'>
-            <Link onClick={() => setNav(false)} className="cursor-pointer" acticeClass ="active" to='roadmap' spy={true} smooth={true} offset={-70} duration={500}>Roadmap</Link>
-            </li>
-            <li  className='py-4 text-sm hover:text-white'>
-            <Link onClick={() => setNav(false)} className="cursor-pointer" acticeClass ="active" to='team' spy={true} smooth={true} offset={-100} duration={500}>Team</Link>
-            </li>
-            
-          </ul>
-
-        </div>
-        </div>
-        
-
-      </div>
-  
-            </div>
+            </>
 
             
     
