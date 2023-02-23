@@ -18,7 +18,7 @@ export default function Slider() {
         <h1 className='text-white text-[20px] text-center mt-10 mb-[40px]'>Skelee is a community of late gamers</h1>
 
         {/* slider */}
-        <div className='w-screen flex flex-row item-center justify-evenly mt-6'>
+        <div className='w-screen flex flex-row item-center justify-evenly mt-6 px-16'>
         <Swiper
         effect={"coverflow"}
         centeredSlides={true}
