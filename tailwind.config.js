@@ -11,7 +11,8 @@ module.exports = {
       fontFamily: {
         Kanit: [ 'Kanit', ...defaultTheme.fontFamily.sans],
         Archivo: [ 'Archivo', ...defaultTheme.fontFamily.sans],
-        Gotham: ['Gotham', ...defaultTheme.fontFamily.sans]
+        Gotham: ['Gotham', ...defaultTheme.fontFamily.sans],
+        Akira: ['Akira Expanded'...defaultTheme.fontFamily.sans]
       },
       colors: {
         'brand-01': 'var(--clr-c1)',
