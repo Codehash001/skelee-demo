@@ -6,9 +6,9 @@ return (
 
 <>
 <div className="flex flex-col mt-10 items-center justify-start min-h-srceen w-screen font-Gotham">
-  <h1 className="font-extrabold text-3xl text-center">Roadmap</h1>
+  <h1 className="font-extrabold text-4xl text-center uppercase tracking-wide">Roadmap</h1>
 
-  <div className='w-full absolute  h-auto bg-gray-700 flex flex-col items-center justify-center mt-10 py-6'>
+  {/* <div className='w-full absolute  h-auto bg-gray-700 flex flex-col items-center justify-center mt-10 py-6'>
       <h1 className="text-white text-center text-[20px] font-medium uppercase">Buy A skelee to join the family</h1>
       <h1 className="text-white text-center text-[20px] font-medium uppercase mt-0">of late night gamers</h1>
       <button className='text-center py-2 px-12 tracking-widest uppercase bg-[#c0c0c0] font-bold rounded-full text-[25px] mt-6'>MINT</button>
@@ -39,7 +39,7 @@ return (
         </div>
 
       </div>
-    </div>
+    </div> */}
 </div>
 </>
 
