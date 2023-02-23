@@ -18,11 +18,11 @@ export default function Slider() {
         <h1 className='text-white text-[20px] text-center mx-10'>Skelee is a community of late gamers</h1>
 
         {/* slider */}
-        <div className='w-[700px] flex flex-row item-center justify-evenly mt-6'>
+        <div className='w-auto flex flex-row item-center justify-evenly mt-6'>
         <Swiper
         effect={"coverflow"}
         centeredSlides={true}
-        slidesPerView={3}
+        slidesPerView={5}
         loop={true}
         coverflowEffect={{
           rotate: 50,
@@ -39,6 +39,33 @@ export default function Slider() {
         modules={[Autoplay,EffectCoverflow]}
         className="mySwiper"
       >
+        <SwiperSlide>
+          <img src="/1.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="/1.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="/1.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="/1.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="/1.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="/1.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="/1.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="/1.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="/1.jpg" />
+        </SwiperSlide>
         <SwiperSlide>
           <img src="/1.jpg" />
         </SwiperSlide>
