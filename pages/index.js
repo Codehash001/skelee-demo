@@ -5,7 +5,7 @@ import Navbar from '../components/navbar'
 import Home from '../components/main'
 
 
-export default function Home() {
+export default function Index() {
   return (
     <>
       <Head>
