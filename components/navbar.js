@@ -18,7 +18,7 @@ export default function Navbar (){
               <div className='flex flex-col items-center w-full'>
 
                 <div className='w-full bg-gray-900 py-4'>
-                  <h1 className='text-center font-semibold uppercase text-white'>Mint is Live</h1>
+                  <h1 className='text-center font-semibold uppercase text-white tracking-wide'>Mint is Live</h1>
                 </div>
 
                 <div className='flex flex-row w-full h-[60px] lg:px-16 '>
@@ -28,7 +28,7 @@ export default function Navbar (){
                   </div>
 
                   <div className='w-[20%] flex items-center p-4 justify-center'>
-                    <h1 className='text-center font-bold mx-10'>Skelee Logo</h1>
+                    <h1 className='text-center font-bold mx-10 text-lg'>Skelee Logo</h1>
                   </div>
 
                   <div className='w-[40%] flex items-center p-4 justify-center'>
