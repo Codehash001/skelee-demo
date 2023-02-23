@@ -20,7 +20,7 @@ export default function Index() {
       </div>
       <Home/>
       <Slider/>
-      {/* <Roadmap/> */}
+      <Roadmap/>
     </>
   )
 }

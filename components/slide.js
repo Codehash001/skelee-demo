@@ -87,7 +87,7 @@ export default function Slider() {
       </Swiper>
       </div>
 
-      <div className='w-full h-[80px] bg-gray-800 flex flex-col items-center justify-center mt-10 py-4'>
+      <div className='w-full h-[80px] bg-gray-800 flex flex-col items-center justify-center mt-10 py-8'>
       <button className='text-center py-2 px-10 tracking-widest uppercase bg-[#c0c0c0] font-bold rounded-full text-[28px]'>MINT NOW</button>
       </div>
 
