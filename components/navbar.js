@@ -23,18 +23,18 @@ export default function Navbar (){
 
                 <div className='flex flex-row w-full h-[60px] lg:px-16 '>
                   <div className='w-[40%] flex items-center p-4 justify-center'>
-                    <h1 className='text-center font-medium mx-6'>Home</h1>
-                    <h1 className='text-center font-medium mx-6'>Roadmap</h1>
+                    <h1 className='text-center font-bold mx-10'>Home</h1>
+                    <h1 className='text-center font-bold mx-10'>Roadmap</h1>
                   </div>
 
                   <div className='w-[20%] flex items-center p-4 justify-center'>
-                    <h1 className='text-center font-medium mx-6'>Skelee Logo</h1>
+                    <h1 className='text-center font-bold mx-10'>Skelee Logo</h1>
                   </div>
 
                   <div className='w-[40%] flex items-center p-4 justify-center'>
-                    <h1 className='text-center font-medium mx-6'>Team</h1>
-                    <h1 className='text-center font-medium mx-6'>FAQ</h1>
-                    <button className='text-center py-2 px-10 tracking-widest uppercase bg-gray-500 text-white font-semibold rounded-full mx-6'>MINT</button>
+                    <h1 className='text-center font-bold mx-10'>Team</h1>
+                    <h1 className='text-center font-bold mx-10'>FAQ</h1>
+                    <button className='text-center py-2 px-10 tracking-widest uppercase bg-gray-500 text-white font-bold rounded-full mx-10'>MINT</button>
                   </div>
 
                 </div>
