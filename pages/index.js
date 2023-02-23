@@ -3,13 +3,14 @@ import Image from 'next/image'
 import Base from '../components/base'
 import Navbar from '../components/navbar'
 import Home from '../components/main'
+import Slider from '../components/slide'
 
 
 export default function Index() {
   return (
     <>
       <Head>
-        <title>SKLL</title>
+        <title>Skelee-Demo</title>
         <meta name="Description" content="Skulls Klubs LimitLess!" />
         <link rel="icon" href="/Logoicon.png" />
       </Head>
@@ -17,6 +18,7 @@ export default function Index() {
         <Navbar/>
       </div>
       <Home/>
+      <Slider/>
     </>
   )
 }

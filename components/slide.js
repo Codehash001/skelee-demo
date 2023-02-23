@@ -14,7 +14,7 @@ import SwiperCore, {
 
 SwiperCore.use([EffectCoverflow, Pagination, Navigation]);
 
-export default function SimpleSlider() {
+export default function Slider() {
 
   return (
       <>
