@@ -133,7 +133,7 @@ const handleNav = () => {
       </p>
       </div>
       
-      <h1 className='font-Akira font-bold tracking-widest uppercase text-5xl text-center mt-8'>MINT</h1>
+      <h1 className='font-Kanit font-bold tracking-widest uppercase text-5xl text-center mt-8'>MINT</h1>
       <h1 className='tracking-wide uppercase text-xl text-center'>Early access</h1>
 
       {/* minting engine */}
