@@ -140,23 +140,23 @@ const handleNav = () => {
       <div className='w-[800px] flex flex-row items-center justify-between mt-6 filter backdrop-blur-lg p-4'>
         <div>
           <img src='/nft.gif'
-          className='w-[400px] h-[400px]'/>
+          className='w-[300px] h-[300px]'/>
         </div>
 
-        <div className='flex flex-col items-center justify-between w-full p-6'>
+        <div className='flex flex-col items-center justify-start w-full px-6 py-3'>
           <div className='flex justify-between w-full'>
             <h1 className='text-lg text-center uppercase'>New friends mint <br/> 02/24 11.00 - 22.30</h1>
             <h1 className='text-lg text-center uppercase'>early access mint <br/> 02/24 11.00 - 22.30</h1>
           </div>
 
           {/* countdown */}
-          <div className='flex w-full justify-between'>
+          <div className='flex w-full justify-between font-medium mt-5'>
             <h1 className='text-2xl text-center'>02 <br/>HRS</h1>
             <h1 className='text-2xl text-center'>52 <br/>MINS</h1>
             <h1 className='text-2xl text-center'>02 <br/>SECS</h1>
           </div>
 
-          <div className='flex justify-between w-full'>
+          <div className='flex justify-between w-full font-medium'>
             <h1 className='text-lg text-center'>Mint Price<br/>.25 ETH</h1>
             <h1 className='text-lg text-center'>Total Supply<br/>8,000</h1>
             <h1 className='text-lg text-center'>Reveal Time<br/>FEB 2023</h1>
