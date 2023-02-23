@@ -14,7 +14,7 @@ export default function Navbar (){
   
     return (
             <>
-            <div className='top-0 sticky z-10 filter drop-shadow-md w-screen h-auto font-Gotham '>
+            <div className='filter drop-shadow-md w-screen h-auto font-Gotham '>
               <div className='flex flex-col items-center w-full'>
 
                 <div className='w-full bg-gray-900 py-4'>
@@ -28,7 +28,7 @@ export default function Navbar (){
                   </div>
 
                   <div className='w-[20%] flex items-center p-4 justify-center'>
-                    <h1 className='text-center font-bold mx-10 text-lg'>Skelee Logo</h1>
+                    <h1 className='text-center font-bold mx-10 text-xl'>Skelee Logo</h1>
                   </div>
 
                   <div className='w-[40%] flex items-center p-4 justify-center'>
