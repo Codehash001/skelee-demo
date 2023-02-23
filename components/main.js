@@ -8,9 +8,9 @@ export default function Home(){
                 <h1 className='font-bold text-[60px]'>Home Page</h1>
                 <button className='text-center py-2 px-10 tracking-widest uppercase bg-gray-500 text-white font-bold rounded-full text-[30px] mt-10'>MINT NOW</button>
                 <p className='text-gray-300 font-medium text-[20px] mt-10 text-center'>
-                    Consectetur irure amet pariatur exercitation culpa ut.
+                    Join a club that rewards
                     <br/>
-                    Lorem Ipsum consectetur irure amet pariatur exercitation culpa ut.
+                    you for Late Night Gaming
                 </p>
             </div>
 
