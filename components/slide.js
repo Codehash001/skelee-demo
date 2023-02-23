@@ -18,14 +18,14 @@ export default function Slider() {
         <h1 className='text-white text-[20px] text-center mt-10 mb-[40px]'>Skelee is a community of late gamers</h1>
 
         {/* slider */}
-        <div className='w-[800px] flex flex-row item-center justify-evenly mt-6'>
+        <div className='w-screen flex flex-row item-center justify-evenly mt-6'>
         <Swiper
         effect={"coverflow"}
         centeredSlides={true}
         slidesPerView={5}
         loop={true}
         coverflowEffect={{
-          rotate: 50,
+          rotate: 25,
           stretch: 0,
           depth: 100,
           modifier: 1,
@@ -87,7 +87,7 @@ export default function Slider() {
       </Swiper>
       </div>
 
-      <div className='w-full h-[80px] bg-gray-800 absolute bottom-0 flex flex-col items-center justify-center mt-10'>
+      <div className='w-full h-[80px] bg-gray-800 flex flex-col items-center justify-center mt-10'>
       <button className='text-center py-2 px-10 tracking-widest uppercase bg-[#c0c0c0] font-bold rounded-full text-[30px]'>MINT NOW</button>
       </div>
 
@@ -97,7 +97,7 @@ export default function Slider() {
       <h1 className='text-[20px] text-center uppercase font-medium text-white mt-8'>skelee merch</h1>
       <h1 className='text-[20px] text-center uppercase font-medium text-white mt-8'>early access to meta beach</h1>
 
-      <div className='w-full h-[30px] bg-gray-900 absolute bottom-0 flex flex-col items-center justify-center mt-10'>
+      <div className='w-full h-[30px] bg-gray-900 flex flex-col items-center justify-center mt-10'>
         <h1 className='text-[22px] text-center uppercase font-bold tracking-wider text-white mt-8'>
           Skelee   +   designed by rare studios new york   +   join the discord  
         </h1>
