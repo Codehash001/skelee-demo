@@ -97,8 +97,8 @@ export default function Slider() {
       <h1 className='text-[20px] text-center uppercase font-medium text-white mt-8'>skelee merch</h1>
       <h1 className='text-[20px] text-center uppercase font-medium text-white mt-8'>early access to meta beach</h1>
 
-      <div className='w-full h-[40px] bg-black flex flex-col items-center justify-center mt-10'>
-        <h1 className='text-[20px] text-center uppercase font-bold tracking-wider text-white mt-8'>
+      <div className='w-full h-auto py-6 bg-black flex flex-col items-center justify-center mt-10'>
+        <h1 className='text-[20px] text-center uppercase font-bold tracking-wider text-white'>
           Skelee   +   designed by rare studios new york   +   join the discord  
         </h1>
       </div>

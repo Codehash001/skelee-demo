@@ -4,6 +4,7 @@ import Base from '../components/base'
 import Navbar from '../components/navbar'
 import Home from '../components/main'
 import Slider from '../components/slide'
+import Roadmap from '../components/test'
 
 
 export default function Index() {
@@ -19,6 +20,7 @@ export default function Index() {
       </div>
       <Home/>
       <Slider/>
+      <Roadmap/>
     </>
   )
 }
