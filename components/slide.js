@@ -87,8 +87,8 @@ export default function Slider() {
       </Swiper>
       </div>
 
-      <div className='w-full h-[80px] bg-gray-800 flex flex-col items-center justify-center mt-10'>
-      <button className='text-center py-2 px-10 tracking-widest uppercase bg-[#c0c0c0] font-bold rounded-full text-[30px]'>MINT NOW</button>
+      <div className='w-full h-[80px] bg-gray-800 flex flex-col items-center justify-center mt-10 py-4'>
+      <button className='text-center py-2 px-10 tracking-widest uppercase bg-[#c0c0c0] font-bold rounded-full text-[28px]'>MINT NOW</button>
       </div>
 
       <h1 className='text-[28px] text-center uppercase font-bold tracking-wider text-white mt-8'>Skelee perks</h1>
@@ -97,8 +97,8 @@ export default function Slider() {
       <h1 className='text-[20px] text-center uppercase font-medium text-white mt-8'>skelee merch</h1>
       <h1 className='text-[20px] text-center uppercase font-medium text-white mt-8'>early access to meta beach</h1>
 
-      <div className='w-full h-[30px] bg-gray-900 flex flex-col items-center justify-center mt-10'>
-        <h1 className='text-[22px] text-center uppercase font-bold tracking-wider text-white mt-8'>
+      <div className='w-full h-[40px] bg-black flex flex-col items-center justify-center mt-10'>
+        <h1 className='text-[20px] text-center uppercase font-bold tracking-wider text-white mt-8'>
           Skelee   +   designed by rare studios new york   +   join the discord  
         </h1>
       </div>
