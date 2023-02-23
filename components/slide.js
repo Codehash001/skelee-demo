@@ -18,7 +18,7 @@ export default function Slider() {
         <h1 className='text-white text-[20px] text-center mx-10'>Skelee is a community of late gamers</h1>
 
         {/* slider */}
-
+        <div className='w-[700px] flex flex-row item-center justify-evenly mt-6'>
         <Swiper
         effect={"coverflow"}
         centeredSlides={true}
@@ -58,7 +58,7 @@ export default function Slider() {
           <img src="/1.jpg" />
         </SwiperSlide>
       </Swiper>
-
+      </div>
       </div>
       </>
     
