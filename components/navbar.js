@@ -34,7 +34,7 @@ export default function Navbar (){
                   <div className='w-[40%] flex items-center p-4 justify-center'>
                     <h1 className='text-center font-medium mx-6'>Team</h1>
                     <h1 className='text-center font-medium mx-6'>FAQ</h1>
-                    <button className='text-center py-4 px-10 tracking-widest uppercase bg-gray-500 text-white font-semibold rounded-full mx-6'>MINT</button>
+                    <button className='text-center py-2 px-10 tracking-widest uppercase bg-gray-500 text-white font-semibold rounded-full mx-6'>MINT</button>
                   </div>
 
                 </div>
