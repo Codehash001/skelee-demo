@@ -43,7 +43,7 @@ export default function Navtabs (){
               }
 
               {/* Nav bar */}
-              <div className='absolute top-0 h-[60px] z-1 w-full filter backdrop-blur-md flex items-center justify-between px-16'>
+              <div className='hidden absolute top-0 h-[60px] z-1 w-full filter backdrop-blur-md md:flex items-center justify-between px-16'>
 
                <div className='w-[50%]'>
 
@@ -54,7 +54,7 @@ export default function Navtabs (){
                </div>
                 
 
-                <div className='hidden md:flex w-[50%]'>
+                <div className='w-[50%]'>
                   <div className='flex items-center justify-end'>
                     <div className={toggleState === 2 ? 'px-3 py-1 text-[13px] bg-[#3ae516] text-white font-medium rounded-sm uppercase mr-2 cursor-pointer' : 'px-3 py-1 text-[13px]  bg-[#3ae516] text-white font-medium rounded-sm uppercase mr-2 cursor-pointer'}
                     onClick={() => toggleTab(2)}>
@@ -95,14 +95,31 @@ export default function Navtabs (){
                     onClick={() => toggleTab(2)}>
                       Connect
                     </div>
-                    <div onClick={handleNav}
-                      className=' md:hidden rounded-md mr-2 cursor-pointer' >
-                      <AiOutlineMenu size={16} />
-                    </div>
                   </div>
                 </div>
-                {/* overlay */}
-            <div className={
+
+            
+              </div>
+              
+            {/* mobile nav */}
+            
+              <div className='md:hidden absolute top-0 h-[60px] z-[100] w-full filter backdrop-blur-md flex items-center justify-between px-4'>
+
+              <div className='w-[50%]'>
+
+          <img src='/logo.png'
+          className='w-auto h-[30px] cursor-pointer'
+          onClick={() => toggleTab(1)}/>
+
+            </div>
+
+            <div onClick={handleNav}
+                      className=' md:hidden rounded-md cursor-pointer' >
+                      <AiOutlineMenu size={16} />
+            </div>
+
+            {/* overlay */}
+              <div className={
               nav? 'z-[120] md:hidden font-Kanit fixed left-0 top-0 w-full h-screen backdrop-filter backdrop-blur-sm' : ""
                 }>
               
