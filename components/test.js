@@ -5,14 +5,14 @@ export default function Roadmap () {
 return (
 
 <>
-<div className="flex flex-col mt-10 items-center justify-start min-h-srceen w-screen font-Gotham">
+<div className="flex flex-col items-center justify-start min-h-srceen w-screen font-Kanit">
   <h1 className="font-extrabold text-4xl text-center uppercase tracking-wide">Roadmap</h1>
 
   <div className='mt-6 flex flex-col items-center'>
 
     <div className="flex flex-row items-start justify-center mt-8">
       <img src="/1.jpg" className='w-[300px] h-[300px] mx-16'/>
-      <p className="mx-4 w-auto h-auto text-start text-[22px]">
+      <p className="mx-4 w-auto h-auto text-start text-[22px] mx-16">
         <span className="uppercase font-bold">THE ARRIVAL</span><br/><br/>
         <span className="uppercase">Skelees have arrived</span><br/>
         <span className="uppercase font-semibold">Sold out collection</span><br/>
@@ -21,7 +21,7 @@ return (
     </div>
 
     <div className="flex flex-row items-start justify-center mt-8">
-      <p className="mx-4 w-auto h-auto text-start text-[22px]">
+      <p className="mx-4 w-auto h-auto text-start text-[22px] mx-16">
         <span className="uppercase font-bold">THE League</span><br/>
         <span className="uppercase font-bold">q3 2023</span><br/><br/>
         <span>Open access for</span><br/>
@@ -33,7 +33,7 @@ return (
 
     <div className="flex flex-row items-start justify-center mt-8">
       <img src="/1.jpg" className='w-[300px] h-[300px] mx-16'/>
-      <p className="mx-4 w-auto h-auto text-start text-[22px]">
+      <p className="mx-4 w-auto h-auto text-start text-[22px] mx-16">
         <span className="uppercase font-bold">Champion beta league<br/>q4 2023</span><br/><br/>
         <span>The top gamers of Skelees will <br/>battle it out for 1 weekend <br/>to see who will have the
           highest <br/>stats o win 10 eth</span><br/>
@@ -41,7 +41,7 @@ return (
     </div>
 
     <div className="flex flex-row items-start justify-center mt-8">
-      <p className="mx-4 w-auto h-auto text-start text-[22px]">
+      <p className="mx-4 w-auto h-auto text-start text-[22px] mx-16">
         <span className="uppercase font-bold">Ar experience</span><br/>
         <span className="uppercase font-bold">q1 2024</span><br/><br/>
         <span>Experience Skelee</span><br/>
@@ -54,7 +54,7 @@ return (
 
     <div className="flex flex-row items-start justify-center mt-8">
       <img src="/1.jpg" className='w-[300px] h-[300px] mx-16'/>
-      <p className="mx-4 w-auto h-auto text-start text-[22px]">
+      <p className="mx-4 w-auto h-auto text-start text-[22px] mx-16">
         <span className="uppercase font-bold">Champion league<br/>q2 2024</span><br/><br/>
         <span>The top gamers of Skelees will <br/>battle it out for 1 weekend <br/>to see who will have the
           highest <br/>stats to win 10 eth</span><br/>

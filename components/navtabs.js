@@ -4,6 +4,7 @@ import {Link} from 'react-scroll/modules';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import Base from '../components/base'
+import Roadmap from '../components/test'
 
 export default function Navtabs (){
 
@@ -79,7 +80,11 @@ export default function Navtabs (){
               
               {toggleState === 1 ? (
               <div className='absolute w-full top-[100px] flex flex-col items-center'>
-                <h1 className='text-lg text-light'>Home page</h1>
+                <h1 className='text-lg tracking-wide text-center'>
+                  if you are a late <br/>
+                  night gamer, you are at the <br/>
+                  right place
+                </h1>
               </div>
               ) :toggleState === 2 ? (
                 
@@ -87,12 +92,24 @@ export default function Navtabs (){
                 <Base/>
               </div>
              
-              ) : (
-               
-                <div className='absolute w-full top-[100px]'>
+              ) :
+
+              toggleState === 3 ? (
+              <div className='absolute w-full top-[100px]'>
                 <h1 className='text-lg text-light'>Othe page</h1>
               </div>
-              
+              ) :
+
+              toggleState === 4 ? (
+                <div className='absolute w-full top-[100px]'>
+                <Roadmap/>
+              </div>) :
+
+
+              toggleState === 5 ? (<div></div>) :
+              toggleState === 6 ? (<div></div>) :
+              (
+               <></>
               )
               }
               
