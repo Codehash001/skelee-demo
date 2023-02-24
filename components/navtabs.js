@@ -26,8 +26,12 @@ export default function Navtabs (){
 
             {toggleState === 1 ?(
                 <img src='homebg.png'
-                className='object-cover'/>
+                className='object-cover w-screen h-screen'/>
                 ) :
+              toggleState === 2 ? (
+                <img src='/mintbg.png'
+                className='object-cover w-screen h-screen'/>
+              ):
                (<></>)
               }
 

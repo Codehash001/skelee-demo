@@ -123,10 +123,6 @@ const handleNav = () => {
     <>
     
     <div className='font-Kanit text-white h-srceen w-screen flex flex-col items-center justify-start lg:px-20 px-6 relative'>
-      <div className='absolute w-screen h-screen -z-1'>
-      <img src='/mintbg.png'
-      className='object-cover w-screen h-screen'/>
-      </div>
       <div className='w-[700px] mt-[100px]'>
       <p className='text-center text-sm'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet.
