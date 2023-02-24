@@ -103,7 +103,7 @@ export default function Navtabs (){
 
             {/* mobile nav */}
             
-              <div className='md:hidden absolute top-0 h-[60px] z-[100] w-full filter backdrop-blur-md flex items-center justify-between px-4'>
+              <div className='md:hidden absolute top-0 h-[60px] z-[100] w-screen filter backdrop-blur-md flex items-center justify-between px-4'>
 
           <img src='/logo.png'
           className='w-auto h-[30px] cursor-pointer'
