@@ -11,18 +11,18 @@ export default function Utlity() {
     {/* first row */}
       <div className="flex flex-row items-center justify-center border-b border-white">
         
-        <div className="w-[500px] p-6 flex flex-col items-center justify-center border-r border-white">
+        <div className="w-[500px] flex flex-col items-center justify-center">
           <img src="/1.jpg" className="w-[150px] h-[150px] rounded-lg"/>
-          <h1 className='font-semibold my-4 uppercase'>1 0F 1 ART PIECE</h1>
+          <h1 className='font-semibold my-1 uppercase'>1 0F 1 ART PIECE</h1>
           <p className='text-sm'>Skelee was created by a world class artist.
             <br/>Each NFT has uniqu value and desirability.
             <br/> as it not only represents ownership of a unique digital
             <br/> assest but also reflects the artist who created it.
           </p>
         </div>
-        <div className="w-[500px] p-6 flex flex-col items-center justify-center border-l border-white">
+        <div className="w-[500px] flex flex-col items-center justify-center">
           <img src="/1.jpg" className="w-[150px] h-[150px] rounded-lg"/>
-          <h1 className='font-semibold my-4 uppercase'>Gaming champions league</h1>
+          <h1 className='font-semibold my-1 uppercase'>Gaming champions league</h1>
           <p className='text-sm'>Skelee's gaming champion league for
             <br/>NFT holders is the ultimate battleground
             <br/> where skilled players complete for glory and
@@ -34,18 +34,18 @@ export default function Utlity() {
       {/* second-row */}
        <div className="flex flex-row items-center justify-center border-t border-white">
         
-        <div className="w-[500px] p-6 flex flex-col items-center justify-center border-r border-white">
+        <div className="w-[500px] flex flex-col items-center justify-center">
           <img src="/1.jpg" className="w-[150px] h-[150px] rounded-lg"/>
-          <h1 className='font-semibold my-4 uppercase'>Immortal Community</h1>
+          <h1 className='font-semibold my-1 uppercase'>Immortal Community</h1>
           <p className='text-sm'>Our immortal community is a lively
             <br/>and engaging space where late night gamers
             <br/>from around the world can connect, chat and share
             <br/>their passion for gaming
           </p>
         </div>
-        <div className="w-[500px] p-6 flex flex-col items-center justify-center border-l border-white">
+        <div className="w-[500px] flex flex-col items-center justify-center">
           <img src="/1.jpg" className="w-[150px] h-[150px] rounded-lg"/>
-          <h1 className='font-semibold my-4 uppercase'>Argumented Reality</h1>
+          <h1 className='font-semibold my-1 uppercase'>Argumented Reality</h1>
           <p className='text-sm'>Skelees argumented reality 'experience' will
             <br/>provide a fully impressive and interactive gameplay
             <br/>adventure thatseamlessly blends
