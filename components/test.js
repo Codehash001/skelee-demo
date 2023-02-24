@@ -84,12 +84,12 @@ return (
     
     <div className="flex flex-row items-center justify-center mt-6">
       
-      <div className="mx-6 my-4 px-12 rounded-lg text-center tracking-wider bg-gray-400 text-white text-[20px]">
+      <div className="mx-6 py-4 px-12 rounded-xl text-center tracking-wider bg-gray-400 text-white text-[20px]">
       <span className='uppercase text-[22px] font-semibold'>twitter</span><br/>
       Follow Skelee for Updates and News
       </div>
 
-      <div className="mx-6 py-4 px-12 rounded-lg text-center tracking-wider bg-gray-400 text-white text-[20px]">
+      <div className="mx-6 py-4 px-12 rounded-xl text-center tracking-wider bg-gray-400 text-white text-[20px]">
       <span className='uppercase text-[22px] font-semibold'>Discord</span><br/>
       Chat in realtime with Skelee Friends
       </div>
