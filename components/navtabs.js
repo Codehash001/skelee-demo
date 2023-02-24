@@ -112,12 +112,12 @@ export default function Navtabs (){
               :'fixed left-[-100%] top-0 py-10 px-6 ease-in duration-500 h-screen'
               }></div>
 
-              <div className='flex w-full items-center justify-between px-4'>
+              <div className='flex w-full items-center justify-between pt-4'>
                   <img src='/logo.png'
                   className='w-auto h-[30px] cursor-pointer'
                   onClick={() => toggleTab(1)}/>
                   <div onClick={handleNav}
-                  className='rounded-full bg-gray-400 hover:shadow-lg hover:shadow-gray-600 p-3 cursor-pointer '>
+                  className='rounded-full hover:shadow-lg hover:shadow-gray-600 p-3 cursor-pointer '>
                     <AiOutlineClose size={16} />
                   </div>
               </div>
