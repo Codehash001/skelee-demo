@@ -63,6 +63,11 @@ return (
 
   </div>
 
+  <div className="w-full h-auto bg-gray-700 py-10 flec flex-col items-center">
+    <p className="text-white text-center text-[20px] font-medium uppercase">Buy A skelee to join the family <br/>of late night gamers</p>
+    <button className="mt-6 my-4 px-12 rounded-full text-center font-extrabold tracking-wider">MINT</button>
+  </div>
+
   {/* <div className='w-full absolute  h-auto bg-gray-700 flex flex-col items-center justify-center mt-10 py-6'>
       <h1 className="text-white text-center text-[20px] font-medium uppercase">Buy A skelee to join the family</h1>
       <h1 className="text-white text-center text-[20px] font-medium uppercase mt-0">of late night gamers</h1>
