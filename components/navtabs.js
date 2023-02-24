@@ -105,16 +105,13 @@ export default function Navtabs (){
             
               <div className='md:hidden absolute top-0 h-[60px] z-[100] w-full filter backdrop-blur-md flex items-center justify-between px-4'>
 
-              <div className='w-[50%]'>
-
           <img src='/logo.png'
           className='w-auto h-[30px] cursor-pointer'
           onClick={() => toggleTab(1)}/>
 
-            </div>
 
             <div onClick={handleNav}
-              className='flex justify-end md:hidden rounded-md cursor-pointer' >
+              className='flex md:hidden rounded-md cursor-pointer' >
               <AiOutlineMenu size={18} />
             </div>
 
