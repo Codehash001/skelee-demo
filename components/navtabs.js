@@ -6,6 +6,7 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import Base from '../components/base'
 import Roadmap from '../components/roadmap'
 import FAQ from '../components/FAQs'
+import Utlity from '../components/Utlity'
 
 export default function Navtabs (){
 
@@ -32,6 +33,10 @@ export default function Navtabs (){
                 ) :
               toggleState === 2 ? (
                 <img src='/mintbg.png'
+                className='object-cover w-screen h-screen'/>
+              ):
+              toggleState === 3 ? (
+                <img src='/utlitybg.png'
                 className='object-cover w-screen h-screen'/>
               ):
                (<></>)
@@ -162,7 +167,7 @@ export default function Navtabs (){
 
               toggleState === 3 ? (
               <div className='absolute w-full top-[90px]'>
-                <h1 className='text-lg text-light'>Othe page</h1>
+                <Utlity/>
               </div>
               ) :
 
