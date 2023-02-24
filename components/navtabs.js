@@ -79,7 +79,7 @@ export default function Navtabs (){
               </div>
               ) :toggleState === 2 ? (
                 
-                <div className='absolute w-full top-[100px]'>
+                <div className='absolute w-full top-0 -z-1'>
                 <Base/>
               </div>
              

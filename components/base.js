@@ -126,8 +126,8 @@ const handleNav = () => {
       <div className='absolute w-screen h-screen'>
       <img src='/mintbg.png'
       className='object-cover'/>
-      </div>
-      <div className='w-[700px]'>
+      
+      <div className='w-[700px] mt-8'>
       <p className='text-center text-sm'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet.
         <br/>
@@ -169,6 +169,7 @@ const handleNav = () => {
           <button className='px-6 py-3 bg-black rounded-lg'>Connect Wallet</button>
 
         </div>
+      </div>
       </div>
     </div>
     
