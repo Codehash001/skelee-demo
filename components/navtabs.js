@@ -69,15 +69,15 @@ export default function Navtabs (){
               {/* Contents */}
 
               {toggleState === 1 ? (
-              <div className='absolute top[100px]'>
+              <div className='absolute top-[100px]'>
                 <h1 className='text-lg text-light'>Home page</h1>
               </div>
-              ) :toggleState === 1 ? (
-                <div className='absolute top[100px]'>
+              ) :toggleState === 2 ? (
+                <div className='absolute top-[100px]'>
                 <h1 className='text-lg text-light'>Mint page</h1>
               </div>
               ) : (
-               <div className='absolute top[100px]'>
+               <div className='absolute top-[100px]'>
                 <h1 className='text-lg text-light'>Other pages</h1>
               </div> 
               )
