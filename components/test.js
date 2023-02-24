@@ -10,17 +10,17 @@ return (
 
   <div className='mt-6 flex flex-col items-center'>
 
-    <div className="flex flex-row items-start justify-center mt-6">
-      <img src="/1.jpg" className='w-[300px] h-[300px] mx-4'/>
+    <div className="flex flex-row items-start justify-center mt-8">
+      <img src="/1.jpg" className='w-[300px] h-[300px] mx-16'/>
       <p className="mx-4 w-auto h-auto text-start text-[22px]">
         <span className="uppercase font-bold">THE ARRIVAL</span><br/><br/>
         <span className="uppercase">Skelees have arrived</span><br/>
-        <span className="uppercase font-semibold">Sols out collection</span><br/>
+        <span className="uppercase font-semibold">Sold out collection</span><br/>
         <span>Countdown to gaming portals</span><br/>
       </p>
     </div>
 
-    <div className="flex flex-row items-start justify-center mt-6">
+    <div className="flex flex-row items-start justify-center mt-8">
       <p className="mx-4 w-auto h-auto text-start text-[22px]">
         <span className="uppercase font-bold">THE League</span><br/>
         <span className="uppercase font-bold">q3 2023</span><br/><br/>
@@ -28,11 +28,11 @@ return (
         <span>late night gaming portal</span><br/>
         <span>will begin</span>
       </p>
-      <img src="/1.jpg" className='w-[300px] h-[300px] mx-4'/>
+      <img src="/1.jpg" className='w-[300px] h-[300px] mx-16'/>
     </div>
 
-    <div className="flex flex-row items-start justify-center mt-6">
-      <img src="/1.jpg" className='w-[300px] h-[300px] mx-4'/>
+    <div className="flex flex-row items-start justify-center mt-8">
+      <img src="/1.jpg" className='w-[300px] h-[300px] mx-16'/>
       <p className="mx-4 w-auto h-auto text-start text-[22px]">
         <span className="uppercase font-bold">Champion beta league<br/>q4 2023</span><br/><br/>
         <span>The top gamers of Skelees will <br/>battle it out for 1 weekend <br/>to see who will have the
@@ -40,7 +40,7 @@ return (
       </p>
     </div>
 
-    <div className="flex flex-row items-start justify-center mt-6">
+    <div className="flex flex-row items-start justify-center mt-8">
       <p className="mx-4 w-auto h-auto text-start text-[22px]">
         <span className="uppercase font-bold">Ar experience</span><br/>
         <span className="uppercase font-bold">q1 2024</span><br/><br/>
@@ -49,11 +49,11 @@ return (
         <span>experience and Release</span><br/>
         <span>of Skelee Boot for mobile game</span>
       </p>
-      <img src="/1.jpg" className='w-[300px] h-[300px] mx-4'/>
+      <img src="/1.jpg" className='w-[300px] h-[300px] mx-16'/>
     </div>
 
-    <div className="flex flex-row items-start justify-center mt-6">
-      <img src="/1.jpg" className='w-[300px] h-[300px] mx-4'/>
+    <div className="flex flex-row items-start justify-center mt-8">
+      <img src="/1.jpg" className='w-[300px] h-[300px] mx-16'/>
       <p className="mx-4 w-auto h-auto text-start text-[22px]">
         <span className="uppercase font-bold">Champion league<br/>q2 2024</span><br/><br/>
         <span>The top gamers of Skelees will <br/>battle it out for 1 weekend <br/>to see who will have the
