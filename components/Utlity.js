@@ -6,10 +6,10 @@ export default function Utlity() {
   return (
     <>
     <div id='utlity'className='text-white w-full h-full flex flex-col items-center font-Kanit text-center'>
-    <h1 className='md:text-[40px] text-[30px] font-Kanit text-white text-center uppercase font-semibold tracking-wide mb-8'> Utlity</h1>
+    <h1 className='md:text-[40px] text-[30px] font-Kanit text-white text-center uppercase font-semibold tracking-wide mb-2'> Utlity</h1>
 
     {/* first row */}
-      <div className="flex flex-row items-center justify-center border-b border-white">
+      <div className="flex flex-row items-center justify-center my-1">
         
         <div className="w-[500px] flex flex-col items-center justify-center">
           <img src="/1.jpg" className="w-[150px] h-[150px] rounded-lg"/>
@@ -32,7 +32,7 @@ export default function Utlity() {
         
       </div>
       {/* second-row */}
-       <div className="flex flex-row items-center justify-center border-t border-white">
+       <div className="flex flex-row items-center justify-center">
         
         <div className="w-[500px] flex flex-col items-center justify-center">
           <img src="/1.jpg" className="w-[150px] h-[150px] rounded-lg"/>
