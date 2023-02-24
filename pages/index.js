@@ -17,9 +17,9 @@ export default function Index() {
         <meta name="Description" content="Skulls Klubs LimitLess!" />
         <link rel="icon" href="/Logoicon.png" />
       </Head>
-      <div className='top-0 sticky z-10 '>
+
         <Navtabs/>
-      </div>
+
 
     </>
   )

@@ -40,10 +40,10 @@ export default function Navtabs (){
               </div>
 
               {/* Contents */}
-              <div className='w-full h-srceen'>
+
                 <img src='homebg.png'
                 className='object-cover'/>
-              </div>
+
               
             </div>
             </>
