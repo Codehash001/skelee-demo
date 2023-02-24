@@ -54,7 +54,7 @@ export default function Navtabs (){
                </div>
                 
 
-                <div className='w-[50%]'>
+                <div className='hidden md:flex w-[50%]'>
                   <div className='flex items-center justify-end'>
                     <div className={toggleState === 2 ? 'px-3 py-1 text-[13px] bg-[#3ae516] text-white font-medium rounded-sm uppercase mr-2 cursor-pointer' : 'px-3 py-1 text-[13px]  bg-[#3ae516] text-white font-medium rounded-sm uppercase mr-2 cursor-pointer'}
                     onClick={() => toggleTab(2)}>
@@ -101,11 +101,9 @@ export default function Navtabs (){
                     </div>
                   </div>
                 </div>
-              </div>
-
-            {/* overlay */}
+                {/* overlay */}
             <div className={
-              nav? 'z-[120] md:hidden font-Kanit fixed left-0 top-0 w-full h-screen dark:bg-gray-400/10 bg:gray-100/10 backdrop-filter backdrop-blur-sm' : ""
+              nav? 'z-[120] md:hidden font-Kanit fixed left-0 top-0 w-full h-screen backdrop-filter backdrop-blur-sm' : ""
                 }>
               
               {/* Side Drawer Menu */}
@@ -124,19 +122,22 @@ export default function Navtabs (){
                   </div>
               </div>
               <div className='flex flex-col items-start text-start mt-4'>
-                <div className='uppercase py-4 border-b-2 border-black tracking-wider font-semibold text-[22px]'>MINT</div>
-                <div className='uppercase py-4 border-b-2 border-black tracking-wider font-semibold text-[22px]'>Utlity</div>
-                <div className='uppercase py-4 border-b-2 border-black tracking-wider font-semibold text-[22px]'>Map</div>
-                <div className='uppercase py-4 border-b-2 border-black tracking-wider font-semibold text-[22px]'>FAQ</div>
-                <div className='uppercase py-4 border-b-2 border-black tracking-wider font-semibold text-[22px]'>Buy</div>
-                <div className='uppercase py-4 border-b-2 border-black tracking-wider font-semibold text-[22px]'>Twitter</div>
-                <div className='uppercase py-4 border-b-2 border-black tracking-wider font-semibold text-[22px]'>Discord</div>
-                <div className='uppercase py-4 border-b-2 border-black tracking-wider font-semibold text-[22px]'>Instagram</div>
-                <div className='uppercase py-4 border-b-2 border-black tracking-wider font-semibold text-[22px]'>Reddit</div>
-                <div className='uppercase py-4 border-b-2 border-black tracking-wider font-semibold text-[22px]'>Rare studios new york</div>
+                <div className='w-full uppercase py-4 border-b-2 border-black tracking-wider font-semibold text-[22px]'>MINT</div>
+                <div className='w-full uppercase py-4 border-b-2 border-black tracking-wider font-semibold text-[22px]'>Utlity</div>
+                <div className='w-full uppercase py-4 border-b-2 border-black tracking-wider font-semibold text-[22px]'>Map</div>
+                <div className='w-full uppercase py-4 border-b-2 border-black tracking-wider font-semibold text-[22px]'>FAQ</div>
+                <div className='w-full uppercase py-4 border-b-2 border-black tracking-wider font-semibold text-[22px]'>Buy</div>
+                <div className='w-full uppercase py-4 border-b-2 border-black tracking-wider font-semibold text-[22px]'>Twitter</div>
+                <div className='w-full uppercase py-4 border-b-2 border-black tracking-wider font-semibold text-[22px]'>Discord</div>
+                <div className='w-full uppercase py-4 border-b-2 border-black tracking-wider font-semibold text-[22px]'>Instagram</div>
+                <div className='w-full uppercase py-4 border-b-2 border-black tracking-wider font-semibold text-[22px]'>Reddit</div>
+                <div className='w-full uppercase py-4 border-b-2 border-black tracking-wider font-semibold text-[22px]'>Rare studios new york</div>
               </div>
             
             </div>
+              </div>
+
+            
             
               {/* Contents */}
               
