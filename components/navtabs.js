@@ -118,7 +118,7 @@ export default function Navtabs (){
           </div>
             {/* overlay */}
               <div className={
-              nav? 'z-[120] md:hidden font-Kanit fixed left-0 top-0 w-full h-full backdrop-filter backdrop-blur-sm' : ""
+              nav? 'z-[120] md:hidden font-Kanit fixed left-0 top-0 w-full h-full backdrop-filter backdrop-blur-sm' : "hidden"
                 }>
               
               {/* Side Drawer Menu */}
