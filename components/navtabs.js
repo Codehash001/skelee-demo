@@ -53,19 +53,19 @@ export default function Navtabs (){
                     onClick={() => toggleTab(2)}>
                       Mint
                     </div>
-                    <div className={toggleState === 3 ? 'px-3 py-1 text-[13px] bg-green-500 text-white font-medium rounded-sm uppercase mx-2 cursor-pointer' : 'px-3 py-1 text-[13px] bg-black hover:bg-green-500 text-white font-medium rounded-sm uppercase mr-2 cursor-pointer'}
+                    <div className={toggleState === 3 ? 'px-3 py-1 text-[13px] bg-green-500 text-white font-medium rounded-sm uppercase mx-2 cursor-pointer' : 'px-3 py-1 text-[13px] bg-black hover:bg-green-500 text-white font-medium rounded-sm uppercase mx-2 cursor-pointer'}
                     onClick={() => toggleTab(3)}>
                       Utlity
                     </div>
-                    <div className={toggleState === 4 ? 'px-3 py-1 text-[13px] bg-green-500 text-white font-medium rounded-sm uppercase mx-2 cursor-pointer' : 'px-3 py-1 text-[13px] bg-black hover:bg-green-500 text-white font-medium rounded-sm uppercase mr-2 cursor-pointer'}
+                    <div className={toggleState === 4 ? 'px-3 py-1 text-[13px] bg-green-500 text-white font-medium rounded-sm uppercase mx-2 cursor-pointer' : 'px-3 py-1 text-[13px] bg-black hover:bg-green-500 text-white font-medium rounded-sm uppercase mx-2 cursor-pointer'}
                     onClick={() => toggleTab(4)}>
                       Map
                     </div>
-                    <div className={toggleState === 5 ? 'px-3 py-1 text-[13px] bg-green-500 text-white font-medium rounded-sm uppercase mx-2 cursor-pointer' : 'px-3 py-1 text-[13px] bg-black hover:bg-green-500 text-white font-medium rounded-sm uppercase mr-2 cursor-pointer'}
+                    <div className={toggleState === 5 ? 'px-3 py-1 text-[13px] bg-green-500 text-white font-medium rounded-sm uppercase mx-2 cursor-pointer' : 'px-3 py-1 text-[13px] bg-black hover:bg-green-500 text-white font-medium rounded-sm uppercase mx-2 cursor-pointer'}
                     onClick={() => toggleTab(5)}>
                       More
                     </div>
-                    <div className={toggleState === 6 ? 'px-3 py-1 text-[13px] bg-green-500 text-white font-medium rounded-sm uppercase mx-2 cursor-pointer' : 'px-3 py-1 text-[13px] bg-black hover:bg-green-500 text-white font-medium rounded-sm uppercase mr-2 cursor-pointer'}
+                    <div className={toggleState === 6 ? 'px-3 py-1 text-[13px] bg-green-500 text-white font-medium rounded-sm uppercase mx-2 cursor-pointer' : 'px-3 py-1 text-[13px] bg-black hover:bg-green-500 text-white font-medium rounded-sm uppercase mx-2 cursor-pointer'}
                     onClick={() => toggleTab(6)}>
                       Buy
                     </div>
