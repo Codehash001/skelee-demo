@@ -23,7 +23,7 @@ export default function Navtabs (){
               <div className='absolute top-0 h-[60px] z-1 w-full filter backdrop-blur-md flex items-center justify-between px-16'>
 
                <div className='w-[50%]'>
-               <div className='w-[80px] h-[40px]'>
+               <div className='w-[70px] h-[50px]'>
                   <img src='/logo.png'
                   className='object-cover'/>
                 </div>
