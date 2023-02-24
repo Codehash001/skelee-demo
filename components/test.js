@@ -57,7 +57,7 @@ return (
       <p className="mx-4 w-auto h-auto text-start text-[22px]">
         <span className="uppercase font-bold">Champion league<br/>q2 2024</span><br/><br/>
         <span>The top gamers of Skelees will <br/>battle it out for 1 weekend <br/>to see who will have the
-          highest <br/>stats o win 10 eth</span><br/>
+          highest <br/>stats to win 10 eth</span><br/>
       </p>
     </div>
 
@@ -65,7 +65,7 @@ return (
 
   <div className="w-full h-auto bg-gray-700 py-10 flex flex-col items-center justify-center mt-10">
     <p className="text-white text-center text-[20px] font-medium uppercase">Buy A skelee to join the family <br/>of late night gamers</p>
-    <button className="mt-6 my-4 px-12 rounded-full text-center font-extrabold tracking-wider bg-gray-400 text-white">MINT</button>
+    <button className="mt-6 py-4 px-12 rounded-full text-center font-extrabold tracking-wider bg-gray-400 text-white text-[22px]">MINT</button>
   </div>
 
   <div className="w-full h-auto bg-gray-900 py-10 flex flex-col items-center justify-center">
@@ -79,17 +79,17 @@ return (
         </p>
   </div>
 
-  <div className="w-full h-auto bg-gray-700 py-12 flex flex-col items-center justify-center mt-10">
+  <div className="w-full h-auto bg-gray-700 py-12 flex flex-col items-center justify-center">
     <p className="text-white text-center text-[30px] font-bold tracking-wider uppercase">Join the community</p>
     
     <div className="flex flex-row items-center justify-center mt-6">
       
-      <div className="mx-6 my-4 px-12 rounded-lg text-center font-extrabold tracking-wider bg-gray-400 text-white text-[20px]">
-      <span className='uppercase text-[22px] font-semibold'>twitter </span><br/>
+      <div className="mx-6 my-4 px-12 rounded-lg text-center tracking-wider bg-gray-400 text-white text-[20px]">
+      <span className='uppercase text-[22px] font-semibold'>twitter</span><br/>
       Follow Skelee for Updates and News
       </div>
 
-      <div className="mx-6 my-4 px-12 rounded-lg text-center font-extrabold tracking-wider bg-gray-400 text-white text-[20px]">
+      <div className="mx-6 py-4 px-12 rounded-lg text-center tracking-wider bg-gray-400 text-white text-[20px]">
       <span className='uppercase text-[22px] font-semibold'>Discord</span><br/>
       Chat in realtime with Skelee Friends
       </div>
