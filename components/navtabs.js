@@ -95,10 +95,49 @@ export default function Navtabs (){
                     onClick={() => toggleTab(2)}>
                       Connect
                     </div>
+                    <div onClick={handleNav}
+                      className=' md:hidden rounded-md mr-2 cursor-pointer' >
+                      <AiOutlineMenu size={16} />
+                    </div>
                   </div>
                 </div>
               </div>
 
+            {/* overlay */}
+            <div className={
+              nav? 'z-[120] md:hidden font-Kanit fixed left-0 top-0 w-full h-screen dark:bg-gray-400/10 bg:gray-100/10 backdrop-filter backdrop-blur-sm' : ""
+                }>
+              
+              {/* Side Drawer Menu */}
+            <div className ={
+              nav? "fixed left-0 top-0 w-[100%] h-screen bg-white py-10 px-6 ease-in duration-500"
+              :'fixed left-[-100%] top-0 py-10 px-6 ease-in duration-500 h-screen'
+              }></div>
+
+              <div className='flex w-full items-center justify-between px-4'>
+                  <img src='/logo.png'
+                  className='w-auto h-[30px] cursor-pointer'
+                  onClick={() => toggleTab(1)}/>
+                  <div onClick={handleNav}
+                  className='rounded-full bg-gray-400 hover:shadow-lg hover:shadow-gray-600 p-3 cursor-pointer '>
+                    <AiOutlineClose size={16} />
+                  </div>
+              </div>
+              <div className='flex flex-col items-start text-start mt-4'>
+                <div className='uppercase py-4 border-b-2 border-black tracking-wider font-semibold text-[22px]'>MINT</div>
+                <div className='uppercase py-4 border-b-2 border-black tracking-wider font-semibold text-[22px]'>Utlity</div>
+                <div className='uppercase py-4 border-b-2 border-black tracking-wider font-semibold text-[22px]'>Map</div>
+                <div className='uppercase py-4 border-b-2 border-black tracking-wider font-semibold text-[22px]'>FAQ</div>
+                <div className='uppercase py-4 border-b-2 border-black tracking-wider font-semibold text-[22px]'>Buy</div>
+                <div className='uppercase py-4 border-b-2 border-black tracking-wider font-semibold text-[22px]'>Twitter</div>
+                <div className='uppercase py-4 border-b-2 border-black tracking-wider font-semibold text-[22px]'>Discord</div>
+                <div className='uppercase py-4 border-b-2 border-black tracking-wider font-semibold text-[22px]'>Instagram</div>
+                <div className='uppercase py-4 border-b-2 border-black tracking-wider font-semibold text-[22px]'>Reddit</div>
+                <div className='uppercase py-4 border-b-2 border-black tracking-wider font-semibold text-[22px]'>Rare studios new york</div>
+              </div>
+            
+            </div>
+            
               {/* Contents */}
               
               {toggleState === 1 ? (
