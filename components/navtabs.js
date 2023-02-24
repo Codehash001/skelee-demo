@@ -3,6 +3,7 @@ import Image from 'next/image';
 import {Link} from 'react-scroll/modules';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+import Base from '../components/base'
 
 export default function Navtabs (){
 
@@ -23,9 +24,15 @@ export default function Navtabs (){
             <>
             <div className='font-Kanit w-screen h-screen relative flex flex-col items-center'>
 
-            {toggleState === 1 ?(<img src='homebg.png'
+            {toggleState === 1 ?(
+                <img src='homebg.png'
                 className='object-cover'/>
-                ) :(<></>)
+                ) :
+                toggleState === 2 ?
+                (
+                  <img src='mintbg.png'
+                  className='object-cover'/>
+                ) : (<></>)
               }
 
               {/* Nav bar */}
@@ -71,18 +78,18 @@ export default function Navtabs (){
               {/* Contents */}
               
               {toggleState === 1 ? (
-              <div className='absolute w-full'>
+              <div className='absolute w-full top-[100px] flex flex-col items-center'>
                 <h1 className='text-lg text-light'>Home page</h1>
               </div>
               ) :toggleState === 2 ? (
                 
-                <div className='absolute w-full'>
-                <h1 className='text-lg text-light'>Mint page</h1>
+                <div className='absolute w-full top-[100px]'>
+                <Base/>
               </div>
              
               ) : (
                
-                <div className='absolute w-full'>
+                <div className='absolute w-full top-[100px]'>
                 <h1 className='text-lg text-light'>Othe page</h1>
               </div>
               

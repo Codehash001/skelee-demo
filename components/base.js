@@ -122,7 +122,7 @@ const handleNav = () => {
   return (
     <>
     
-    <div className='font-Gotham text-white w-screen h-screen flex flex-col items-center justify-start lg:px-20 px-6 py-6'>
+    <div className='font-Kanit text-white w-screen flex flex-col items-center justify-start lg:px-20 px-6 py-6'>
       <h1 className='text-center font-medium text-lg'>SKELEE</h1>
       <div className='w-[700px] mt-8'>
       <p className='text-center text-sm'>
