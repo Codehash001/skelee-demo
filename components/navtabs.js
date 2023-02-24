@@ -103,8 +103,9 @@ export default function Navtabs (){
 
             {/* mobile nav */}
             
-              <div className='md:hidden absolute top-0 h-[60px] z-[100] w-screen filter backdrop-blur-md flex items-center justify-between px-4'>
+              <div className='md:hidden absolute top-0 h-[60px] z-[100] w-screen filter backdrop-blur-md flex flex-col items-center justify-between px-4'>
 
+          <div clasName='flex w-screen justify-between'>
           <img src='/logo.png'
           className='w-auto h-[30px] cursor-pointer'
           onClick={() => toggleTab(1)}/>
@@ -114,7 +115,7 @@ export default function Navtabs (){
               className='flex md:hidden rounded-md cursor-pointer' >
               <AiOutlineMenu size={18} />
             </div>
-
+          </div>
             {/* overlay */}
               <div className={
               nav? 'z-[120] md:hidden font-Kanit fixed left-0 top-0 w-full h-full backdrop-filter backdrop-blur-sm' : ""
