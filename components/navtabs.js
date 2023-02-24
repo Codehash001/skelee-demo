@@ -121,10 +121,10 @@ export default function Navtabs (){
       <h1 className='tracking-wide uppercase text-xl text-center'>Early access</h1>
 
       {/* minting engine */}
-      <div className='w-[800px] flex flex-row items-center justify-between mt-4 filter backdrop-blur-lg p-4'>
+      <div className='w-[800px] flex flex-row items-center justify-between mt-4 filter backdrop-blur-md p-4 border border-white'>
         <div>
           <img src='/nft.gif'
-          className='w-[300px] h-auto'/>
+          className='w-[400px] h-auto'/>
         </div>
 
         <div className='flex flex-col items-center justify-start w-full px-6 py-3'>
@@ -147,7 +147,7 @@ export default function Navtabs (){
 
           </div>
 
-          <button className='px-8 py-3 bg-black rounded-lg'>Connect Wallet</button>
+          <button className='px-16 py-3 bg-black rounded-lg mt-6'>Connect Wallet</button>
 
         </div>
       </div>
