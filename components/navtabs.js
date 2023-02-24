@@ -4,7 +4,7 @@ import {Link} from 'react-scroll/modules';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import Base from '../components/base'
-import Roadmap from '../components/test'
+import Roadmap from '../components/roadmap'
 import FAQ from '../components/FAQs'
 
 export default function Navtabs (){
