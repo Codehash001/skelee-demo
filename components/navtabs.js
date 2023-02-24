@@ -100,7 +100,7 @@ export default function Navtabs (){
 
             
               </div>
-              
+
             {/* mobile nav */}
             
               <div className='md:hidden absolute top-0 h-[60px] z-[100] w-full filter backdrop-blur-md flex items-center justify-between px-4'>
@@ -127,7 +127,7 @@ export default function Navtabs (){
             <div className ={
               nav? "fixed left-0 top-0 w-[100%] h-screen bg-white py-10 px-6 ease-in duration-500"
               :'fixed left-[-100%] top-0 py-10 px-6 ease-in duration-500 h-screen'
-              }></div>
+              }>
 
               <div className='flex w-full items-center justify-between pt-4'>
                   <img src='/logo.png'
@@ -151,6 +151,7 @@ export default function Navtabs (){
                 <div className='w-full uppercase py-4 border-b-2 border-black tracking-wider font-semibold text-[22px]'>Rare studios new york</div>
               </div>
             
+            </div>
             </div>
               </div>
 
