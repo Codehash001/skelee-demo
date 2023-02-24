@@ -43,7 +43,8 @@ export default function Navtabs (){
                <div className='w-[50%]'>
 
                   <img src='/logo.png'
-                  className='w-[80px] h-[30px]'/>
+                  className='w-[80px] h-[30px]'
+                  onClick={() => toggleTab(1)}/>
 
                </div>
                 
@@ -96,8 +97,8 @@ export default function Navtabs (){
               {/* Contents */}
               
               {toggleState === 1 ? (
-              <div className='absolute w-full top-[100px] flex flex-col items-center'>
-                <h1 className='text-lg tracking-wide text-center'>
+              <div className='absolute w-full top-[90px] flex flex-col items-center'>
+                <h1 className='tracking-wide text-center'>
                   if you are a late <br/>
                   night gamer, you are at the <br/>
                   right place
