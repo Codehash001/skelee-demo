@@ -122,9 +122,12 @@ const handleNav = () => {
   return (
     <>
     
-    <div className='font-Kanit text-white w-screen flex flex-col items-center justify-start lg:px-20 px-6 py-6'>
-      <h1 className='text-center font-medium text-lg'>SKELEE</h1>
-      <div className='w-[700px] mt-8'>
+    <div className='font-Kanit text-white h-srceen w-screen flex flex-col items-center justify-start lg:px-20 px-6 relative'>
+      <div className='absolute w-screen h-screen'>
+      <img src='/mintbg.png'
+      className='object-cover'/>
+      </div>
+      <div className='w-[700px]'>
       <p className='text-center text-sm'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet.
         <br/>

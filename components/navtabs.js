@@ -28,11 +28,7 @@ export default function Navtabs (){
                 <img src='homebg.png'
                 className='object-cover'/>
                 ) :
-                toggleState === 2 ?
-                (
-                  <img src='mintbg.png'
-                  className='object-cover'/>
-                ) : (<></>)
+               (<></>)
               }
 
               {/* Nav bar */}
