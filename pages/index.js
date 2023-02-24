@@ -5,6 +5,8 @@ import Navbar from '../components/navbar'
 import Home from '../components/main'
 import Slider from '../components/slide'
 import Roadmap from '../components/test'
+import Team from '../components/team'
+import Navtabs from '../components/navtabs'
 
 
 export default function Index() {
@@ -16,11 +18,9 @@ export default function Index() {
         <link rel="icon" href="/Logoicon.png" />
       </Head>
       <div className='top-0 sticky z-10 '>
-        <Navbar/>
+        <Navtabs/>
       </div>
-      <Home/>
-      <Slider/>
-      <Roadmap/>
+
     </>
   )
 }
