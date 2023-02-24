@@ -16,8 +16,11 @@ export default function Navtabs (){
             <>
             <div className='font-Kanit w-screen min-h-screen absolute flex flex-col items-center'>
 
+            <img src='homebg.png'
+                className='object-cover'/>
+
               {/* Nav bar */}
-              <div className='relative top-0 h-[60px] z-10 w-full filter backdrop-blur-md flex items-center justify-between px-16'>
+              <div className='relative top-0 h-[60px] z-1 w-full filter backdrop-blur-md flex items-center justify-between px-16'>
 
                <div className='w-[50%]'>
                <div className='w-[70px] h-[30px]'>
@@ -41,9 +44,7 @@ export default function Navtabs (){
 
               {/* Contents */}
 
-                <img src='homebg.png'
-                className='object-cover'/>
-
+               
               
             </div>
             </>
