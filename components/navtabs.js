@@ -5,6 +5,7 @@ import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import Base from '../components/base'
 import Roadmap from '../components/test'
+import FAQ from '../components/FAQs'
 
 export default function Navtabs (){
 
@@ -158,7 +159,7 @@ export default function Navtabs (){
               ) :
 
               toggleState === 3 ? (
-              <div className='absolute w-full top-[100px]'>
+              <div className='absolute w-full top-[90px]'>
                 <h1 className='text-lg text-light'>Othe page</h1>
               </div>
               ) :
@@ -169,7 +170,11 @@ export default function Navtabs (){
               </div>) :
 
 
-              toggleState === 5 ? (<div></div>) :
+              toggleState === 5 ? (
+              <div className='absolute w-full top-[90px]'>
+                <FAQ/>
+              </div>
+              ) :
               toggleState === 6 ? (<div></div>) :
               (
                <></>
