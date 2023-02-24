@@ -23,7 +23,7 @@ export default function Navtabs (){
               <div className='absolute top-0 h-[60px] z-1 w-full filter backdrop-blur-md flex items-center justify-between px-16'>
 
                <div className='w-[50%]'>
-               <div className='w-[70px] h-[30px]'>
+               <div className='w-[80px] h-[40px]'>
                   <img src='/logo.png'
                   className='object-cover'/>
                 </div>
@@ -32,12 +32,12 @@ export default function Navtabs (){
 
                 <div className='w-[50%]'>
                   <div className='flex items-center justify-end'>
-                    <div className='px-4 py-2 text-sm bg-black hover:bg-green-500 text-white font-medium rounded-sm uppercase'>Mint</div>
-                    <div className='px-4 py-2 text-sm bg-black hover:bg-green-500 text-white font-medium rounded-sm uppercase'>Utlity</div>
-                    <div className='px-4 py-2 text-sm bg-black hover:bg-green-500 text-white font-medium rounded-sm uppercase'>Map</div>
-                    <div className='px-4 py-2 text-sm bg-black hover:bg-green-500 text-white font-medium rounded-sm uppercase'>More</div>
-                    <div className='px-4 py-2 text-sm bg-black hover:bg-green-500 text-white font-medium rounded-sm uppercase'>Buy</div>
-                    <div className='px-4 py-2 text-sm bg-black hover:bg-green-500 text-white font-medium rounded-sm uppercase'>Connect</div>
+                    <div className='px-4 py-2 text-sm bg-black hover:bg-green-500 text-white font-medium rounded-sm uppercase mr-2 cursor-pointer'>Mint</div>
+                    <div className='px-4 py-2 text-sm bg-black hover:bg-green-500 text-white font-medium rounded-sm uppercase mx-2 cursor-pointer'>Utlity</div>
+                    <div className='px-4 py-2 text-sm bg-black hover:bg-green-500 text-white font-medium rounded-sm uppercase mx-2 cursor-pointer'>Map</div>
+                    <div className='px-4 py-2 text-sm bg-black hover:bg-green-500 text-white font-medium rounded-sm uppercase mx-2 cursor-pointer'>More</div>
+                    <div className='px-4 py-2 text-sm bg-black hover:bg-green-500 text-white font-medium rounded-sm uppercase mx-2 cursor-pointer'>Buy</div>
+                    <div className='px-4 py-2 text-sm bg-black hover:bg-green-500 text-white font-medium rounded-sm uppercase ml-2 cursor-pointer'>Connect</div>
                   </div>
                 </div>
               </div>
