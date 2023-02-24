@@ -8,6 +8,61 @@ return (
 <div className="flex flex-col mt-10 items-center justify-start min-h-srceen w-screen font-Gotham">
   <h1 className="font-extrabold text-4xl text-center uppercase tracking-wide">Roadmap</h1>
 
+  <div className='mt-6 flex flex-col items-center'>
+
+    <div className="flex flex-row items-start justify-center mt-6">
+      <img src="/1.jpg" className='w-[300px] h-[300px] mx-4'/>
+      <p className="mx-4 w-auto h-auto text-start text-[22px]">
+        <span className="uppercase font-bold">THE ARRIVAL</span><br/><br/>
+        <span className="uppercase">Skelees have arrived</span><br/>
+        <span className="uppercase font-semibold">Sols out collection</span><br/>
+        <span>Countdown to gaming portals</span><br/>
+      </p>
+    </div>
+
+    <div className="flex flex-row items-start justify-center mt-6">
+      <p className="mx-4 w-auto h-auto text-start text-[22px]">
+        <span className="uppercase font-bold">THE League</span><br/>
+        <span className="uppercase font-bold">q3 2023</span><br/><br/>
+        <span>Open access for</span><br/>
+        <span>late night gaming portal</span><br/>
+        <span>will begin</span>
+      </p>
+      <img src="/1.jpg" className='w-[300px] h-[300px] mx-4'/>
+    </div>
+
+    <div className="flex flex-row items-start justify-center mt-6">
+      <img src="/1.jpg" className='w-[300px] h-[300px] mx-4'/>
+      <p className="mx-4 w-auto h-auto text-start text-[22px]">
+        <span className="uppercase font-bold">Champion beta league<br/>q4 2023</span><br/><br/>
+        <span>The top gamers of Skelees will <br/>battle it out for 1 weekend <br/>to see who will have the
+          highest <br/>stats o win 10 eth</span><br/>
+      </p>
+    </div>
+
+    <div className="flex flex-row items-start justify-center mt-6">
+      <p className="mx-4 w-auto h-auto text-start text-[22px]">
+        <span className="uppercase font-bold">Ar experience</span><br/>
+        <span className="uppercase font-bold">q1 2024</span><br/><br/>
+        <span>Experience Skelee</span><br/>
+        <span> in AR immersive</span><br/>
+        <span>experience and Release</span><br/>
+        <span>of Skelee Boot for mobile game</span>
+      </p>
+      <img src="/1.jpg" className='w-[300px] h-[300px] mx-4'/>
+    </div>
+
+    <div className="flex flex-row items-start justify-center mt-6">
+      <img src="/1.jpg" className='w-[300px] h-[300px] mx-4'/>
+      <p className="mx-4 w-auto h-auto text-start text-[22px]">
+        <span className="uppercase font-bold">Champion league<br/>q2 2024</span><br/><br/>
+        <span>The top gamers of Skelees will <br/>battle it out for 1 weekend <br/>to see who will have the
+          highest <br/>stats o win 10 eth</span><br/>
+      </p>
+    </div>
+
+  </div>
+
   {/* <div className='w-full absolute  h-auto bg-gray-700 flex flex-col items-center justify-center mt-10 py-6'>
       <h1 className="text-white text-center text-[20px] font-medium uppercase">Buy A skelee to join the family</h1>
       <h1 className="text-white text-center text-[20px] font-medium uppercase mt-0">of late night gamers</h1>
