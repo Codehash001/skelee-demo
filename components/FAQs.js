@@ -53,7 +53,7 @@ export default function FAQs() {
         </AccordionBody>
       </Accordion>
       <Accordion open={open === 5} animate={customAnimation} className=' dark:text-white text-[21px]'>
-        <AccordionHeader onClick={() => handleOpen(4)}>
+        <AccordionHeader onClick={() => handleOpen(5)}>
           How will minting work?
         </AccordionHeader>
         <AccordionBody className='text-justify text-gray-300 text-[20px]'>
@@ -61,7 +61,7 @@ export default function FAQs() {
         </AccordionBody>
       </Accordion>
       <Accordion open={open === 6} animate={customAnimation} className=' dark:text-white text-[21px]'>
-        <AccordionHeader onClick={() => handleOpen(4)}>
+        <AccordionHeader onClick={() => handleOpen(6)}>
           Are Skelee Nfts on ERC-721 or ERC-1155?
         </AccordionHeader>
         <AccordionBody className='text-justify text-gray-300 text-[20px]'>
@@ -70,7 +70,7 @@ export default function FAQs() {
       </Accordion>
 
       <Accordion open={open === 7} animate={customAnimation} className=' dark:text-white text-[21px]'>
-        <AccordionHeader onClick={() => handleOpen(4)}>
+        <AccordionHeader onClick={() => handleOpen(7)}>
           Where can I view my SKELEE after purchasinh it?
         </AccordionHeader>
         <AccordionBody className='text-justify text-gray-300 text-[20px]'>
@@ -79,7 +79,7 @@ export default function FAQs() {
       </Accordion>
 
       <Accordion open={open === 8} animate={customAnimation} className=' dark:text-white text-[21px]'>
-        <AccordionHeader onClick={() => handleOpen(4)}>
+        <AccordionHeader onClick={() => handleOpen(8)}>
           Will there be another Skelee's in the future?
         </AccordionHeader>
         <AccordionBody className='text-justify text-gray-300 text-[20px]'>
@@ -88,7 +88,7 @@ export default function FAQs() {
       </Accordion>
 
       <Accordion open={open === 9} animate={customAnimation} className=' dark:text-white text-[21px]'>
-        <AccordionHeader onClick={() => handleOpen(4)}>
+        <AccordionHeader onClick={() => handleOpen(9)}>
           What is the royalty % ?
         </AccordionHeader>
         <AccordionBody className='text-justify text-gray-300 text-[20px]'>

@@ -79,7 +79,7 @@ return (
         </p>
   </div>
 
-  <div className="w-full h-auto bg-gray-700 py-12 flex flex-col items-center justify-center">
+  {/* <div className="w-full h-auto bg-gray-700 py-12 flex flex-col items-center justify-center">
     <p className="text-white text-center text-[30px] font-bold tracking-wider uppercase">Join the community</p>
     
     <div className="flex flex-row items-center justify-center mt-6">
@@ -95,7 +95,7 @@ return (
       </div>
     
     </div>
-  </div>
+  </div> */}
 
   {/* <div className='w-full absolute  h-auto bg-gray-700 flex flex-col items-center justify-center mt-10 py-6'>
       <h1 className="text-white text-center text-[20px] font-medium uppercase">Buy A skelee to join the family</h1>
