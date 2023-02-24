@@ -115,7 +115,7 @@ export default function Navtabs (){
 
             <div onClick={handleNav}
               className='flex justify-end md:hidden rounded-md cursor-pointer' >
-              <AiOutlineMenu size={16} />
+              <AiOutlineMenu size={18} />
             </div>
 
             {/* overlay */}
@@ -135,7 +135,7 @@ export default function Navtabs (){
                   onClick={() => toggleTab(1)}/>
                   <div onClick={handleNav}
                   className='rounded-full hover:shadow-lg hover:shadow-gray-600 p-3 cursor-pointer '>
-                    <AiOutlineClose size={16} />
+                    <AiOutlineClose size={18} />
                   </div>
               </div>
               <div className='flex flex-col items-start text-start mt-4'>
