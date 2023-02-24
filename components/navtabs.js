@@ -105,7 +105,7 @@ export default function Navtabs (){
             
               <div className='md:hidden absolute top-0 h-[60px] z-[100] w-screen filter backdrop-blur-md flex flex-col items-center justify-between px-4'>
 
-          <div clasName='flex w-screen justify-between'>
+          <div clasName='flex flex-row w-screen justify-between'>
           <img src='/logo.png'
           className='w-auto h-[30px] cursor-pointer'
           onClick={() => toggleTab(1)}/>
