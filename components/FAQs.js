@@ -19,37 +19,80 @@ export default function FAQs() {
  
   return (
     <div id='faqs'className='md:mx-16 mx-2 p-6 rounded-lg'>
-      <h1 className='md:text-[40px] text-[30px] bg-gradient-to-r from-rose-600 via-red-700 to-red-600 bg-clip-text text-transparent font-Archivo text-center uppercase font-semibold tracking-wide mb-8'> Frequently Asked Questions</h1>
+      <h1 className='md:text-[40px] text-[30px] font-Kanit text-white text-center uppercase font-semibold tracking-widest mb-8'> FAQ</h1>
       <Accordion open={open === 1} animate={customAnimation}>
-        <AccordionHeader onClick={() => handleOpen(1)} className='text-black dark:text-white font-Archivo  text-[21px]'>
-          How do I get SKLL nfts?
+        <AccordionHeader onClick={() => handleOpen(1)} className=' dark:text-white  text-[21px]'>
+          What is Skelee nft?
         </AccordionHeader>
-        <AccordionBody className='text-justify dark:text-gray-300 text-gray-700 font-Archivo  text-[20px]'>
-         Go to minting section and connect your wallet. Then choose the number that you need to mint and confirm the transaction.
+        <AccordionBody className='text-justify dark:text-gray-300 text-[20px]'>
+         description
         </AccordionBody>
       </Accordion>
-      <Accordion open={open === 2} animate={customAnimation} className='text-black dark:text-white font-Archivo  text-[22px]'>
+      <Accordion open={open === 2} animate={customAnimation} className=' dark:text-white  text-[22px]'>
         <AccordionHeader onClick={() => handleOpen(2)}>
-          What is the minting price?
+          What are the benifits of holding a Skelee?
         </AccordionHeader>
-        <AccordionBody className='text-justify dark:text-gray-300 text-gray-700 font-Archivo text-[20px]'>
-        0.6 Eth per nft
+        <AccordionBody className='text-justify dark:text-gray-300 text-[20px]'>
+        description
         </AccordionBody>
       </Accordion>
-      <Accordion open={open === 3} animate={customAnimation} className='text-black dark:text-white font-Archivo  text-[22px]'>
+      <Accordion open={open === 3} animate={customAnimation} className=' dark:text-white  text-[22px]'>
         <AccordionHeader onClick={() => handleOpen(3)}>
-          How much is the opensea Royalty fee?
+          Who can mint Skelee?
         </AccordionHeader>
-        <AccordionBody className='text-justify dark:text-gray-300 text-gray-700 font-Archivo  text-[20px]'>
-          5%
+        <AccordionBody className='text-justify dark:text-gray-300 text-[20px]'>
+          description
         </AccordionBody>
       </Accordion>
-      <Accordion open={open === 4} animate={customAnimation} className='ttext-black dark:text-whitefont-Archivo text-[21px]'>
+      <Accordion open={open === 4} animate={customAnimation} className=' dark:text-white text-[21px]'>
         <AccordionHeader onClick={() => handleOpen(4)}>
-          What is the total supply of SKLL NFts?
+          How do I claim my Skelee Boots?
         </AccordionHeader>
-        <AccordionBody className='text-justify dark:text-gray-300 text-gray-700 font-Archivo text-[20px]'>
-        910 NFTs
+        <AccordionBody className='text-justify dark:text-gray-300 text-[20px]'>
+        description
+        </AccordionBody>
+      </Accordion>
+      <Accordion open={open === 5} animate={customAnimation} className=' dark:text-white text-[21px]'>
+        <AccordionHeader onClick={() => handleOpen(4)}>
+          How will minting work?
+        </AccordionHeader>
+        <AccordionBody className='text-justify dark:text-gray-300 text-[20px]'>
+        description
+        </AccordionBody>
+      </Accordion>
+      <Accordion open={open === 6} animate={customAnimation} className=' dark:text-white text-[21px]'>
+        <AccordionHeader onClick={() => handleOpen(4)}>
+          Are Skelee Nfts on ERC-721 or ERC-1155?
+        </AccordionHeader>
+        <AccordionBody className='text-justify dark:text-gray-300 text-[20px]'>
+        description
+        </AccordionBody>
+      </Accordion>
+
+      <Accordion open={open === 7} animate={customAnimation} className=' dark:text-white text-[21px]'>
+        <AccordionHeader onClick={() => handleOpen(4)}>
+          Where can I view my SKELEE after purchasinh it?
+        </AccordionHeader>
+        <AccordionBody className='text-justify dark:text-gray-300 text-[20px]'>
+        description
+        </AccordionBody>
+      </Accordion>
+
+      <Accordion open={open === 8} animate={customAnimation} className=' dark:text-white text-[21px]'>
+        <AccordionHeader onClick={() => handleOpen(4)}>
+          Will there be another Skelee's in the future?
+        </AccordionHeader>
+        <AccordionBody className='text-justify dark:text-gray-300 text-[20px]'>
+        description
+        </AccordionBody>
+      </Accordion>
+
+      <Accordion open={open === 9} animate={customAnimation} className=' dark:text-white text-[21px]'>
+        <AccordionHeader onClick={() => handleOpen(4)}>
+          What is the royalty % ?
+        </AccordionHeader>
+        <AccordionBody className='text-justify dark:text-gray-300 text-[20px]'>
+        description
         </AccordionBody>
       </Accordion>
     </div>

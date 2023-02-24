@@ -141,7 +141,7 @@ export default function Navtabs (){
             <h1 className='text-xl text-center'>02 <br/>SECS</h1>
           </div>
 
-          <div className='flex justify-between w-full font-medium mt-4 px-8'>
+          <div className='flex justify-between w-full font-medium mt-4 px-4'>
             <h1 className='text-lg text-center'>Mint Price<br/>.25 ETH</h1>
             <h1 className='text-lg text-center'>Total Supply<br/>8,000</h1>
             <h1 className='text-lg text-center'>Reveal Time<br/>FEB 2023</h1>
