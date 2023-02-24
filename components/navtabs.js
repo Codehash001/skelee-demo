@@ -42,7 +42,7 @@ export default function Navtabs (){
                <div className='w-[50%]'>
 
                   <img src='/logo.png'
-                  className='w-[70px] h-[30px]'/>
+                  className='w-[80px] h-[30px]'/>
 
                </div>
                 
