@@ -101,10 +101,58 @@ export default function Navtabs (){
                   right place
                 </h1>
               </div>
-              ) :toggleState === 2 ? (
+              ) :
+              // Mint section
+              toggleState === 2 ? (
                 
-                <div className='absolute w-full top-0'>
-                <Base/>
+                <div className='absolute w-full top-[90px]'>
+                <div className='font-Kanit text-white h-srceen w-screen flex flex-col items-center justify-start lg:px-20 px-6 relative'>
+      <div className='w-[700px]'>
+      <p className='text-center text-sm'>
+        Skelee is a collection of 8,000 hand crafted NFTs. Skelee's living on the ethereum blockchain. Each skelee servers
+        as an access key inti pur AR gamin portal
+        <br/>
+        <br/>
+        To learn more about skelee, tweet us, check our page section on rarestudionsnewyork.com and join our discord.
+      </p>
+      </div>
+      
+      <h1 className='font-Kanit font-extrabold tracking-widest uppercase text-5xl text-center mt-6'>MINT</h1>
+      <h1 className='tracking-wide uppercase text-xl text-center'>Early access</h1>
+
+      {/* minting engine */}
+      <div className='w-[800px] flex flex-row items-center justify-between mt-4 filter backdrop-blur-lg p-4'>
+        <div>
+          <img src='/nft.gif'
+          className='w-[300px] h-auto'/>
+        </div>
+
+        <div className='flex flex-col items-center justify-start w-full px-6 py-3'>
+          <div className='flex justify-between w-full'>
+            <h1 className='text-lg text-center uppercase'>New friends mint <br/> 02/24 11.00 - 22.30</h1>
+            <h1 className='text-lg text-center uppercase'>early access mint <br/> 02/24 11.00 - 22.30</h1>
+          </div>
+
+          {/* countdown */}
+          <div className='flex w-full justify-between font-medium mt-4 px-8'>
+            <h1 className='text-xl text-center'>02 <br/>HRS</h1>
+            <h1 className='text-xl text-center'>52 <br/>MINS</h1>
+            <h1 className='text-xl text-center'>02 <br/>SECS</h1>
+          </div>
+
+          <div className='flex justify-between w-full font-medium mt-4 px-8'>
+            <h1 className='text-lg text-center'>Mint Price<br/>.25 ETH</h1>
+            <h1 className='text-lg text-center'>Total Supply<br/>8,000</h1>
+            <h1 className='text-lg text-center'>Reveal Time<br/>FEB 2023</h1>
+
+          </div>
+
+          <button className='px-8 py-3 bg-black rounded-lg'>Connect Wallet</button>
+
+        </div>
+      </div>
+      
+    </div>
               </div>
              
               ) :
