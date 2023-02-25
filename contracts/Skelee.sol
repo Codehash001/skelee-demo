@@ -17,8 +17,8 @@ contract Skelee is ERC721A, Ownable, ReentrancyGuard, PaymentSplitter {
 
   uint256 public cost = 0.01 ether;
   uint256 public wlCost = 0 ether;
-  uint256 public maxSupply = 908;
-  uint256 public MaxperWallet = 5;
+  uint256 public maxSupply = 8000;
+  uint256 public MaxperWallet = 100;
   uint256 public MaxperWalletWL = 5;
 
   bool public paused = false;
@@ -28,15 +28,15 @@ contract Skelee is ERC721A, Ownable, ReentrancyGuard, PaymentSplitter {
 
   bytes32 public merkleRoot = 0;
 
-  uint256[] private _teamShares = [50,50]; //  PEOPLE IN THE TEAM
+  uint256[] private _teamShares = [40,60]; //  Shaes out of 100
     address[] private _team = [
-        0x858B22340c864D720e916814073E631c18C4118E, // this first Account gets 50% of the total revenue
-        0xD7a57782dFbEB34CB96590d32671984B517D4Ec2 //tis 2nd account gets 50% 
+        0x32EB5d87d2956cdf380a0255774954A981720b35, // this first Account gets 50%
+        0x5aC5B05D0D7176AE5146eD094aCF9Ea2214caBE3 //this 2nd account gets 50%
         ];
 
   constructor(
     string memory _initBaseURI
-  ) ERC721A("SKELEE", "Skelee")
+  ) ERC721A("SKELEE", "skelee")
     PaymentSplitter(_team, _teamShares)
     {
     setBaseURI(_initBaseURI);
