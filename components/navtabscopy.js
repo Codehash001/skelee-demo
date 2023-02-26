@@ -299,7 +299,7 @@ toggleState === 3 ? (
 
 toggleState === 4 ? (
 <>
-  <div className={!nav?'absolute w-full top-[100px] min-h-screen':'hidden'} data-aos="fade-up" data-aos-delay="150">
+  <div className={!nav?'absolute w-full top-[100px] min-h-screen':'hidden'}>
   <div className='min-h-screen'>
   <Roadmap/>
   </div>
