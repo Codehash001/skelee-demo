@@ -6,7 +6,7 @@ export default function Footer(){
 	<div className='flex items-center jutify-between w-full h-auto'>
 		<div className='flex flex-col items-start jutify-between w-full h-auto'>
 		
-		  <img src='/Skelee-logo.png' className='h-[60px] w-auto'/>
+		  <img src='/Skelee-logo.png' className='h-[40px] w-auto'/>
 		  
 		  <div className='flex items-center jutify-start w-full h-auto mt-6'>
 		    {/*icons*/}
@@ -19,7 +19,7 @@ export default function Footer(){
 		  
 		</div>
 		
-		<img src='/skelee-head-footer.png' className='h-[100px] w-auto'/>
+		<img src='/skelee-head-footer.png' className='h-[60px] w-auto'/>
 	</div>	
 </footer>
 
