@@ -19,7 +19,7 @@ export default function Footer(){
 		  
 		</div>
 		
-		<img src='/skelee-head-footer.png' className='h-[60px] w-auto'/>
+		<img src='/skelee-head-footer.png' className='h-[80px] w-auto'/>
 	</div>	
 </footer>
 
