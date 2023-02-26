@@ -11,13 +11,14 @@ return (
   <div className='mt-6 flex flex-col items-center'>
 
     <div className="flex md:flex-row flex-col items-start justify-center mt-8">
-      <img src="/skelees-arrival.png" className='w-[300px] h-[300px] mx-16'/>
-      <p className="mx-4 w-auto h-auto text-start text-[22px] mx-16">
+      <img src="/skelees-arrival.png" className='w-[300px] h-[300px] md:mx-16 mx-4 hidden md:flex'/>
+      <p className="mx-4 w-auto h-auto text-start text-[22px] md:mx-16 mx-4">
         <span className="uppercase font-bold">THE ARRIVAL</span><br/><br/>
         <span className="uppercase">Skelees have arrived</span><br/>
         <span className="uppercase font-semibold">Sold out collection</span><br/>
         <span>Countdown to gaming portals</span><br/>
       </p>
+      <img src="/skelees-arrival.png" className='w-[300px] h-[300px] md:mx-16 mx-4 md:hidden'/>
     </div>
 
     <div className="flex md:flex-row flex-col items-start justify-center mt-8">
@@ -32,12 +33,13 @@ return (
     </div>
 
     <div className="flex md:flex-row flex-col items-start justify-center mt-8">
-      <img src="/roadmap-beta-championsleague.png" className='w-[300px] h-[300px] md:mx-16 mx-4'/>
+      <img src="/roadmap-beta-championsleague.png" className='w-[300px] h-[300px] md:mx-16 mx-4 hidden md:flex'/>
       <p className="mx-4 w-auto h-auto text-start text-[22px] md:mx-16 mx-4">
         <span className="uppercase font-bold">Champion beta league<br/>q4 2023</span><br/><br/>
         <span>The top gamers of Skelees will <br/>battle it out for 1 weekend <br/>to see who will have the
           highest <br/>stats o win 10 eth</span><br/>
       </p>
+      <img src="/roadmap-beta-championsleague.png" className='w-[300px] h-[300px] md:mx-16 mx-4 md:hidden'/>
     </div>
 
     <div className="flex md:flex-row flex-col items-start justify-center mt-8">
@@ -53,12 +55,13 @@ return (
     </div>
 
     <div className="flex md:flex-row flex-col items-start justify-center mt-8">
-      <img src="/skelee-roadmap-champions-league.png" className='w-[300px] h-[300px] md:mx-16 mx-4'/>
+      <img src="/skelee-roadmap-champions-league.png" className='w-[300px] h-[300px] md:mx-16 mx-4 hidden md:flex'/>
       <p className="mx-4 w-auto h-auto text-start text-[22px] md:mx-16 mx-4">
         <span className="uppercase font-bold">Champion league<br/>q2 2024</span><br/><br/>
         <span>The top gamers of Skelees will <br/>battle it out for 1 weekend <br/>to see who will have the
           highest <br/>stats to win 10 eth</span><br/>
       </p>
+      <img src="/skelee-roadmap-champions-league.png" className='w-[300px] h-[300px] md:mx-16 mx-4 md:hidden'/>
     </div>
 
   </div>
