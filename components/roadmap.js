@@ -23,7 +23,7 @@ return (
       <img src="/skelees-arrival.png" className='w-[300px] h-[300px] md:mx-16 mx-4 md:hidden'/>
     </div>
 
-    <div className="flex md:flex-row flex-col items-start justify-center mt-8" data-aos="fade-up" >
+    <div className="flex md:flex-row flex-col items-start justify-center mt-8">
       <p className="mx-4 w-auto h-auto text-start text-[22px] md:mx-16 mx-4">
         <span className="uppercase font-bold">THE League</span><br/>
         <span className="uppercase font-bold">q3 2023</span><br/><br/>
@@ -34,7 +34,7 @@ return (
       <img src="/skelees-theleague.png" className='w-[300px] h-[300px] md:mx-16 mx-4'/>
     </div>
 
-    <div className="flex md:flex-row flex-col items-start justify-center mt-8" data-aos="fade-up" >
+    <div className="flex md:flex-row flex-col items-start justify-center mt-8">
       <img src="/roadmap-beta-championsleague.png" className='w-[300px] h-[300px] md:mx-16 mx-4 hidden md:flex'/>
       <p className="mx-4 w-auto h-auto text-start text-[22px] md:mx-16 mx-4">
         <span className="uppercase font-bold">Champion beta league<br/>q4 2023</span><br/><br/>
@@ -44,7 +44,7 @@ return (
       <img src="/roadmap-beta-championsleague.png" className='w-[300px] h-[300px] md:mx-16 mx-4 md:hidden'/>
     </div>
 
-    <div className="flex md:flex-row flex-col items-start justify-center mt-8" data-aos="fade-up" >
+    <div className="flex md:flex-row flex-col items-start justify-center mt-8">
       <p className="mx-4 w-auto h-auto text-start text-[22px] md:mx-16 mx-4">
         <span className="uppercase font-bold">Ar experience</span><br/>
         <span className="uppercase font-bold">q1 2024</span><br/><br/>
@@ -56,7 +56,7 @@ return (
       <img src="/skelee-boot-ar.png" className='w-[300px] h-[300px] md:mx-16 mx-4'/>
     </div>
 
-    <div className="flex md:flex-row flex-col items-start justify-center mt-8" data-aos="fade-up" >
+    <div className="flex md:flex-row flex-col items-start justify-center mt-8">
       <img src="/skelee-roadmap-champions-league.png" className='w-[300px] h-[300px] md:mx-16 mx-4 hidden md:flex'/>
       <p className="mx-4 w-auto h-auto text-start text-[22px] md:mx-16 mx-4">
         <span className="uppercase font-bold">Champion league<br/>q2 2024</span><br/><br/>
