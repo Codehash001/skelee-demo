@@ -37,7 +37,7 @@ export default function Navtabs (){
               ):
               toggleState === 3 ? (
                 <img src='/utlitybg.png'
-                className='object-cover w-screen h-screen stickey top-0 z-[-100]'/>
+                className='object-cover w-screen h-screen stickey relative'/>
               ):
                (<></>)
               }
@@ -161,8 +161,8 @@ export default function Navtabs (){
               <div className='absolute w-full top-[90px] flex flex-col items-center w-screen'>
                 <h1 className='text-[18px] tracking-wide text-center'>
                   Welcome<br/>
-                  to the world of Skelee,<br/>
-                  a community of immortal gamers
+                  to the world of Skelee,a community of <br/>
+                  immortal gamers
                 </h1>
               </div>
               ) :
@@ -222,7 +222,7 @@ export default function Navtabs (){
               ) :
 
               toggleState === 3 ? (
-              <div className='relative w-full top-[90px]'>
+              <div className='absolute w-full top-[90px]'>
                 <Utlity/>
               </div>
               ) :
