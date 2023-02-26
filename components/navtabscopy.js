@@ -18,7 +18,7 @@ export default function Navtabs (){
 
    const toggleTab = (index) =>{
     setToggleState (index);
-    setNav(false);
+    setNav(!nav);
    }
 
   const handleNav = () => {
@@ -194,7 +194,7 @@ onClick={() => toggleTab(1)}/>
               
     {toggleState === 1 ? (
 
-<div className={nav?'absolute w-full md:top-[90px] top-[110px] flex flex-col items-center ':'hidden'}>
+<div className={!nav?'absolute w-full md:top-[90px] top-[110px] flex flex-col items-center ':'hidden'}>
 <div className='h-screen flex flex-col items-center'>
   <h1 className='text-[18px] tracking-wide text-center max-w-screen mt-5'>
     Welcome<br/>
