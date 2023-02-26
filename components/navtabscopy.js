@@ -174,7 +174,7 @@ onClick={() => toggleTab(1)}/>
                   immortal gamers
                 </h1>
                 </div>
-                <div className='w-screen bg-black h-auto mr-[-25px]'>
+                <div className='w-full bg-black h-auto'>
                 <Footer/>
                 </div>
               </div>
@@ -224,7 +224,7 @@ onClick={() => toggleTab(1)}/>
       </div>
       
     </div>
-    <div className='w-screen bg-black h-auto mr-[-25px]'>
+    <div className='w-screen bg-black h-auto'>
                 <Footer/>
                 </div>
               </div>
@@ -241,7 +241,7 @@ onClick={() => toggleTab(1)}/>
               <div className='min-h-screen'>
                 <Utlity/>
                 </div>
-                <div className='w-screen bg-black h-auto mr-[-25px]'>
+                <div className='w-screen bg-black h-auto'>
                 <Footer/>
                 </div>
               </div>
