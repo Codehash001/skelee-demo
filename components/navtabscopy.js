@@ -126,12 +126,12 @@ onClick={() => toggleTab(1)}/>
 
   {/* overlay */}
     <div className={
-    nav? 'z-[120] md:hidden font-Kanit fixed left-0 top-0 w-full h-full backdrop-filter backdrop-blur-sm' : "hidden"
+    nav? ' md:hidden font-Kanit fixed left-0 top-0 w-full h-full backdrop-filter backdrop-blur-sm' : "hidden"
       }>
     
     {/* Side Drawer Menu */}
   <div className ={
-    nav? "fixed left-0 top-0 w-[100%] z-1 h-screen bg-white py-6 px-6 ease-in duration-500"
+    nav? "fixed left-0 top-0 w-[100%] h-screen bg-white py-6 px-6 ease-in duration-500"
     :'fixed left-[-100%] top-0 py-10 px-6 ease-in duration-500 h-screen'
     }>
 
