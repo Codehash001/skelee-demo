@@ -21,6 +21,10 @@ export default function Navtabs (){
     setNav(!nav);
    }
 
+   const toggleTabInt = (index) =>{
+    setToggleState (index);
+   }
+
   const handleNav = () => {
     setNav(!nav);
   };
@@ -205,7 +209,7 @@ className='w-auto h-[30px] cursor-pointer'
     immortal gamers
   </h1>
   <button className='md:hidden mt-5 rounded-md bg-[#3ae516] py-2 px-6 text-white font-mediumn uppercase'
-  onClick={() => toggleTab(2)}>Mint</button>
+  onClick={() => toggleTabInt(2)}>Mint</button>
   </div>
   <div className='w-full bg-black h-auto'>
   <Footer/>
