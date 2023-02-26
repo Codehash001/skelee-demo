@@ -139,7 +139,7 @@ onClick={() => toggleTab(1)}/>
 
 
   <div onClick={handleNav}
-    className='flex md:hidden rounded-full bg-white cursor-pointer' >
+    className='flex md:hidden rounded-full bg-white cursor-pointer p-3' >
     <AiOutlineMenu size={18} />
   </div>
 
@@ -195,13 +195,13 @@ onClick={() => toggleTab(1)}/>
     {toggleState === 1 ? (
 
 <div className='absolute w-full md:top-[90px] top-[110px] flex flex-col items-center '>
-<div className='h-screen'>
+<div className='h-screen flex flex-col items-center'>
   <h1 className='text-[18px] tracking-wide text-center md:max-w-screen'>
     Welcome<br/>
     to the world of Skelee,a community of <br/>
     immortal gamers
   </h1>
-  <button className='mt-5 rounded-md bg-[#3ae516] py-2 px-4 text-white font-medium'
+  <button className='md:hidden mt-5 rounded-md bg-[#3ae516] py-2 px-6 text-white font-medium'
   onClick={() => toggleTab(2)}>Mint</button>
   </div>
   <div className='w-full bg-black h-auto'>
