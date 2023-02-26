@@ -222,7 +222,7 @@ className='w-auto h-[30px] cursor-pointer'
 toggleState === 2 ? (
   
   <>
-  <div className='absolute w-full top-[90px] h-full min-h-screen '>
+  <div className={!nav? 'absolute w-full top-[90px] h-full min-h-screen':'hidden'}>
   <div className='font-Kanit text-white min-h-screen w-screen flex flex-col items-center justify-start lg:px-20 px-6 relative'>
 
 <h1 className='font-Kanit font-extrabold tracking-widest uppercase text-5xl text-center mt-6'>MINT</h1>
@@ -274,7 +274,7 @@ className='w-[400px] h-auto'/>
 toggleState === 3 ? (
 
 <>
-<div className='absolute w-full top-[90px] min-h-screen'>
+<div className={!nav?'absolute w-full top-[90px] min-h-screen':'hidden'}>
 <div className='min-h-screen'>
   <Utlity/>
   </div>
@@ -289,7 +289,7 @@ toggleState === 3 ? (
 
 toggleState === 4 ? (
 <>
-  <div className='absolute w-full top-[100px] min-h-screen'>
+  <div className={!nav?'absolute w-full top-[100px] min-h-screen':'hidden'}>
   <div className='min-h-screen'>
   <Roadmap/>
   </div>
@@ -303,7 +303,7 @@ toggleState === 4 ? (
 
 toggleState === 5 ? (
 <>
-<div className='absolute w-full top-[90px] min-h-screen'>
+<div className={!nav?'absolute w-full top-[90px] min-h-screen':'hidden'}>
 <div className='min-h-screen'>
   <FAQ/>
   </div>
@@ -315,7 +315,7 @@ toggleState === 5 ? (
 ) :
 toggleState === 6 ? (
 <>
-<div className='absolute w-full top-[90px] h-screen'>
+<div className={!nav?'absolute w-full top-[90px] h-screen':'hidden'}>
 <div className='h-screen'>
 </div>
 <Footer/>

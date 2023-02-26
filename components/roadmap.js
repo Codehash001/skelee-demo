@@ -21,19 +21,19 @@ return (
     </div>
 
     <div className="flex md:flex-row flex-col items-start justify-center mt-8">
-      <p className="mx-4 w-auto h-auto text-start text-[22px] mx-16">
+      <p className="mx-4 w-auto h-auto text-start text-[22px] md:mx-16 mx-4">
         <span className="uppercase font-bold">THE League</span><br/>
         <span className="uppercase font-bold">q3 2023</span><br/><br/>
         <span>Open access for</span><br/>
         <span>late night gaming portal</span><br/>
         <span>will begin</span>
       </p>
-      <img src="/skelees-theleague.png" className='w-[300px] h-[300px] mx-16'/>
+      <img src="/skelees-theleague.png" className='w-[300px] h-[300px] md:mx-16 mx-4'/>
     </div>
 
     <div className="flex md:flex-row flex-col items-start justify-center mt-8">
-      <img src="/roadmap-beta-championsleague.png" className='w-[300px] h-[300px] mx-16'/>
-      <p className="mx-4 w-auto h-auto text-start text-[22px] mx-16">
+      <img src="/roadmap-beta-championsleague.png" className='w-[300px] h-[300px] md:mx-16 mx-4'/>
+      <p className="mx-4 w-auto h-auto text-start text-[22px] md:mx-16 mx-4">
         <span className="uppercase font-bold">Champion beta league<br/>q4 2023</span><br/><br/>
         <span>The top gamers of Skelees will <br/>battle it out for 1 weekend <br/>to see who will have the
           highest <br/>stats o win 10 eth</span><br/>
@@ -41,7 +41,7 @@ return (
     </div>
 
     <div className="flex md:flex-row flex-col items-start justify-center mt-8">
-      <p className="mx-4 w-auto h-auto text-start text-[22px] mx-16">
+      <p className="mx-4 w-auto h-auto text-start text-[22px] md:mx-16 mx-4">
         <span className="uppercase font-bold">Ar experience</span><br/>
         <span className="uppercase font-bold">q1 2024</span><br/><br/>
         <span>Experience Skelee</span><br/>
@@ -49,12 +49,12 @@ return (
         <span>experience and Release</span><br/>
         <span>of Skelee Boot for mobile game</span>
       </p>
-      <img src="/skelee-boot-ar.png" className='w-[300px] h-[300px] mx-16'/>
+      <img src="/skelee-boot-ar.png" className='w-[300px] h-[300px] md:mx-16 mx-4'/>
     </div>
 
     <div className="flex md:flex-row flex-col items-start justify-center mt-8">
-      <img src="/skelee-roadmap-champions-league.png" className='w-[300px] h-[300px] mx-16'/>
-      <p className="mx-4 w-auto h-auto text-start text-[22px] mx-16">
+      <img src="/skelee-roadmap-champions-league.png" className='w-[300px] h-[300px] md:mx-16 mx-4'/>
+      <p className="mx-4 w-auto h-auto text-start text-[22px] md:mx-16 mx-4">
         <span className="uppercase font-bold">Champion league<br/>q2 2024</span><br/><br/>
         <span>The top gamers of Skelees will <br/>battle it out for 1 weekend <br/>to see who will have the
           highest <br/>stats to win 10 eth</span><br/>
