@@ -215,8 +215,8 @@ onClick={() => toggleTab(1)}/>
 toggleState === 2 ? (
   
   <>
-  <div className='absolute w-full top-[90px] h-full min-h-screen'>
-  <div className='font-Kanit text-white h-screen w-screen flex flex-col items-center justify-start lg:px-20 px-6 relative'>
+  <div className='absolute w-full top-[90px] h-full min-h-screen '>
+  <div className='font-Kanit text-white min-h-screen w-screen flex flex-col items-center justify-start lg:px-20 px-6 relative'>
 
 <h1 className='font-Kanit font-extrabold tracking-widest uppercase text-5xl text-center mt-6'>MINT</h1>
 <h1 className='tracking-wide uppercase text-xl text-center'>Early access</h1>
@@ -248,7 +248,7 @@ className='w-[400px] h-auto'/>
 
 </div>
 
-<button className='px-16 py-3 bg-black rounded-lg mt-6 hover:bg-white hover:text-black'>Connect Wallet</button>
+<button className='md:px-16 px-6 py-3 bg-black rounded-lg mt-6 hover:bg-white hover:text-black'>Connect Wallet</button>
 
 </div>
 </div>
@@ -267,7 +267,7 @@ className='w-[400px] h-auto'/>
 toggleState === 3 ? (
 
 <>
-<div className='absolute w-full top-[90px] min-h-screen '>
+<div className='absolute w-full top-[90px] min-h-screen'>
 <div className='min-h-screen'>
   <Utlity/>
   </div>
