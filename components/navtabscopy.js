@@ -51,7 +51,7 @@ export default function Navtabs (){
         <div className='flex flex-col items-center justify-between w-full h-auto'>
         
           {/* Nav bar */}
-          <div className='hidden h-[60px] w-full md:flex items-center justify-between px-16'>
+          <div className='hidden h-[60px] w-full md:flex items-center justify-between px-16 -z-10'>
 
 <div className='w-[50%]'>
 
