@@ -25,7 +25,7 @@ export default function Navtabs (){
   };
   
     return (
-      <div className="font-Kanit min-h-screen w-full overflow-y-auto flex flex-col items-center justify-center">
+      <div className="font-Kanit min-h-screen w-screen overflow-x-hidden overflowy-y-auto flex flex-col items-center justify-center">
 
 
         {toggleState === 1 ?(
@@ -234,9 +234,12 @@ onClick={() => toggleTab(1)}/>
               
               <>
               <div className='absolute w-full top-[90px] h-screen'>
+              <div className='h-screen'>
                 <Utlity/>
+                </div>
+                <Footer/>
               </div>
-              <Footer/>
+              
               </>
               
               ) :
@@ -244,9 +247,12 @@ onClick={() => toggleTab(1)}/>
               toggleState === 4 ? (
               <>
                 <div className='absolute w-full top-[100px] h-screen'>
+                <div className='h-screen'>
                 <Roadmap/>
+                </div>
+                <Footer/>
               </div>
-              <Footer/>
+              
               </>
               
               ) :
@@ -255,16 +261,23 @@ onClick={() => toggleTab(1)}/>
               toggleState === 5 ? (
               <>
               <div className='absolute w-full top-[90px] h-screen'>
+              <div className='h-screen'>
                 <FAQ/>
+                </div>
+                <Footer/>
               </div>
-              <Footer/>
+              
               </>
               
               ) :
               toggleState === 6 ? (
               <>
-              <div className='absolute w-full top-[90px] h-screen'></div>
+              <div className='absolute w-full top-[90px] h-screen'>
+              <div className='h-screen'>
+              </div>
               <Footer/>
+              </div>
+              
               </>
               ) :
               (
