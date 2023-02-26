@@ -10,6 +10,7 @@ import Utlity from '../components/Utlity'
 import Footer from '../components/footer'
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import Mint from '../components/mint'
 
 export default function Navtabs (){
 
@@ -225,52 +226,7 @@ toggleState === 2 ? (
   
   <>
   <div className={!nav? 'absolute w-full top-[90px] h-full min-h-screen':'hidden'}>
-  <div className='font-Kanit text-white min-h-screen w-screen flex flex-col items-center justify-start lg:px-20 px-6 relative'>
-
-<h1 className='font-Kanit font-extrabold tracking-widest uppercase text-5xl text-center mt-6'>MINT</h1>
-<h1 className='tracking-wide uppercase text-xl text-center'>Early access</h1>
-
-{/* minting engine */}
-<div className='md:w-[800px] w-auto h-full flex md:flex-row flex-col items-center justify-between mt-4 filter md:backdrop-blur-md p-4 border border-white'>
-<div>
-<img src='/nft.gif'
-className='w-[400px] h-auto'/>
-</div>
-
-<div className='flex flex-col items-center justify-start w-full md:px-6 px-2 py-3 filter backdrop-blur-md'>
-<div className='md:flex justify-between w-full items-center'>
-<h1 className='text-lg text-center uppercase md:mt-0 mt-4'>New friends mint <br/> 02/24 11.00 - 22.30</h1>
-<h1 className='text-lg text-center uppercase md:mt-0 mt-4'>early access mint <br/> 02/24 11.00 - 22.30</h1>
-</div>
-
-{/* countdown */}
-<div className='flex w-full justify-between font-medium mt-4 px-8'>
-<h1 className='text-xl text-center'>02 <br/>HRS</h1>
-<h1 className='text-xl text-center'>52 <br/>MINS</h1>
-<h1 className='text-xl text-center'>02 <br/>SECS</h1>
-</div>
-
-<div className='flex justify-between w-full font-medium mt-4 md:px-4'>
-<h1 className='md:text-lg text-center'>Mint Price<br/>.25 ETH</h1>
-<h1 className='md:text-lg text-center'>Total Supply<br/>8,000</h1>
-<h1 className='md:text-lg text-center'>Reveal Time<br/>FEB 2023</h1>
-
-</div>
-{/* mobile section */}
-
-{/* <div className='flex justify-between w-full font-medium mt-4 px-4'>
-<h1 className='text-lg text-center'>Mint Price<br/>.25 ETH</h1>
-<h1 className='text-lg text-center'>Total Supply<br/>8,000</h1>
-<h1 className='text-lg text-center'>Reveal Time<br/>FEB 2023</h1>
-
-</div> */}
-
-<button className='md:px-16 px-6 py-3 bg-black rounded-lg mt-6 hover:bg-white hover:text-black'>Connect Wallet</button>
-
-</div>
-</div>
-
-</div>
+  <Mint/>
 <div className='w-screen bg-black h-auto'>
   <Footer/>
   </div>
