@@ -166,7 +166,7 @@ onClick={() => toggleTab(1)}/>
               
         {toggleState === 1 ? (
         	<>
-              <div className='absolute w-full top-[90px] flex flex-col items-center w-screen min-h-screen'>
+              <div className='absolute w-full top-[90px] flex flex-col items-center w-screen h-screen'>
                 <h1 className='text-[18px] tracking-wide text-center'>
                   Welcome<br/>
                   to the world of Skelee,a community of <br/>
@@ -181,7 +181,7 @@ onClick={() => toggleTab(1)}/>
               toggleState === 2 ? (
                 
                 <>
-                <div className='absolute w-full top-[90px] min-h-screen'>
+                <div className='absolute w-full top-[90px] h-screen'>
                 <div className='font-Kanit text-white h-srceen w-screen flex flex-col items-center justify-start lg:px-20 px-6 relative'>
       
       <h1 className='font-Kanit font-extrabold tracking-widest uppercase text-5xl text-center mt-6'>MINT</h1>
@@ -230,7 +230,7 @@ onClick={() => toggleTab(1)}/>
               toggleState === 3 ? (
               
               <>
-              <div className='absolute w-full top-[90px] min-h-screen'>
+              <div className='absolute w-full top-[90px] h-screen'>
                 <Utlity/>
               </div>
               <Footer/>
@@ -240,7 +240,7 @@ onClick={() => toggleTab(1)}/>
 
               toggleState === 4 ? (
               <>
-                <div className='absolute w-full top-[100px] min-h-screen'>
+                <div className='absolute w-full top-[100px] h-screen'>
                 <Roadmap/>
               </div>
               <Footer/>
@@ -251,7 +251,7 @@ onClick={() => toggleTab(1)}/>
 
               toggleState === 5 ? (
               <>
-              <div className='absolute w-full top-[90px] min-h-screen'>
+              <div className='absolute w-full top-[90px] h-screen'>
                 <FAQ/>
               </div>
               <Footer/>
@@ -260,7 +260,7 @@ onClick={() => toggleTab(1)}/>
               ) :
               toggleState === 6 ? (
               <>
-              <div></div>
+              <div className='absolute w-full top-[90px] h-screen'></div>
               <Footer/>
               </>
               ) :
