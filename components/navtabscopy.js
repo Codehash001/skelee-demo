@@ -217,7 +217,7 @@ onClick={() => toggleTab(1)}/>
       
     </div>
               </div>
-              <Footer/>
+              
              
               ) :
 
