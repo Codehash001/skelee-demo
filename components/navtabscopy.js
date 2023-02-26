@@ -30,30 +30,33 @@ export default function Navtabs (){
 
 
         {toggleState === 1 ?(
-                <img src='/homebg.png'
+          <>
+          <img src='/skeleemobilebg.png'
+          className='md:hidden flex object-cover w-screen h-full absolute -z-20'/>
+           <img src='/homebg.png'
                 className='hidden md:flex object-cover w-screen h-full absolute -z-20'/>
+                </>
+               
                 ) :
-                toggleState === 1 ?(
-                  <img src='/skeleemobilebg.png'
-                  className='md:hidden flex object-cover w-screen h-full absolute -z-20'/>
-                  ) :
 
               toggleState === 2 ? (
+                <>
                 <img src='/mintbg.png'
                 className='hidden md:flex object-cover w-screen h-full absolute -z-20'/>
-              ):
-              toggleState === 2 ? (
                 <img src='/skeleemobilemintpage- bg.png'
                 className='md:hidden flex object-cover w-screen h-full absolute -z-20'/>
+                </>
+                
               ):
 
               toggleState === 3 ? (
-                <img src='/utlitybg.png'
+                <>
+                 <img src='/utlitybg.png'
                 className='hidden md:flex object-cover w-screen h-full absolute -z-20'/>
-              ):
-              toggleState === 3 ? (
                 <img src='/skeleeutlitybgmobile.png'
                 className='md:hidden flex object-cover w-screen h-full absolute -z-20'/>
+                </>
+               
               ):
 
                (<></>)
