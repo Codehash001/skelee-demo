@@ -37,7 +37,7 @@ export default function Navtabs (){
               ):
               toggleState === 3 ? (
                 <img src='/utlitybg.png'
-                className='object-cover w-screen h-screen'/>
+                className='object-cover w-screen h-screen stickey top-0 z-[-100]'/>
               ):
                (<></>)
               }
@@ -60,7 +60,7 @@ export default function Navtabs (){
                     onClick={() => toggleTab(2)}>
                       Mint
                     </div>
-                    <div className={toggleState === 6 ? 'px-3 py-1 text-[13px] bg-[#3ae516] text-white font-medium rounded-sm uppercase mx-2 cursor-pointer' : 'px-3 py-1 text-[13px]  bg-[#3ae516] text-white font-medium rounded-sm uppercase mx-2 cursor-pointer'}
+                    <div className={toggleState === 6 ? 'px-3 py-1 text-[13px] bg-white text-black font-medium rounded-sm uppercase mx-2 cursor-pointer' : 'px-3 py-1 text-[13px] bg-black hover:bg-white hover:text-black text-white font-medium rounded-sm uppercase mx-2 cursor-pointer'}
                     onClick={() => toggleTab(6)}>
                       About
                     </div>
@@ -158,11 +158,11 @@ export default function Navtabs (){
               {/* Contents */}
               
               {toggleState === 1 ? (
-              <div className='absolute w-full top-[90px] flex flex-col items-center'>
+              <div className='absolute w-full top-[90px] flex flex-col items-center w-screen'>
                 <h1 className='text-[18px] tracking-wide text-center'>
-                  if you are a late <br/>
-                  night gamer, you are at the <br/>
-                  right place
+                  Welcome<br/>
+                  to the world of Skelee,<br/>
+                  a community of immortal gamers
                 </h1>
               </div>
               ) :
@@ -222,7 +222,7 @@ export default function Navtabs (){
               ) :
 
               toggleState === 3 ? (
-              <div className='absolute w-full top-[90px]'>
+              <div className='relative w-full top-[90px]'>
                 <Utlity/>
               </div>
               ) :
