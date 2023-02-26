@@ -150,7 +150,7 @@ onClick={() => toggleTab(1)}/>
     
     {/* Side Drawer Menu */}
   <div className ={
-    nav? "fixed left-0 top-0 w-[100%] h-screen bg-white py-2 px-2 ease-in duration-500"
+    nav? "fixed left-0 top-0 w-[100%] h-screen py-2 px-2 ease-in duration-500"
     :'fixed left-[-100%] top-0 py-10 px-6 ease-in duration-500 h-screen'
     }>
 
