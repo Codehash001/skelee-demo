@@ -249,9 +249,9 @@ className='w-[400px] h-auto'/>
 </div>
 
 <div className='flex justify-between w-full font-medium mt-4 md:px-4'>
-<h1 className='text-lg text-center'>Mint Price<br/>.25 ETH</h1>
-<h1 className='text-lg text-center'>Total Supply<br/>8,000</h1>
-<h1 className='text-lg text-center'>Reveal Time<br/>FEB 2023</h1>
+<h1 className='md:text-lg text-center'>Mint Price<br/>.25 ETH</h1>
+<h1 className='md:text-lg text-center'>Total Supply<br/>8,000</h1>
+<h1 className='md:text-lg text-center'>Reveal Time<br/>FEB 2023</h1>
 
 </div>
 {/* mobile section */}
