@@ -30,7 +30,7 @@ export default function Navtabs (){
   };
   
     return (
-      <div className="font-Kanit min-h-screen w-screen overflow-x-hidden overflowy-y-auto flex flex-col items-center justify-center">
+      <div className="font-Kanit min-h-screen w-screen overflow-x-hidden overflowy-y-scroll flex flex-col items-center justify-center">
 
 
         {toggleState === 1 ?(
