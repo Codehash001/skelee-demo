@@ -18,6 +18,7 @@ export default function Navtabs (){
 
    const toggleTab = (index) =>{
     setToggleState (index);
+    setNav(!nav);
    }
 
   const handleNav = () => {
@@ -130,7 +131,7 @@ onClick={() => toggleTab(1)}/>
     
     {/* Side Drawer Menu */}
   <div className ={
-    nav? "fixed left-0 top-0 w-[100%] h-screen bg-white py-10 px-6 ease-in duration-500"
+    nav? "fixed left-0 top-0 w-[100%] h-screen bg-white py-6 px-6 ease-in duration-500"
     :'fixed left-[-100%] top-0 py-10 px-6 ease-in duration-500 h-screen'
     }>
 
@@ -144,16 +145,26 @@ onClick={() => toggleTab(1)}/>
         </div>
     </div>
     <div className='flex flex-col items-start text-start mt-4'>
-      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]'>MINT</div>
-      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]'>About</div>              
-      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]'>Utlity</div>
-      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]'>Map</div>
-      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]'>FAQ</div>
-      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]'>Twitter</div>
-      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]'>Discord</div>
-      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]'>Instagram</div>
-      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]'>Reddit</div>
-      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]'>Rare studios new york</div>
+      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]' onClick={() => toggleTab(2)}>
+      MINT</div>
+      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]' onClick={() => toggleTab(6)}>
+      About</div>              
+      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]' onClick={() => toggleTab(3)}>
+      Utlity</div>
+      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]' onClick={() => toggleTab(4)}>
+      Map</div>
+      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]' onClick={() => toggleTab(5)}>
+      FAQ</div>
+      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]'>
+      Twitter</div>
+      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]'>
+      Discord</div>
+      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]'>
+      Instagram</div>
+      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]'>
+      Reddit</div>
+      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]'>
+      Rare studios new york</div>
     </div>
   
   </div>
