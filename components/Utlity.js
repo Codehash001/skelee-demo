@@ -12,7 +12,7 @@ export default function Utlity() {
       <div className="flex flex-row items-center justify-center my-1">
         
         <div className="w-[500px] flex flex-col items-center justify-center p-6">
-          <img src="/1.jpg" className="w-[250px] h-[250px] rounded-lg"/>
+          <img src="/skelee-1of1.png" className="w-[250px] h-[250px] rounded-lg"/>
           <h1 className='font-semibold my-1 uppercase'>1 0F 1 ART PIECE</h1>
           <p className='text-sm'>Skelee was created by a world class artist.
             <br/>Each NFT has uniqu value and desirability.
@@ -21,7 +21,7 @@ export default function Utlity() {
           </p>
         </div>
         <div className="w-[500px] flex flex-col items-center justify-center p-6">
-          <img src="/1.jpg" className="w-[250px] h-[250px] rounded-lg"/>
+          <img src="/skelee-gaming-champions-league.png" className="w-[250px] h-[250px] rounded-lg"/>
           <h1 className='font-semibold my-1 uppercase'>Gaming champions league</h1>
           <p className='text-sm'>Skelee's gaming champion league for
             <br/>NFT holders is the ultimate battleground
@@ -35,7 +35,7 @@ export default function Utlity() {
        <div className="flex flex-row items-center justify-center">
         
         <div className="w-[500px] flex flex-col items-center justify-center p-6">
-          <img src="/1.jpg" className="w-[250px] h-[250px] rounded-lg"/>
+          <img src="/skelee-immortal-community.png" className="w-[250px] h-[250px] rounded-lg"/>
           <h1 className='font-semibold my-1 uppercase'>Immortal Community</h1>
           <p className='text-sm'>Our immortal community is a lively
             <br/>and engaging space where late night gamers
@@ -44,7 +44,7 @@ export default function Utlity() {
           </p>
         </div>
         <div className="w-[500px] flex flex-col items-center justify-center p-6">
-          <img src="/1.jpg" className="w-[250px] h-[250px] rounded-lg"/>
+          <img src="/skelee-skelee-boot.png" className="w-[250px] h-[250px] rounded-lg"/>
           <h1 className='font-semibold my-1 uppercase'>Argumented Reality</h1>
           <p className='text-sm'>Skelees argumented reality 'experience' will
             <br/>provide a fully impressive and interactive gameplay

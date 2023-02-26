@@ -24,7 +24,7 @@ export default function Navtabs (){
   };
   
     return (
-      <div className="font-kanit min-h-screen w-full md:overflow-x-hidden overflow-auto flex flex-col items-center justify-center">
+      <div className="font-Kanit min-h-screen w-full md:overflow-x-hidden overflow-auto flex flex-col items-center justify-center">
 
       {/* <Head>
           <title>PMTR NFTs - Minting Page</title>
@@ -48,15 +48,13 @@ export default function Navtabs (){
               }
         
   
-        <div className="relative flex flex-col items-center md:py-4 md:px-4 w-full h-screen">
-          {/* <div className="w-screen h-auto flex flex-col items-end">
-            <a href="https://moliaeworld.com"><img src = '/icon.png' className="w-[150px] h-[100px] mr-12"/></a>
-          </div> */}
+        <div className="relative flex flex-col items-center w-full h-screen">
+        
   
         <div className='flex flex-col items-center justify-between w-full h-auto'>
         
           {/* Nav bar */}
-          <div className='hidden  h-[60px] w-full filter backdrop-blur-md md:flex items-center justify-between px-16'>
+          <div className='hidden h-[60px] w-full md:flex items-center justify-between px-16'>
 
 <div className='w-[50%]'>
 
