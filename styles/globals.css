@@ -8,7 +8,7 @@
 
 @layer base{
   body {
-    @apply dark:bg-[#1f1a22] bg-[#1f1a22]
+    @apply dark:bg-[#1f1a22] bg-[#000000]
     
 
   }
