@@ -229,7 +229,7 @@ onClick={() => toggleTab(1)}/>
 
           </div>
 
-          <button className='px-16 py-3 bg-black rounded-lg mt-6'>Connect Wallet</button>
+          <button className='px-16 py-3 bg-black rounded-lg mt-6 hover:bg-white hover:text-black'>Connect Wallet</button>
 
         </div>
       </div>
