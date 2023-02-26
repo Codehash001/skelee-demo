@@ -11,8 +11,8 @@ export default function Utlity() {
     {/* first row */}
       <div className="flex flex-row items-center justify-center my-1">
         
-        <div className="w-[500px] flex flex-col items-center justify-center">
-          <img src="/1.jpg" className="w-[150px] h-[150px] rounded-lg"/>
+        <div className="w-[500px] flex flex-col items-center justify-center p-6">
+          <img src="/1.jpg" className="w-[250px] h-[250px] rounded-lg"/>
           <h1 className='font-semibold my-1 uppercase'>1 0F 1 ART PIECE</h1>
           <p className='text-sm'>Skelee was created by a world class artist.
             <br/>Each NFT has uniqu value and desirability.
@@ -20,8 +20,8 @@ export default function Utlity() {
             <br/> assest but also reflects the artist who created it.
           </p>
         </div>
-        <div className="w-[500px] flex flex-col items-center justify-center">
-          <img src="/1.jpg" className="w-[150px] h-[150px] rounded-lg"/>
+        <div className="w-[500px] flex flex-col items-center justify-center p-6">
+          <img src="/1.jpg" className="w-[250px] h-[250px] rounded-lg"/>
           <h1 className='font-semibold my-1 uppercase'>Gaming champions league</h1>
           <p className='text-sm'>Skelee's gaming champion league for
             <br/>NFT holders is the ultimate battleground
@@ -34,8 +34,8 @@ export default function Utlity() {
       {/* second-row */}
        <div className="flex flex-row items-center justify-center">
         
-        <div className="w-[500px] flex flex-col items-center justify-center">
-          <img src="/1.jpg" className="w-[150px] h-[150px] rounded-lg"/>
+        <div className="w-[500px] flex flex-col items-center justify-center p-6">
+          <img src="/1.jpg" className="w-[250px] h-[250px] rounded-lg"/>
           <h1 className='font-semibold my-1 uppercase'>Immortal Community</h1>
           <p className='text-sm'>Our immortal community is a lively
             <br/>and engaging space where late night gamers
@@ -43,8 +43,8 @@ export default function Utlity() {
             <br/>their passion for gaming
           </p>
         </div>
-        <div className="w-[500px] flex flex-col items-center justify-center">
-          <img src="/1.jpg" className="w-[150px] h-[150px] rounded-lg"/>
+        <div className="w-[500px] flex flex-col items-center justify-center p-6">
+          <img src="/1.jpg" className="w-[250px] h-[250px] rounded-lg"/>
           <h1 className='font-semibold my-1 uppercase'>Argumented Reality</h1>
           <p className='text-sm'>Skelees argumented reality 'experience' will
             <br/>provide a fully impressive and interactive gameplay
