@@ -126,7 +126,7 @@ onClick={() => toggleTab(1)}/>
 
   {/* overlay */}
     <div className={
-    nav? ' md:hidden z-50 font-Kanit fixed left-0 top-0 w-full h-full backdrop-filter backdrop-blur-sm' : "hidden"
+    nav? ' md:hidden z-50 font-Kanit fixed left-0 top-0 w-full h-full backdrop-filter backdrop-blur-sm' : "hidden left-[-100%]"
       }>
     
     {/* Side Drawer Menu */}
