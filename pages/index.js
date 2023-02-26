@@ -5,7 +5,7 @@ import Navbar from '../components/navbar'
 import Home from '../components/main'
 import Slider from '../components/slide'
 import Team from '../components/team'
-import Navtabs from '../components/navtabs'
+import Navtabs from '../components/navtabscopy'
 
 
 export default function Index() {
