@@ -229,13 +229,13 @@ toggleState === 2 ? (
 <h1 className='tracking-wide uppercase text-xl text-center'>Early access</h1>
 
 {/* minting engine */}
-<div className='md:w-[800px] w-auto h-full flex md:flex-row flex-col items-center justify-between mt-4 filter backdrop-blur-md p-4 border border-white'>
+<div className='md:w-[800px] w-auto h-full flex md:flex-row flex-col items-center justify-between mt-4 filter md:backdrop-blur-md p-4 border border-white'>
 <div>
 <img src='/nft.gif'
 className='w-[400px] h-auto'/>
 </div>
 
-<div className='flex flex-col items-center justify-start w-full md:px-6 px-2 py-3'>
+<div className='flex flex-col items-center justify-start w-full md:px-6 px-2 py-3 filter backdrop-blur-md'>
 <div className='md:flex justify-between w-full items-center'>
 <h1 className='text-lg text-center uppercase md:mt-0 mt-4'>New friends mint <br/> 02/24 11.00 - 22.30</h1>
 <h1 className='text-lg text-center uppercase md:mt-0 mt-4'>early access mint <br/> 02/24 11.00 - 22.30</h1>
@@ -248,7 +248,7 @@ className='w-[400px] h-auto'/>
 <h1 className='text-xl text-center'>02 <br/>SECS</h1>
 </div>
 
-<div className='hidden md:flex justify-between w-full font-medium mt-4 md:px-4'>
+<div className='flex justify-between w-full font-medium mt-4 md:px-4'>
 <h1 className='text-lg text-center'>Mint Price<br/>.25 ETH</h1>
 <h1 className='text-lg text-center'>Total Supply<br/>8,000</h1>
 <h1 className='text-lg text-center'>Reveal Time<br/>FEB 2023</h1>
