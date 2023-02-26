@@ -34,7 +34,7 @@ export default function Navtabs (){
           <img src='/homebg.png'
                 className='hidden md:flex object-cover w-screen h-full absolute -z-20'/>
           <img src='/skeleemobilebg.png'
-          className='md:hidden flex object-cover w-screen h-full absolute -z-20'/>
+          className='md:hidden flex object-cover w-full h-screen absolute -z-20'/>
            
                 </>
                
@@ -45,7 +45,7 @@ export default function Navtabs (){
                 <img src='/mintbg.png'
                 className='hidden md:flex object-cover w-screen h-full absolute -z-20'/>
                 <img src='/skeleemobilemintpage- bg.png'
-                className='md:hidden flex object-cover w-screen h-full absolute -z-20'/>
+                className='md:hidden flex object-cover w-full h-screen absolute -z-20'/>
                 </>
                 
               ):
@@ -55,7 +55,7 @@ export default function Navtabs (){
                  <img src='/utlitybg.png'
                 className='hidden md:flex object-cover w-screen h-full absolute -z-20'/>
                 <img src='/skeleeutlitybgmobile.png'
-                className='md:hidden flex object-cover w-screen h-full absolute -z-20'/>
+                className='md:hidden flex object-cover w-full h-screen absolute -z-20'/>
                 </>
                
               ):
@@ -131,7 +131,7 @@ export default function Navtabs (){
 
 {/* mobile nav */}
 
-<div className='md:hidden h-[60px] w-screen filter backdrop-blur-md flex flex-row items-center justify-between px-4 z-10'>
+<div className='md:hidden h-[60px] w-screen filter backdrop-blur-md flex flex-row items-center justify-between px-4 mt-2 z-10'>
 
 <img src='/logo.png'
 className='w-auto h-[30px] cursor-pointer'
