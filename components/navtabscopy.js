@@ -167,13 +167,16 @@ onClick={() => toggleTab(1)}/>
         {toggleState === 1 ? (
         	<>
               <div className='absolute w-full top-[90px] flex flex-col items-center w-screen h-screen'>
+              <div className='h-screen'>
                 <h1 className='text-[18px] tracking-wide text-center'>
                   Welcome<br/>
                   to the world of Skelee,a community of <br/>
                   immortal gamers
                 </h1>
+                </div>
+                <Footer/>
               </div>
-              <Footer/>
+              
               </>
               
               ) :
