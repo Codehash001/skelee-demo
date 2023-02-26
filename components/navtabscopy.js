@@ -176,7 +176,7 @@ onClick={() => toggleTab(1)}/>
                 </div>
                 <div className='w-screen bg-black h-auto'>
                 <Footer/>
-                <div>
+                </div>
               </div>
 
               
@@ -226,7 +226,7 @@ onClick={() => toggleTab(1)}/>
     </div>
     <div className='w-screen bg-black h-auto'>
                 <Footer/>
-                <div>
+                </div>
               </div>
               
               </>
@@ -243,7 +243,7 @@ onClick={() => toggleTab(1)}/>
                 </div>
                 <div className='w-screen bg-black h-auto'>
                 <Footer/>
-                <div>
+                </div>
               </div>
               
               </>
