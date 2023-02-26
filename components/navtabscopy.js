@@ -131,7 +131,7 @@ export default function Navtabs (){
 
 {/* mobile nav */}
 
-<div className='md:hidden h-[60px] w-screen filter backdrop-blur-md flex flex-row items-center justify-between px-4 mt-2 z-10'>
+<div className='md:hidden h-[60px] w-screen filter backdrop-blur-sm flex flex-row items-center justify-between px-4 mt-2 z-20'>
 
 <img src='/logo.png'
 className='w-auto h-[30px] cursor-pointer'
@@ -145,7 +145,7 @@ onClick={() => toggleTab(1)}/>
 
   {/* overlay */}
     <div className={
-    nav? ' md:hidden z-50 font-Kanit fixed left-0 top-0 w-full h-full backdrop-filter backdrop-blur-sm' : "hidden left-[-100%]"
+    nav? ' md:hidden z-10 font-Kanit fixed left-0 top-0 w-full h-full bg-white' : "hidden left-[-100%]"
       }>
     
     {/* Side Drawer Menu */}
