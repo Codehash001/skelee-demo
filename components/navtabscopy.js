@@ -165,8 +165,8 @@ onClick={() => toggleTab(1)}/>
         {/* Contents */}
               
         {toggleState === 1 ? (
-        	<>
-              <div className='absolute w-full top-[90px] flex flex-col items-center w-screen'>
+
+              <div className='absolute w-full top-[90px] flex flex-col items-center w-full'>
               <div className='h-screen'>
                 <h1 className='text-[18px] tracking-wide text-center'>
                   Welcome<br/>
@@ -176,8 +176,7 @@ onClick={() => toggleTab(1)}/>
                 </div>
                 <Footer/>
               </div>
-              
-              </>
+
               
               ) :
               // Mint section
