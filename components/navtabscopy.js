@@ -193,7 +193,7 @@ onClick={() => toggleTab(1)}/>
               
     {toggleState === 1 ? (
 
-<div className='absolute w-full top-[90px] flex flex-col items-center -z-10'>
+<div className='absolute w-full top-[90px] flex flex-col items-center '>
 <div className='h-screen'>
   <h1 className='text-[18px] tracking-wide text-center'>
     Welcome<br/>
@@ -264,7 +264,7 @@ className='w-[400px] h-auto'/>
 toggleState === 3 ? (
 
 <>
-<div className='absolute w-full top-[90px] min-h-screen -z-10'>
+<div className='absolute w-full top-[90px] min-h-screen '>
 <div className='min-h-screen'>
   <Utlity/>
   </div>
@@ -279,7 +279,7 @@ toggleState === 3 ? (
 
 toggleState === 4 ? (
 <>
-  <div className='absolute w-full top-[100px] min-h-screen -z-10'>
+  <div className='absolute w-full top-[100px] min-h-screen'>
   <div className='min-h-screen'>
   <Roadmap/>
   </div>
@@ -293,7 +293,7 @@ toggleState === 4 ? (
 
 toggleState === 5 ? (
 <>
-<div className='absolute w-full top-[90px] min-h-screen -z-10'>
+<div className='absolute w-full top-[90px] min-h-screen'>
 <div className='min-h-screen'>
   <FAQ/>
   </div>
@@ -305,7 +305,7 @@ toggleState === 5 ? (
 ) :
 toggleState === 6 ? (
 <>
-<div className='absolute w-full top-[90px] h-screen -z-10'>
+<div className='absolute w-full top-[90px] h-screen'>
 <div className='h-screen'>
 </div>
 <Footer/>
