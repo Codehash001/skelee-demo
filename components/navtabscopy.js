@@ -166,7 +166,7 @@ onClick={() => toggleTab(1)}/>
               
         {toggleState === 1 ? (
 
-              <div className='absolute w-full top-[90px] flex flex-col items-center w-full'>
+              <div className='absolute w-full top-[90px] flex flex-col items-center'>
               <div className='h-screen'>
                 <h1 className='text-[18px] tracking-wide text-center'>
                   Welcome<br/>
