@@ -34,8 +34,8 @@ export default function Navtabs (){
                 className='hidden md:flex object-cover w-screen h-full absolute -z-20'/>
                 ) :
                 toggleState === 1 ?(
-                  <img src='/skelee-mobile-bg.png'
-                  className='md:hidden object-cover w-screen h-full absolute -z-20'/>
+                  <img src='/skeleemobilebg.png'
+                  className='md:hidden flex object-cover w-screen h-full absolute -z-20'/>
                   ) :
 
               toggleState === 2 ? (
@@ -43,8 +43,8 @@ export default function Navtabs (){
                 className='hidden md:flex object-cover w-screen h-full absolute -z-20'/>
               ):
               toggleState === 2 ? (
-                <img src='/skelee-mobile--mintpage- bg.png'
-                className='md:hidden object-cover w-screen h-full absolute -z-20'/>
+                <img src='/skeleemobilemintpage- bg.png'
+                className='md:hidden flex object-cover w-screen h-full absolute -z-20'/>
               ):
 
               toggleState === 3 ? (
@@ -52,8 +52,8 @@ export default function Navtabs (){
                 className='hidden md:flex object-cover w-screen h-full absolute -z-20'/>
               ):
               toggleState === 3 ? (
-                <img src='/skelee-utlity-bg-mobile.png'
-                className='md:hidden object-cover w-screen h-full absolute -z-20'/>
+                <img src='/skeleeutlitybgmobile.png'
+                className='md:hidden flex object-cover w-screen h-full absolute -z-20'/>
               ):
 
                (<></>)
