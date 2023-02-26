@@ -131,7 +131,7 @@ export default function Navtabs (){
 
 {/* mobile nav */}
 
-<div className='hidden h-[60px] w-screen filter backdrop-blur-md md:flex flex-row items-center justify-between px-4 z-10'>
+<div className='md:hidden h-[60px] w-screen filter backdrop-blur-md flex flex-row items-center justify-between px-4 z-10'>
 
 <img src='/logo.png'
 className='w-auto h-[30px] cursor-pointer'
