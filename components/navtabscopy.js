@@ -229,14 +229,14 @@ toggleState === 2 ? (
 <h1 className='tracking-wide uppercase text-xl text-center'>Early access</h1>
 
 {/* minting engine */}
-<div className='md:w-[800px] w-auto flex md:flex-row flex-col items-center justify-between mt-4 filter backdrop-blur-md p-4 border border-white'>
+<div className='md:w-[800px] w-auto flex md:flex-row flex-col items-center justify-between mt-4 md:filter backdrop-blur-md p-4 border border-white'>
 <div>
 <img src='/nft.gif'
 className='w-[400px] h-auto'/>
 </div>
 
 <div className='flex flex-col items-center justify-start w-full px-6 py-3'>
-<div className='flex justify-between w-full'>
+<div className='md:flex justify-between w-full items-center'>
 <h1 className='text-lg text-center uppercase'>New friends mint <br/> 02/24 11.00 - 22.30</h1>
 <h1 className='text-lg text-center uppercase'>early access mint <br/> 02/24 11.00 - 22.30</h1>
 </div>
@@ -329,11 +329,7 @@ toggleState === 6 ? (
 }
 
         </div>
-  
-        {/* content was */}
 
-              
-  
         </div>
   
       </div>
