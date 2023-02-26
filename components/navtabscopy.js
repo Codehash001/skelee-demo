@@ -8,6 +8,8 @@ import Roadmap from '../components/roadmap'
 import FAQ from '../components/FAQs'
 import Utlity from '../components/Utlity'
 import Footer from '../components/footer'
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 export default function Navtabs (){
 
@@ -297,7 +299,7 @@ toggleState === 3 ? (
 
 toggleState === 4 ? (
 <>
-  <div className={!nav?'absolute w-full top-[100px] min-h-screen':'hidden'}>
+  <div className={!nav?'absolute w-full top-[100px] min-h-screen':'hidden'} data-aos="fade-up" data-aos-delay="150">
   <div className='min-h-screen'>
   <Roadmap/>
   </div>
