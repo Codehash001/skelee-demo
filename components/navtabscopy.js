@@ -145,7 +145,7 @@ onClick={() => toggleTab(1)}/>
         </div>
     </div>
     <div className='flex flex-col items-start text-start mt-4'>
-      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]' onClick={() => toggleTab(2)}>
+      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px] hover:text-blue-500' onClick={() => toggleTab(2)}>
       MINT</div>
       <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]' onClick={() => toggleTab(6)}>
       About</div>              
