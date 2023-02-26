@@ -6,6 +6,7 @@ import Home from '../components/main'
 import Slider from '../components/slide'
 import Team from '../components/team'
 import Navtabs from '../components/navtabscopy'
+import Footer from '../components/footer'
 
 
 export default function Index() {
@@ -18,6 +19,7 @@ export default function Index() {
       </Head>
 
         <Navtabs/>
+        </Footer/>
 
 
     </>
