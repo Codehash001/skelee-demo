@@ -25,7 +25,7 @@ export default function Navtabs (){
   };
   
     return (
-      <div className="font-Kanit min-h-screen w-screen  flex flex-col items-center justify-center">
+      <div className="font-Kanit min-h-screen w-full overflow-y-auto flex flex-col items-center justify-center">
 
 
         {toggleState === 1 ?(
