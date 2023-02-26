@@ -6,17 +6,17 @@ export default function Footer(){
 	<div className='flex items-center jutify-between w-full h-auto'>
 		<div className='flex flex-col items-start jutify-between w-full h-auto'>
 		
-		  <img src='/Skelee-logo.png' className='h-[40px] w-auto'/>
+		  <img src='/Skelee-logo.png' className='md:h-[40px] h-[25px] w-auto'/>
 		  
 		  <div className='flex items-center jutify-start w-full h-auto mt-6'>
 
 		    
-		    <h1 className='text-sm'>&#169;2023 RARE STUDIOS NEW YORK. All Rights Reserved.</h1>
+		    <h1 className='md:text-sm text-[10px]'>&#169;2023 RARE STUDIOS NEW YORK. All Rights Reserved.</h1>
 		  </div>
 		  
 		</div>
 		
-		<img src='/skelee-head-footer.png' className='h-[80px] w-auto'/>
+		<img src='/skelee-head-footer.png' className='md:h-[80px] h-[50px] w-auto'/>
 	</div>	
 </footer>
 
