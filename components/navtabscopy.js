@@ -182,7 +182,7 @@ onClick={() => toggleTab(1)}/>
                 
                 <>
                 <div className='absolute w-full top-[90px] h-screen'>
-                <div className='font-Kanit text-white h-srceen w-screen flex flex-col items-center justify-start lg:px-20 px-6 relative'>
+                <div className='font-Kanit text-white h-screen w-screen flex flex-col items-center justify-start lg:px-20 px-6 relative'>
       
       <h1 className='font-Kanit font-extrabold tracking-widest uppercase text-5xl text-center mt-6'>MINT</h1>
       <h1 className='tracking-wide uppercase text-xl text-center'>Early access</h1>
