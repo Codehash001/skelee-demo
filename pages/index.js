@@ -19,14 +19,7 @@ export default function Index() {
         <link rel="icon" href="/Logoicon.png" />
       </Head>
 
-        <div className='hidden md:flex'>
         <Navtabs/>
-        </div>
-
-        <div className='md:hidden flex'>
-        <Mobilenavtabs/>
-        </div>
-        
         
 
 
