@@ -37,7 +37,7 @@ export default function Navtabs (){
               ):
               toggleState === 3 ? (
                 <img src='/utlitybg.png'
-                className='object-cover w-screen h-screen stickey relative'/>
+                className='object-cover w-screen h-screen stickey bottom-0 -z-1'/>
               ):
                (<></>)
               }
