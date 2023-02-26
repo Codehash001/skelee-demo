@@ -9,7 +9,7 @@ export default function Utlity() {
     <h1 className='md:text-[40px] text-[30px] font-Kanit text-white text-center uppercase font-semibold tracking-wide mb-2'> Utlity</h1>
 
     {/* first row */}
-      <div className="flex flex-row items-center justify-center my-1">
+      <div className="flex md:flex-row flex-col items-center justify-center my-1">
         
         <div className="w-[500px] flex flex-col items-center justify-center p-6">
           <img src="/skelee-1of1.png" className="w-[250px] h-[250px] rounded-lg"/>
@@ -32,7 +32,7 @@ export default function Utlity() {
         
       </div>
       {/* second-row */}
-       <div className="flex flex-row items-center justify-center">
+       <div className="flex md:flex-row flex-col items-center justify-center">
         
         <div className="w-[500px] flex flex-col items-center justify-center p-6">
           <img src="/skelee-immortal-community.png" className="w-[250px] h-[250px] rounded-lg"/>

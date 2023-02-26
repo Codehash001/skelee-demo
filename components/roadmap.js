@@ -10,7 +10,7 @@ return (
 
   <div className='mt-6 flex flex-col items-center'>
 
-    <div className="flex flex-row items-start justify-center mt-8">
+    <div className="flex md:flex-row flex-col items-start justify-center mt-8">
       <img src="/skelees-arrival.png" className='w-[300px] h-[300px] mx-16'/>
       <p className="mx-4 w-auto h-auto text-start text-[22px] mx-16">
         <span className="uppercase font-bold">THE ARRIVAL</span><br/><br/>
@@ -20,7 +20,7 @@ return (
       </p>
     </div>
 
-    <div className="flex flex-row items-start justify-center mt-8">
+    <div className="flex md:flex-row flex-col items-start justify-center mt-8">
       <p className="mx-4 w-auto h-auto text-start text-[22px] mx-16">
         <span className="uppercase font-bold">THE League</span><br/>
         <span className="uppercase font-bold">q3 2023</span><br/><br/>
@@ -31,7 +31,7 @@ return (
       <img src="/skelees-theleague.png" className='w-[300px] h-[300px] mx-16'/>
     </div>
 
-    <div className="flex flex-row items-start justify-center mt-8">
+    <div className="flex md:flex-row flex-col items-start justify-center mt-8">
       <img src="/roadmap-beta-championsleague.png" className='w-[300px] h-[300px] mx-16'/>
       <p className="mx-4 w-auto h-auto text-start text-[22px] mx-16">
         <span className="uppercase font-bold">Champion beta league<br/>q4 2023</span><br/><br/>
@@ -40,7 +40,7 @@ return (
       </p>
     </div>
 
-    <div className="flex flex-row items-start justify-center mt-8">
+    <div className="flex md:flex-row flex-col items-start justify-center mt-8">
       <p className="mx-4 w-auto h-auto text-start text-[22px] mx-16">
         <span className="uppercase font-bold">Ar experience</span><br/>
         <span className="uppercase font-bold">q1 2024</span><br/><br/>
@@ -52,7 +52,7 @@ return (
       <img src="/skelee-boot-ar.png" className='w-[300px] h-[300px] mx-16'/>
     </div>
 
-    <div className="flex flex-row items-start justify-center mt-8">
+    <div className="flex md:flex-row flex-col items-start justify-center mt-8">
       <img src="/skelee-roadmap-champions-league.png" className='w-[300px] h-[300px] mx-16'/>
       <p className="mx-4 w-auto h-auto text-start text-[22px] mx-16">
         <span className="uppercase font-bold">Champion league<br/>q2 2024</span><br/><br/>
