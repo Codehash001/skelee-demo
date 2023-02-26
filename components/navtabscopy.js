@@ -25,20 +25,20 @@ export default function Navtabs (){
   };
   
     return (
-      <div className="font-Kanit min-h-screen w-full md:overflow-x-hidden overflow-auto flex flex-col items-center justify-center">
+      <div className="font-Kanit min-h-screen w-screen  flex flex-col items-center justify-center">
 
 
         {toggleState === 1 ?(
                 <img src='homebg.png'
-                className='object-cover w-full h-full absolute'/>
+                className='object-cover w-screen h-full absolute'/>
                 ) :
               toggleState === 2 ? (
                 <img src='/mintbg.png'
-                className='object-cover w-full h-full absolute'/>
+                className='object-cover w-screen h-full absolute'/>
               ):
               toggleState === 3 ? (
                 <img src='/utlitybg.png'
-                className='object-cover w-full h-full absolute'/>
+                className='object-cover w-screen h-full absolute'/>
               ):
                (<></>)
               }
