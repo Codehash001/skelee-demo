@@ -7,6 +7,7 @@ import Slider from '../components/slide'
 import Team from '../components/team'
 import Navtabs from '../components/navtabscopy'
 import Footer from '../components/footer'
+import Mobilenavtabs from '../components/mobilenavtabs'
 
 
 export default function Index() {
@@ -18,7 +19,14 @@ export default function Index() {
         <link rel="icon" href="/Logoicon.png" />
       </Head>
 
+        <div className='hidden md:flex'>
         <Navtabs/>
+        </div>
+
+        <div className='md:hidden flex'>
+        <Mobilenavtabs/>
+        </div>
+        
         
 
 
