@@ -66,7 +66,7 @@ export default function Navtabs (){
         <div className='flex flex-col items-center justify-between w-full h-auto'>
         
           {/*Mobile Nav bar */}
-          <div className='md:hidden h-[60px] w-screen filter backdrop-blur-md flex flex-row items-center justify-between px-4'>
+          <div className='md:hidden h-[60px] w-screen filter backdrop-blur-md flex flex-row items-center justify-between px-4 z-10'>
 
 <img src='/logo.png'
 className='w-auto h-[30px] cursor-pointer'
