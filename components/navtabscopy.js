@@ -7,6 +7,7 @@ import Base from '../components/base'
 import Roadmap from '../components/roadmap'
 import FAQ from '../components/FAQs'
 import Utlity from '../components/Utlity'
+import Footer from '../components/footer'
 
 export default function Navtabs (){
 
@@ -26,11 +27,6 @@ export default function Navtabs (){
     return (
       <div className="font-Kanit min-h-screen w-full md:overflow-x-hidden overflow-auto flex flex-col items-center justify-center">
 
-      {/* <Head>
-          <title>PMTR NFTs - Minting Page</title>
-          <meta name="Description" content="PMTR NFTS-Minting page!" />
-          <link rel="icon" href="/favicon.png" />
-      </Head> */}
 
         {toggleState === 1 ?(
                 <img src='homebg.png'
@@ -182,15 +178,6 @@ onClick={() => toggleTab(1)}/>
                 
                 <div className='absolute w-full top-[90px]'>
                 <div className='font-Kanit text-white h-srceen w-screen flex flex-col items-center justify-start lg:px-20 px-6 relative'>
-      <div className='w-[700px]'>
-      <p className='text-center text-sm'>
-        Skelee is a collection of 8,000 hand crafted NFTs. Skelee's living on the ethereum blockchain. Each skelee servers
-        as an access key inti pur AR gamin portal
-        <br/>
-        <br/>
-        To learn more about skelee, tweet us, check our page section on rarestudionsnewyork.com and join our discord.
-      </p>
-      </div>
       
       <h1 className='font-Kanit font-extrabold tracking-widest uppercase text-5xl text-center mt-6'>MINT</h1>
       <h1 className='tracking-wide uppercase text-xl text-center'>Early access</h1>
@@ -254,6 +241,8 @@ onClick={() => toggleTab(1)}/>
                <></>
               )
               }
+
+              <Footer/>
   
         </div>
   
