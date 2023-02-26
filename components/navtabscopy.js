@@ -172,6 +172,7 @@ onClick={() => toggleTab(1)}/>
                   immortal gamers
                 </h1>
               </div>
+              <Footer/>
               ) :
               // Mint section
               toggleState === 2 ? (
@@ -216,6 +217,7 @@ onClick={() => toggleTab(1)}/>
       
     </div>
               </div>
+              <Footer/>
              
               ) :
 
@@ -223,26 +225,30 @@ onClick={() => toggleTab(1)}/>
               <div className='absolute w-full top-[90px]'>
                 <Utlity/>
               </div>
+              <Footer/>
               ) :
 
               toggleState === 4 ? (
                 <div className='absolute w-full top-[100px]'>
                 <Roadmap/>
-              </div>) :
+              </div>
+              <Footer/>
+              ) :
 
 
               toggleState === 5 ? (
               <div className='absolute w-full top-[90px]'>
                 <FAQ/>
               </div>
+              <Footer/>
               ) :
               toggleState === 6 ? (<div></div>) :
               (
-               <></>
+               <><Footer/></>
               )
               }
 
-              <Footer/>
+              
   
         </div>
   
