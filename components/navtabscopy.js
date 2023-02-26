@@ -174,7 +174,7 @@ onClick={() => toggleTab(1)}/>
                   immortal gamers
                 </h1>
                 </div>
-                <div className='w-screen bg-black h-auto mr-[-20px]'>
+                <div className='w-[2000px] bg-black h-auto mr-[-20px]'>
                 <Footer/>
                 </div>
               </div>
