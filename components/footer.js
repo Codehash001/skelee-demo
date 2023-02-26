@@ -1,6 +1,6 @@
 export default function Footer(){
     return(
-        <div className=" bg-transparent w-full h-auto md:px-16 px-2">
+        <div className=" bg-transparent w-full h-auto md:px-16 px-2 mt-4">
 
 <footer class="p-1 md:p-6 text-white font-Kanit">
 	<div className='flex items-center jutify-between w-full h-auto'>
