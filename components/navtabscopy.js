@@ -133,10 +133,11 @@ export default function Navtabs (){
 
 <div className='md:hidden h-full w-screen filter backdrop-blur-sm flex flex-row items-center justify-between px-4 pt-2 z-20'>
 
+<a href='/'>
 <img src='/logo.png'
 className='w-auto h-[30px] cursor-pointer'
-onClick={() => toggleTab(1)}/>
-
+/>
+</a>
 
   <div onClick={handleNav}
     className='flex md:hidden rounded-full bg-white cursor-pointer p-3' >
@@ -155,9 +156,11 @@ onClick={() => toggleTab(1)}/>
     }>
 
     <div className='flex w-full items-center justify-between'>
+      <a href='/'>
         <img src='/logo.png'
         className='w-auto h-[30px] cursor-pointer'
-        onClick={() => toggleTab(1)}/>
+        />
+      </a>
         <div onClick={handleNav}
         className='rounded-full hover:shadow-lg hover:shadow-gray-600 p-3 cursor-pointer '>
           <AiOutlineClose size={18} />
