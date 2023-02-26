@@ -126,7 +126,7 @@ onClick={() => toggleTab(1)}/>
 
   {/* overlay */}
     <div className={
-    nav? ' md:hidden font-Kanit fixed left-0 top-0 w-full h-full backdrop-filter backdrop-blur-sm' : "hidden"
+    nav? ' md:hidden z-50 font-Kanit fixed left-0 top-0 w-full h-full backdrop-filter backdrop-blur-sm' : "hidden"
       }>
     
     {/* Side Drawer Menu */}
@@ -177,7 +177,7 @@ onClick={() => toggleTab(1)}/>
               
         {toggleState === 1 ? (
 
-              <div className='absolute w-full top-[90px] flex flex-col items-center'>
+              <div className='absolute w-full top-[90px] flex flex-col items-center -z-10'>
               <div className='h-screen'>
                 <h1 className='text-[18px] tracking-wide text-center'>
                   Welcome<br/>
