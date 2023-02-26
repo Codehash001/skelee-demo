@@ -165,19 +165,23 @@ onClick={() => toggleTab(1)}/>
         {/* Contents */}
               
         {toggleState === 1 ? (
-              <div className='absolute w-full top-[90px] flex flex-col items-center w-screen'>
+        	<>
+              <div className='absolute w-full top-[90px] flex flex-col items-center w-screen min-h-screen'>
                 <h1 className='text-[18px] tracking-wide text-center'>
                   Welcome<br/>
                   to the world of Skelee,a community of <br/>
                   immortal gamers
                 </h1>
               </div>
+              <Footer/>
+              </>
               
               ) :
               // Mint section
               toggleState === 2 ? (
                 
-                <div className='absolute w-full top-[90px]'>
+                <>
+                <div className='absolute w-full top-[90px] min-h-screen'>
                 <div className='font-Kanit text-white h-srceen w-screen flex flex-col items-center justify-start lg:px-20 px-6 relative'>
       
       <h1 className='font-Kanit font-extrabold tracking-widest uppercase text-5xl text-center mt-6'>MINT</h1>
@@ -217,32 +221,49 @@ onClick={() => toggleTab(1)}/>
       
     </div>
               </div>
+              <Footer/>
+              </>
               
              
               ) :
 
               toggleState === 3 ? (
-              <div className='absolute w-full top-[90px]'>
+              
+              <>
+              <div className='absolute w-full top-[90px] min-h-screen'>
                 <Utlity/>
               </div>
+              <Footer/>
+              </>
               
               ) :
 
               toggleState === 4 ? (
-                <div className='absolute w-full top-[100px]'>
+              <>
+                <div className='absolute w-full top-[100px] min-h-screen'>
                 <Roadmap/>
               </div>
+              <Footer/>
+              </>
               
               ) :
 
 
               toggleState === 5 ? (
-              <div className='absolute w-full top-[90px]'>
+              <>
+              <div className='absolute w-full top-[90px] min-h-screen'>
                 <FAQ/>
               </div>
+              <Footer/>
+              </>
               
               ) :
-              toggleState === 6 ? (<div></div>) :
+              toggleState === 6 ? (
+              <>
+              <div></div>
+              <Footer/>
+              </>
+              ) :
               (
                <></>
               )
