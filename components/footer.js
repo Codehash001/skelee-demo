@@ -11,7 +11,7 @@ export default function Footer(){
 		  <div className='flex items-center jutify-start w-full h-auto mt-6'>
 
 		    
-		    <h1 className='text-sm mx-4'>&#169;2023 RARE STUDIOS NEW YORK. All Rights Reserved.</h1>
+		    <h1 className='text-sm'>&#169;2023 RARE STUDIOS NEW YORK. All Rights Reserved.</h1>
 		  </div>
 		  
 		</div>
