@@ -11,7 +11,7 @@ return (
   <div className='mt-6 flex flex-col items-center'>
 
     <div className="flex flex-row items-start justify-center mt-8">
-      <img src="/1.jpg" className='w-[300px] h-[300px] mx-16'/>
+      <img src="/skelees-arrival.png" className='w-[300px] h-[300px] mx-16'/>
       <p className="mx-4 w-auto h-auto text-start text-[22px] mx-16">
         <span className="uppercase font-bold">THE ARRIVAL</span><br/><br/>
         <span className="uppercase">Skelees have arrived</span><br/>
@@ -28,11 +28,11 @@ return (
         <span>late night gaming portal</span><br/>
         <span>will begin</span>
       </p>
-      <img src="/1.jpg" className='w-[300px] h-[300px] mx-16'/>
+      <img src="/skelees-theleague.png" className='w-[300px] h-[300px] mx-16'/>
     </div>
 
     <div className="flex flex-row items-start justify-center mt-8">
-      <img src="/1.jpg" className='w-[300px] h-[300px] mx-16'/>
+      <img src="/roadmap-beta-championsleague.png" className='w-[300px] h-[300px] mx-16'/>
       <p className="mx-4 w-auto h-auto text-start text-[22px] mx-16">
         <span className="uppercase font-bold">Champion beta league<br/>q4 2023</span><br/><br/>
         <span>The top gamers of Skelees will <br/>battle it out for 1 weekend <br/>to see who will have the
@@ -49,11 +49,11 @@ return (
         <span>experience and Release</span><br/>
         <span>of Skelee Boot for mobile game</span>
       </p>
-      <img src="/1.jpg" className='w-[300px] h-[300px] mx-16'/>
+      <img src="/skelee-boot-ar.png" className='w-[300px] h-[300px] mx-16'/>
     </div>
 
     <div className="flex flex-row items-start justify-center mt-8">
-      <img src="/1.jpg" className='w-[300px] h-[300px] mx-16'/>
+      <img src="/skelee-roadmap-champions-league.png" className='w-[300px] h-[300px] mx-16'/>
       <p className="mx-4 w-auto h-auto text-start text-[22px] mx-16">
         <span className="uppercase font-bold">Champion league<br/>q2 2024</span><br/><br/>
         <span>The top gamers of Skelees will <br/>battle it out for 1 weekend <br/>to see who will have the
@@ -63,7 +63,7 @@ return (
 
   </div>
 
-  <div className="w-full h-auto bg-gray-700 py-10 flex flex-col items-center justify-center mt-10">
+  {/*<div className="w-full h-auto bg-gray-700 py-10 flex flex-col items-center justify-center mt-10">
     <p className="text-white text-center text-[20px] font-medium uppercase">Buy A skelee to join the family <br/>of late night gamers</p>
     <button className="mt-6 py-4 px-12 rounded-full text-center font-extrabold tracking-wider bg-gray-400 text-white text-[22px]">MINT</button>
   </div>
@@ -77,7 +77,7 @@ return (
             <br/>
             Gaming Champion League
         </p>
-  </div>
+  </div>*/}
 
   {/* <div className="w-full h-auto bg-gray-700 py-12 flex flex-col items-center justify-center">
     <p className="text-white text-center text-[30px] font-bold tracking-wider uppercase">Join the community</p>

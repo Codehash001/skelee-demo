@@ -233,8 +233,8 @@ onClick={() => toggleTab(1)}/>
               toggleState === 3 ? (
               
               <>
-              <div className='absolute w-full top-[90px] h-screen'>
-              <div className='h-screen'>
+              <div className='absolute w-full top-[90px] min-h-screen'>
+              <div className='min-h-screen'>
                 <Utlity/>
                 </div>
                 <Footer/>
@@ -246,8 +246,8 @@ onClick={() => toggleTab(1)}/>
 
               toggleState === 4 ? (
               <>
-                <div className='absolute w-full top-[100px] h-screen'>
-                <div className='h-screen'>
+                <div className='absolute w-full top-[100px] min-h-screen'>
+                <div className='min-h-screen'>
                 <Roadmap/>
                 </div>
                 <Footer/>
@@ -260,8 +260,8 @@ onClick={() => toggleTab(1)}/>
 
               toggleState === 5 ? (
               <>
-              <div className='absolute w-full top-[90px] h-screen'>
-              <div className='h-screen'>
+              <div className='absolute w-full top-[90px] min-h-screen'>
+              <div className='min-h-screen'>
                 <FAQ/>
                 </div>
                 <Footer/>
