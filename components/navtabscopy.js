@@ -31,7 +31,7 @@ export default function Navtabs (){
 
         {toggleState === 1 ?(
                 <img src='homebg.png'
-                className='object-cover w-screen h-full absolute -z-20'/>
+                className='hidden md:flex object-cover w-screen h-full absolute -z-20'/>
                 ) :
               toggleState === 2 ? (
                 <img src='/mintbg.png'
