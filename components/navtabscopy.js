@@ -11,6 +11,7 @@ import Footer from '../components/footer'
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import Mint from '../components/mint'
+import About from '../components/about'
 
 export default function Navtabs (){
 
@@ -292,6 +293,7 @@ toggleState === 6 ? (
 <>
 <div className={!nav?'absolute w-full top-[90px] h-screen':'hidden'}>
 <div className='h-screen'>
+<About/>
 </div>
 <Footer/>
 </div>
