@@ -21,7 +21,7 @@ export default function Utlity() {
           </p>
         </div>
         <div className="w-[500px] flex flex-col items-center justify-center p-6">
-          <img src="/skelee-gaming-champions-league.png" className="w-[250px] h-[250px] rounded-lg"/>
+          <img src="/immortal-championsleague.png" className="w-[250px] h-[250px] rounded-lg"/>
           <h1 className='my-1 uppercase text-[#3ae516] text-[25px]'>Gaming champions league</h1>
           <p className='text-sm'>Skelee's gaming champion league for
             <br/>NFT holders is the ultimate battleground
