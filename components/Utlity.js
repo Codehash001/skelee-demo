@@ -12,7 +12,7 @@ export default function Utlity() {
       <div className="flex md:flex-row flex-col items-center justify-center my-1">
         
         <div className="w-[500px] flex flex-col items-center justify-center p-6">
-          <img src="/skelee-1of1.png" className="w-[250px] h-[250px] rounded-lg"/>
+          <img src="/Skelee-arrival.gif" className="w-[250px] h-[250px] rounded-lg"/>
           <h1 className='font-semibold my-1 uppercase'>1 0F 1 ART PIECE</h1>
           <p className='text-sm'>Skelee was created by a world class artist.
             <br/>Each NFT has uniqu value and desirability.

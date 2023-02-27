@@ -13,14 +13,14 @@ return (
   <div className='mt-6 flex flex-col items-center'>
 
     <div className="flex md:flex-row flex-col items-start justify-center mt-8">
-      <img src="/skelees-arrival.png" className='w-[300px] h-[300px] md:mx-16 mx-4 hidden md:flex'/>
+      <img src="/Skelee-arrival.gif" className='w-[300px] h-[300px] md:mx-16 mx-4 hidden md:flex'/>
       <p className="mx-4 w-auto h-auto text-start text-[22px] md:mx-16 mx-4">
         <span className="uppercase font-bold">THE ARRIVAL</span><br/><br/>
         <span className="uppercase">Skelees have arrived</span><br/>
         <span className="uppercase font-semibold">Sold out collection</span><br/>
         <span>Countdown to gaming portals</span><br/>
       </p>
-      <img src="/skelees-arrival.png" className='w-[300px] h-[300px] md:mx-16 mx-4 md:hidden'/>
+      <img src="/Skelee-arrival.gif" className='w-[300px] h-[300px] md:mx-16 mx-4 md:hidden'/>
     </div>
 
     <div className="flex md:flex-row flex-col items-start justify-center mt-8">
@@ -31,7 +31,7 @@ return (
         <span>late night gaming portal</span><br/>
         <span>will begin</span>
       </p>
-      <img src="/skelees-theleague.png" className='w-[300px] h-[300px] md:mx-16 mx-4'/>
+      <img src="/skelees-leaguepass.png" className='w-[300px] h-[300px] md:mx-16 mx-4'/>
     </div>
 
     <div className="flex md:flex-row flex-col items-start justify-center mt-8">
