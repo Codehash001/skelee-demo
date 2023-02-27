@@ -3,10 +3,9 @@ const RPC_URL = process.env.NEXT_PUBLIC_ALCHEMY_RPC_URL
 const config = {
   title: 'Dapp',
   description: 'test minting Dapp',
-  contractAddress: '0x31Ac6d1061C3b9CE1AC5476909BC55eB94375452',
-  etherscanLink:'https://etherscan.io/0x31Ac6d1061C3b9CE1AC5476909BC55eB94375452',
-  maxMintAmount: 5,
-  publicSalePrice: 0.6
+  contractAddress: '0x2E2Cc296337D37243D71dA36DDb5262C96F158E6',
+  maxMintAmount: 100,
+  publicSalePrice: 0.25
 }
 
 const onboardOptions = {
@@ -27,21 +26,7 @@ const onboardOptions = {
       
       { walletName: 'trust', preferred: true, rpcUrl: RPC_URL },
       { walletName: 'gnosis'},
-      { walletName: 'authereum' },
-
-      {
-        walletName: 'ledger',
-        rpcUrl: RPC_URL
-      },
-      {
-        walletName: 'lattice',
-        rpcUrl: RPC_URL,
-        appName: 'Dapp'
-      },
-      {
-        walletName: 'keepkey',
-        rpcUrl: RPC_URL
-      }
+      { walletName: 'authereum' }
     ]
   },
   walletCheck: [
