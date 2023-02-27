@@ -72,10 +72,10 @@ export default function Navtabs (){
               ):
 
                (<>
-               <img src='/homebg.png'
+               <img src='/utlitybg.png'
                 className='hidden md:flex object-cover w-screen h-full absolute -z-20'/>
-          <img src='/skeleemobilebg.png'
-          className='md:hidden flex object-cover w-full h-screen absolute -z-20'/>
+                <img src='/skeleeutlitybgmobile.png'
+                className='md:hidden flex object-cover w-full h-screen absolute -z-20'/>
                </>)
               }
         
