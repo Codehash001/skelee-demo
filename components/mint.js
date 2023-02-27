@@ -11,6 +11,57 @@ import {
 
 
 export default function Mint(){
+
+const mintingDate = new Date (20223, 2, 28, 0, 0,0,);
+
+const getTimedelta=()=>{
+  const now = new Date();
+  
+  const Timedelta = (mintingDate.getTime() - now.getTime());
+
+  //diff in days
+  const days = Math.floor(Timedelta/(24*60*60*1000));
+
+  //diff in hours
+  const hours = Math.floor((Timedelta % (24 * 60 * 60 * 1000))/(60*60*1000));
+
+  //diff in mins
+  const mins = Math.floor((Timedelta % (60*60*1000))/(60 * 1000));
+
+  //diff in secs
+  const secs = Math.floor((Timedelta % (60 *1000))/(1000));
+
+  return {
+    days,
+    hours,
+    mins,
+    secs
+  };
+
+}
+
+const[countdown, setCountdown] = useState()
+  const[loading, setLoading] = useState(true)
+  const[isMintingDate, setIsMintingDate] = useState(true)
+
+  useEffect(()=> {
+    const interval = setInterval (() => {
+     const Timedelta = getTimedelta ()
+     setCountdown(Timedelta);
+     setLoading(false);
+     
+     if(Timedelta.secs < 0){
+      setIsMintingDate(true)
+     }
+    },1000 )
+
+    return ()=> clearInterval(interval)
+  
+
+    });
+    
+    //end countdown widget
+    
   const [maxSupply, setMaxSupply] = useState(0)
   const [totalMinted, setTotalMinted] = useState(0)
   const [maxMintAmount, setMaxMintAmount] = useState(0)
@@ -117,10 +168,23 @@ className='w-[400px] h-auto'/>
 </div>
 
 {/* countdown */}
-<div className='flex w-full justify-between font-medium mt-4 px-8'>
-<h1 className='text-xl text-center'>02 <br/>HRS</h1>
-<h1 className='text-xl text-center'>52 <br/>MINS</h1>
-<h1 className='text-xl text-center'>02 <br/>SECS</h1>
+<div className='flex w-full justify-between font-medium mt-4 px-6'>
+
+{loading? (
+<h1 className='text-xl text-center'>Loading..</h1>
+
+):isMintingDate ? 
+(
+<h1 className='text-xl text-center'>Minting is Live!</h1> ) : 
+(
+<>
+<h1 className='text-xl text-center'>{countdown.days}<br/>DAYS</h1>
+<h1 className='text-xl text-center'>{countdown.hours}<br/>HRS</h1>
+<h1 className='text-xl text-center'>{countdown.mins}<br/>MINS</h1>
+<h1 className='text-xl text-center'>{countdown.secs}<br/>SECS</h1>
+</>
+)
+
 </div>
 
 <div className='flex justify-between w-full font-medium mt-4 md:px-4'>

@@ -14,6 +14,8 @@ import Mint from '../components/mint'
 
 export default function Navtabs (){
 
+
+
   const [nav, setNav] = useState(false)
   
 
