@@ -15,7 +15,7 @@ return (
     <div className="flex md:flex-row flex-col items-start justify-center mt-8">
       <img src="/skelees-arrival.png" className='w-[300px] h-[300px] md:mx-16 mx-4 hidden md:flex'/>
       <p className="mx-4 w-auto h-auto text-start text-[22px] md:mx-16 mx-4">
-        <span className="uppercase bg-[#3ae516] text-[25px]">THE ARRIVAL</span><br/><br/>
+        <span className="uppercase text-[#3ae516] text-[25px]">THE ARRIVAL</span><br/><br/>
         <span className="uppercase">Skelees have arrived</span><br/>
         <span className="uppercase">Sold out collection</span><br/>
         <span>Countdown to gaming portals</span><br/>
@@ -25,7 +25,7 @@ return (
 
     <div className="flex md:flex-row flex-col items-start justify-center mt-8">
       <p className="mx-4 w-auto h-auto text-start text-[22px] md:mx-16 mx-4">
-        <span className="uppercase bg-[#3ae516] text-[25px]">THE League</span><br/>
+        <span className="uppercase text-[#3ae516] text-[25px]">THE League</span><br/>
         <span className="uppercase">q3 2023</span><br/><br/>
         <span>Open access for</span><br/>
         <span>late night gaming portal</span><br/>
@@ -37,7 +37,7 @@ return (
     <div className="flex md:flex-row flex-col items-start justify-center mt-8">
       <img src="/roadmap-beta-championsleague.png" className='w-[300px] h-[300px] md:mx-16 mx-4 hidden md:flex'/>
       <p className="mx-4 w-auto h-auto text-start text-[22px] md:mx-16 mx-4">
-        <span className="uppercase bg-[#3ae516] text-[25px]">Champion beta league<br/></span>Q4 2023<br/><br/>
+        <span className="uppercase text-[#3ae516] text-[25px]">Champion beta league<br/></span>Q4 2023<br/><br/>
         <span>The top gamers of Skelees will <br/>battle it out for 1 weekend <br/>to see who will have the
           highest <br/>stats o win 10 eth</span><br/>
       </p>
@@ -46,7 +46,7 @@ return (
 
     <div className="flex md:flex-row flex-col items-start justify-center mt-8">
       <p className="mx-4 w-auto h-auto text-start text-[22px] md:mx-16 mx-4">
-        <span className="uppercase bg-[#3ae516] text-[25px]">Ar experience</span><br/>
+        <span className="uppercase text-[#3ae516] text-[25px]">Ar experience</span><br/>
         <span className="uppercase ">q1 2024</span><br/><br/>
         <span>Experience Skelee</span><br/>
         <span> in AR immersive</span><br/>
@@ -59,7 +59,7 @@ return (
     <div className="flex md:flex-row flex-col items-start justify-center mt-8">
       <img src="/skelee-roadmap-champions-league.png" className='w-[300px] h-[300px] md:mx-16 mx-4 hidden md:flex'/>
       <p className="mx-4 w-auto h-auto text-start text-[22px] md:mx-16 mx-4">
-        <span className="uppercase bg-[#3ae516] text-[25px]">Champion league<br/></span>Q2 2024<br/><br/>
+        <span className="uppercase text-[#3ae516] text-[25px]">Champion league<br/></span>Q2 2024<br/><br/>
         <span>The top gamers of Skelees will <br/>battle it out for 1 weekend <br/>to see who will have the
           highest <br/>stats to win 10 eth</span><br/>
       </p>
