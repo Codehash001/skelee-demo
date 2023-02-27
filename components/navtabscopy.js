@@ -193,17 +193,19 @@ className='w-auto h-[30px] cursor-pointer'
       Map</div>
       <div className='w-full uppercase py-2 border-b-2 border-white tracking-wider font-semibold text-[18px]' onClick={() => toggleTabInt(5)}>
       FAQ</div>
-      <a target='_blank' rel="noreferrer" href='https://twitter.com/skeleenft'>
+      <a target='_blank' rel="noreferrer" href='https://twitter.com/skeleenft' className='w-full'>
       <div className='w-full uppercase py-2 border-b-2 border-white tracking-wider font-semibold text-[18px]'>
       Twitter</div>
       </a>
-      <a target='_blank' rel="noreferrer" href='/'>
+      <a target='_blank' rel="noreferrer" href='/' className='w-full'>
       <div className='w-full uppercase py-2 border-b-2 border-white tracking-wider font-semibold text-[18px]'>
       Discord</div>
       </a>
-      <a target='_blank' rel="noreferrer" href='/'>
+      <a target='_blank' rel="noreferrer" href='/' className='w-full'>
       <div className='w-full uppercase py-2 border-b-2 border-white tracking-wider font-semibold text-[18px]'>
       Instagram</div>
+      </a>
+      <a target='_blank' rel="noreferrer" href='/' className='w-full'>
       <div className='w-full uppercase py-2 border-b-2 border-white tracking-wider font-semibold text-[18px]'>
       Reddit</div>
       </a>
