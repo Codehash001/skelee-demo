@@ -11,7 +11,7 @@ export default function Utlity() {
     {/* first row */}
       <div className="flex md:flex-row flex-col items-center justify-center my-1">
         
-        <div className="w-[500px] flex flex-col items-center justify-center p-6">
+        <div className="md:w-[500px] flex flex-col items-center justify-center md:p-6 p-2">
           <img src="/Skelee-arrival.gif" className="w-[250px] h-[250px] rounded-lg"/>
           <h1 className='my-1 uppercase text-[#3ae516] text-[25px]'>1 0F 1 ART PIECE</h1>
           <p className='text-sm p-1 md:w-auto w-srceen'>Each NFT has unique value and desirability.
@@ -19,7 +19,7 @@ export default function Utlity() {
             <br/> assest but also reflects the artist who created it.
           </p>
         </div>
-        <div className="w-[500px] flex flex-col items-center justify-center p-6">
+        <div className="md:w-[500px] flex flex-col items-center justify-center md:p-6 p-2">
           <img src="/immortal-championsleague.png" className="w-[250px] h-[250px] rounded-lg"/>
           <h1 className='my-1 uppercase text-[#3ae516] text-[25px]'>Gaming champions league</h1>
           <p className='text-sm p-1 md:w-auto w-srceen'>Skelee's gaming champion league for
@@ -33,7 +33,7 @@ export default function Utlity() {
       {/* second-row */}
        <div className="flex md:flex-row flex-col items-center justify-center">
         
-        <div className="w-[500px] flex flex-col items-center justify-center p-6">
+        <div className="md:w-[500px] flex flex-col items-center justify-center md:p-6 p-2">
           <img src="/skelee-immortal-community.png" className="w-[250px] h-[250px] rounded-lg"/>
           <h1 className='my-1 uppercase text-[#3ae516] text-[25px]'>Immortal Community</h1>
           <p className='text-sm p-1 md:w-auto w-srceen'>Our immortal community is a lively
@@ -42,7 +42,7 @@ export default function Utlity() {
             <br/>their passion for gaming.
           </p>
         </div>
-        <div className="w-[500px] flex flex-col items-center justify-center p-6">
+        <div className="md:w-[500px] flex flex-col items-center justify-center md:p-6 p-2">
           <img src="/skelee-boot-utility-.png" className="w-[250px] h-[250px] rounded-lg"/>
           <h1 className='my-1 uppercase text-[#3ae516] text-[25px]'>Argumented Reality</h1>
           <p className='text-sm p-1 md:w-auto w-srceen'>Skelees argumented reality 'experience' will
