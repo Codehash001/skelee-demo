@@ -44,7 +44,7 @@ export default function Utlity() {
           </p>
         </div>
         <div className="w-[500px] flex flex-col items-center justify-center p-6">
-          <img src="/skelee-skelee-boot.png" className="w-[250px] h-[250px] rounded-lg"/>
+          <img src="/skelee-boot-utility-.png" className="w-[250px] h-[250px] rounded-lg"/>
           <h1 className='my-1 uppercase text-[#3ae516] text-[25px]'>Argumented Reality</h1>
           <p className='text-sm'>Skelees argumented reality 'experience' will
             <br/>provide a fully impressive and interactive gameplay
