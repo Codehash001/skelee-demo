@@ -109,7 +109,7 @@ export default function Navtabs (){
      </div>
      <div className={toggleState === 3 ? 'px-3 py-1 text-[13px] bg-white text-black font-medium rounded-sm uppercase mx-2 cursor-pointer' : 'px-3 py-1 text-[13px] bg-black hover:bg-white hover:text-black text-white font-medium rounded-sm uppercase mx-2 cursor-pointer'}
      onClick={() => toggleTab(3)}>
-       Utlity
+       Utility
      </div>
      <div className={toggleState === 4 ? 'px-3 py-1 text-[13px] bg-white text-black font-medium rounded-sm uppercase mx-2 cursor-pointer' : 'px-3 py-1 text-[13px] bg-black hover:bg-white hover:text-black text-white font-medium rounded-sm uppercase mx-2 cursor-pointer'}
      onClick={() => toggleTab(4)}>
@@ -188,7 +188,7 @@ className='w-auto h-[30px] cursor-pointer'
       <div className='w-full uppercase py-2 border-b-2 border-white tracking-wider font-semibold text-[18px]' onClick={() => toggleTabInt(6)}>
       About</div>              
       <div className='w-full uppercase py-2 border-b-2 border-white tracking-wider font-semibold text-[18px]' onClick={() => toggleTabInt(3)}>
-      Utlity</div>
+      Utility</div>
       <div className='w-full uppercase py-2 border-b-2 border-white tracking-wider font-semibold text-[18px]' onClick={() => toggleTabInt(4)}>
       Map</div>
       <div className='w-full uppercase py-2 border-b-2 border-white tracking-wider font-semibold text-[18px]' onClick={() => toggleTabInt(5)}>
