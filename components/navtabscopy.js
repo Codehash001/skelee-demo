@@ -162,12 +162,12 @@ className='w-auto h-[30px] cursor-pointer'
 
   {/* overlay */}
     <div className={
-    nav? ' md:hidden z-10 font-Kanit fixed left-0 top-0 w-full h-full bg-white' : "hidden left-[-100%]"
+    nav? ' md:hidden z-10 font-Kanit fixed left-0 top-0 w-full h-full bg-black' : "hidden left-[-100%]"
       }>
     
     {/* Side Drawer Menu */}
   <div className ={
-    nav? "fixed left-0 top-0 w-[100%] bg-white h-screen py-2 px-4 ease-in duration-500"
+    nav? "fixed left-0 top-0 w-[100%] bg-black h-screen py-2 px-4 ease-in duration-500"
     :'fixed left-[-100%] top-0 py-10 px-6 ease-in duration-500 h-screen'
     }>
 
@@ -178,11 +178,11 @@ className='w-auto h-[30px] cursor-pointer'
         />
       </a>
         <div onClick={handleNav}
-        className='rounded-full hover:shadow-lg hover:shadow-gray-600 p-3 cursor-pointer '>
+        className='rounded-full hover:shadow-lg hover:shadow-gray-600 p-3 cursor-pointer bg-white '>
           <AiOutlineClose size={18} />
         </div>
     </div>
-    <div className='flex flex-col items-start text-start mt-4'>
+    <div className='flex flex-col items-start text-start mt-4 text-white'>
       <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px] hover:text-blue-500' onClick={() => toggleTabInt(2)}>
       MINT</div>
       <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]' onClick={() => toggleTabInt(6)}>
