@@ -12,6 +12,7 @@ module.exports = {
         Kanit: [ 'Kanit', ...defaultTheme.fontFamily.sans],
         Archivo: [ 'Archivo', ...defaultTheme.fontFamily.sans],
         Gotham: ['Gotham', ...defaultTheme.fontFamily.sans],
+        Burbank:['Burbank' , ...defaultTheme.fontFamily.sans]
 
       },
       colors: {
