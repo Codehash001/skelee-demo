@@ -49,8 +49,8 @@ return (
         <span className="uppercase ">q1 2024</span><br/><br/>
         <span>Experience Skelee</span><br/>
         <span>in an augmented reality.</span><br/>
-        <span>Holders must finish a quest to receive</span><br/>
-        <span>an Augmented Reality Skelee Boot.</span>
+        <span>Holders must finish a quest to receive <span className='md:hidden'>an Augmented Reality Skelee Boot.</span></span><br/>
+        <span className='hidden md:flex'>an Augmented Reality Skelee Boot.</span>
       </p>
       <img src="/skelee-boot-ar.png" className='w-[300px] h-[300px] md:mx-16 mx-4'/>
     </div>
