@@ -17,7 +17,7 @@ return (
       <p className="mx-4 w-auto h-auto text-start text-[22px] md:mx-16 mx-4">
         <span className="uppercase text-[#3ae516] text-[40px]">THE ARRIVAL</span><br/><br/>
         <span className="uppercase">Skelee’s have arrived from the underworld.</span><br/>
-        <span className="uppercase">A community of gamers and late-night friends will join together in an epic adventure to victory.</span><br/>
+        <span className="uppercase">A community of gamers and late-night friends<br/>will join together in an epic adventure to victory.</span><br/>
         <span>Skelee makes friends with everyone.</span><br/>
       </p>
       <img src="/skelees-arrival.png" className='w-[300px] h-[300px] md:mx-16 mx-4 md:hidden'/>
