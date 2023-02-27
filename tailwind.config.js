@@ -10,9 +10,7 @@ module.exports = {
     extend: {
       fontFamily: {
         Kanit: [ 'Kanit', ...defaultTheme.fontFamily.sans],
-        Archivo: [ 'Archivo', ...defaultTheme.fontFamily.sans],
-        Gotham: ['Gotham', ...defaultTheme.fontFamily.sans],
-        Burbank:['Burbank Small Bold' , ...defaultTheme.fontFamily.sans]
+        LuckiestGuy:['Luckiest Guy' , ...defaultTheme.fontFamily.sans]
 
       },
       colors: {
