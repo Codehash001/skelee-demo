@@ -222,7 +222,7 @@ className='w-auto h-[30px] cursor-pointer'
     immortal gamers
   </h1>
   <button className='md:hidden mt-5 rounded-md bg-[#3ae516] py-2 px-6 text-white font-mediumn font-Burbank uppercase'
-  onClick={() => toggleTabInt(2)}>Mint</button>
+  onClick={() => toggleTab(2)}>Mint</button>
   </div>
   <div className='w-full bg-black h-auto'>
   <Footer/>
