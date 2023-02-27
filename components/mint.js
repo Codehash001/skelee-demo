@@ -176,8 +176,8 @@ className='w-[400px] h-auto'/>
 ):
 {/*isMintingDate ? 
 (
-<h1 className='text-xl text-center'>Minting is Live!</h1> ) : 
-( */}
+<h1 className='text-xl text-center'>Minting is Live!</h1> ) : */}
+( 
 <>
 <h1 className='text-xl text-center mx-2'>{countdown.days}<br/>DAYS</h1>
 <h1 className='text-xl text-center mx-2'>{countdown.hours}<br/>HRS</h1>
