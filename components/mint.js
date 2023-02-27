@@ -12,7 +12,7 @@ import {
 
 export default function Mint(){
 
-const mintingDate = new Date (20223, 2, 28, 0, 0,0,);
+const mintingDate = new Date (20223, 3, 2, 0, 0, 0,);
 
 const getTimedelta=()=>{
   const now = new Date();
@@ -168,7 +168,7 @@ className='w-[400px] h-auto'/>
 </div>
 
 {/* countdown */}
-<div className='flex w-full justify-between font-medium mt-4 px-6'>
+<div className='flex w-full justify-center font-medium mt-4 px-6'>
 
 {loading? (
 <h1 className='text-xl text-center'>Loading..</h1>
@@ -178,10 +178,10 @@ className='w-[400px] h-auto'/>
 <h1 className='text-xl text-center'>Minting is Live!</h1> ) : 
 (
 <>
-<h1 className='text-xl text-center'>{countdown.days}<br/>DAYS</h1>
-<h1 className='text-xl text-center'>{countdown.hours}<br/>HRS</h1>
-<h1 className='text-xl text-center'>{countdown.mins}<br/>MINS</h1>
-<h1 className='text-xl text-center'>{countdown.secs}<br/>SECS</h1>
+<h1 className='text-xl text-center mx-2'>{countdown.days}<br/>DAYS</h1>
+<h1 className='text-xl text-center mx-2'>{countdown.hours}<br/>HRS</h1>
+<h1 className='text-xl text-center mx-2'>{countdown.mins}<br/>MINS</h1>
+<h1 className='text-xl text-center mx-2'>{countdown.secs}<br/>SECS</h1>
 </>
 ) }
 
