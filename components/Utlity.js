@@ -14,9 +14,8 @@ export default function Utlity() {
         <div className="w-[500px] flex flex-col items-center justify-center p-6">
           <img src="/Skelee-arrival.gif" className="w-[250px] h-[250px] rounded-lg"/>
           <h1 className='my-1 uppercase text-[#3ae516] text-[25px]'>1 0F 1 ART PIECE</h1>
-          <p className='text-sm p-1'>Skelee was created by a world class artist.
-            <br/>Each NFT has uniqu value and desirability.
-            <br/> as it not only represents ownership of a unique digital
+          <p className='text-sm p-1'>Each NFT has unique value and desirability.
+            <br/> As it not only represents ownership of a unique digital
             <br/> assest but also reflects the artist who created it.
           </p>
         </div>
