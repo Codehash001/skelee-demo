@@ -16,9 +16,9 @@ return (
       <img src="/skelees-arrival.png" className='w-[300px] h-[300px] md:mx-16 mx-4 hidden md:flex'/>
       <p className="mx-4 w-auto h-auto text-start text-[22px] md:mx-16 mx-4">
         <span className="uppercase text-[#3ae516] text-[40px]">THE ARRIVAL</span><br/><br/>
-        <span className="uppercase">Skelees have arrived</span><br/>
-        <span className="uppercase">Sold out collection</span><br/>
-        <span>Countdown to gaming portals</span><br/>
+        <span className="uppercase">Skelee’s have arrived from the underworld.</span><br/>
+        <span className="uppercase">A community of gamers and late-night friends will join together in an epic adventure to victory.</span><br/>
+        <span>Skelee makes friends with everyone.</span><br/>
       </p>
       <img src="/skelees-arrival.png" className='w-[300px] h-[300px] md:mx-16 mx-4 md:hidden'/>
     </div>
@@ -27,9 +27,9 @@ return (
       <p className="mx-4 w-auto h-auto text-start text-[22px] md:mx-16 mx-4">
         <span className="uppercase text-[#3ae516] text-[40px]">THE League</span><br/>
         <span className="uppercase">q3 2023</span><br/><br/>
-        <span>Open access for</span><br/>
-        <span>late night gaming portal</span><br/>
-        <span>will begin</span>
+        <span>Access to join our</span><br/>
+        <span>late-night gaming portal</span><br/>
+        <span>to claim Skelee’s league pass!</span>
       </p>
       <img src="/skelees-leaguepass.png" className='w-[300px] h-[300px] md:mx-16 mx-4'/>
     </div>
@@ -38,8 +38,7 @@ return (
       <img src="/roadmap-beta-championsleague.png" className='w-[300px] h-[300px] md:mx-16 mx-4 hidden md:flex'/>
       <p className="mx-4 w-auto h-auto text-start text-[22px] md:mx-16 mx-4">
         <span className="uppercase text-[#3ae516] text-[40px]">Champion beta league<br/></span>Q4 2023<br/><br/>
-        <span>The top gamers of Skelees will <br/>battle it out for 1 weekend <br/>to see who will have the
-          highest <br/>stats o win 10 eth</span><br/>
+        <span>Skelee holders<br/>will beta-test and compete in the <br/>champions league portal system.</span><br/>
       </p>
       <img src="/roadmap-beta-championsleague.png" className='w-[300px] h-[300px] md:mx-16 mx-4 md:hidden'/>
     </div>
@@ -49,9 +48,9 @@ return (
         <span className="uppercase text-[#3ae516] text-[40px]">Ar experience</span><br/>
         <span className="uppercase ">q1 2024</span><br/><br/>
         <span>Experience Skelee</span><br/>
-        <span> in AR immersive</span><br/>
-        <span>experience and Release</span><br/>
-        <span>of Skelee Boot for mobile game</span>
+        <span>in an augmented reality.</span><br/>
+        <span>Holders must finish a quest to receive</span><br/>
+        <span>an Augmented Reality Skelee Boot.</span>
       </p>
       <img src="/skelee-boot-ar.png" className='w-[300px] h-[300px] md:mx-16 mx-4'/>
     </div>
@@ -60,8 +59,10 @@ return (
       <img src="/skelee-roadmap-champions-league.png" className='w-[300px] h-[300px] md:mx-16 mx-4 hidden md:flex'/>
       <p className="mx-4 w-auto h-auto text-start text-[22px] md:mx-16 mx-4">
         <span className="uppercase text-[#3ae516] text-[40px]">Champion league<br/></span>Q2 2024<br/><br/>
-        <span>The top gamers of Skelees will <br/>battle it out for 1 weekend <br/>to see who will have the
-          highest <br/>stats to win 10 eth</span><br/>
+        <span>The 100 top Skelee holders 
+        <br/>of the champions beta league
+        <br/>will have a chance to compete for
+        <br/>prize money and rewards.</span><br/>
       </p>
       <img src="/skelee-roadmap-champions-league.png" className='w-[300px] h-[300px] md:mx-16 mx-4 md:hidden'/>
     </div>
