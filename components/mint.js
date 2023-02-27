@@ -183,7 +183,7 @@ className='w-[400px] h-auto'/>
 <h1 className='text-xl text-center'>{countdown.mins}<br/>MINS</h1>
 <h1 className='text-xl text-center'>{countdown.secs}<br/>SECS</h1>
 </>
-)
+) }
 
 </div>
 
