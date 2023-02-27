@@ -16,8 +16,8 @@ return (
       <img src="/skelees-arrival.png" className='w-[300px] h-[300px] md:mx-16 mx-4 hidden md:flex'/>
       <p className="mx-4 w-auto h-auto text-start md:text-[22px] text-[18px] md:mx-16 mx-4">
         <span className="uppercase text-[#3ae516] text-[40px]">THE ARRIVAL</span><br/><br/>
-         <span className="uppercase md:hiiden">Skelee’s have arrived from the underworld. A community of gamers and late-night friends will join together in an epic adventure to victory.</span>
-        <span className="uppercase hiiden md:flex">Skelee’s have arrived from the underworld.</span><br/>
+         <span className="uppercase md:hidden">Skelee’s have arrived from the underworld. A community of gamers and late-night friends will join together in an epic adventure to victory.</span>
+        <span className="uppercase hidden md:flex">Skelee’s have arrived from the underworld.</span><br/>
         <span className="uppercase hidden md:flex">A community of gamers and late-night friends<br/>will join together in an epic adventure to victory.</span><br/>
       </p>
       <img src="/skelees-arrival.png" className='w-[300px] h-[300px] md:mx-16 mx-4 md:hidden'/>
