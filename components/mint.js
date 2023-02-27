@@ -12,7 +12,7 @@ import {
 
 export default function Mint(){
 
-const mintingDate = new Date (20223, 3, 2, 0, 0, 0,);
+const mintingDate = new Date (20223, 3, 2, 0, 23, 30,);
 
 const getTimedelta=()=>{
   const now = new Date();
