@@ -39,7 +39,7 @@ export default function Utlity() {
           <p className='text-sm p-1 md:w-auto w-srceen'>Our immortal community is a lively
             <br/>and engaging space where late night gamers
             <br/>from around the world can connect, chat and share
-            <br/>their passion for gaming
+            <br/>their passion for gaming.
           </p>
         </div>
         <div className="w-[500px] flex flex-col items-center justify-center p-6">
