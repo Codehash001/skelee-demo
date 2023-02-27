@@ -27,7 +27,7 @@ return (
       <p className="mx-4 w-auto h-auto text-start md:text-[22px] text-[18px] md:mx-16 mx-4">
         <span className="uppercase text-[#3ae516] text-[40px]">THE League</span><br/>
         <span className="uppercase">q3 2023</span><br/><br/>
-        <span>Access to join our</span><br/>
+        <span>Holders will have access to join our</span><br/>
         <span>late-night gaming portal</span><br/>
         <span>to claim Skelee’s league pass!</span>
       </p>
