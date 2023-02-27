@@ -15,17 +15,19 @@ import Mint from '../components/mint'
 export default function Navtabs (){
 
   const [nav, setNav] = useState(false)
+  
 
 
   const [toggleState, setToggleState] = useState(1);
 
    const toggleTab = (index) =>{
     setToggleState (index);
-    setNav(!nav);
+    
    }
 
    const toggleTabInt = (index) =>{
     setToggleState (index);
+    setNav(!nav);
    }
 
   const handleNav = () => {
@@ -174,15 +176,15 @@ className='w-auto h-[30px] cursor-pointer'
         </div>
     </div>
     <div className='flex flex-col items-start text-start mt-4'>
-      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px] hover:text-blue-500' onClick={() => toggleTab(2)}>
+      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px] hover:text-blue-500' onClick={() => toggleTabInt(2)}>
       MINT</div>
-      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]' onClick={() => toggleTab(6)}>
+      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]' onClick={() => toggleTabInt(6)}>
       About</div>              
-      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]' onClick={() => toggleTab(3)}>
+      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]' onClick={() => toggleTabInt(3)}>
       Utlity</div>
-      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]' onClick={() => toggleTab(4)}>
+      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]' onClick={() => toggleTabInt(4)}>
       Map</div>
-      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]' onClick={() => toggleTab(5)}>
+      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]' onClick={() => toggleTabInt(5)}>
       FAQ</div>
       <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]'>
       Twitter</div>
