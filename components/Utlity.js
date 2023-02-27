@@ -6,7 +6,7 @@ export default function Utlity() {
   return (
     <>
     <div id='utlity'className='text-white w-full h-full flex flex-col items-center font-Kanit text-center'>
-    <h1 className='md:text-[40px] text-[30px] font-Kanit text-white text-center uppercase font-semibold tracking-wide mb-2'> Utlity</h1>
+    <h1 className='md:text-[40px] text-[30px] font-LuckiestGuy text-white text-center uppercase tracking-wide mb-2'> Utlity</h1>
 
     {/* first row */}
       <div className="flex md:flex-row flex-col items-center justify-center my-1">
