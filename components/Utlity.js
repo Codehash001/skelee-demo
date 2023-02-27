@@ -5,7 +5,7 @@ export default function Utlity() {
  
   return (
     <>
-    <div id='utlity'className='text-white w-full h-full flex flex-col items-center font-Kanit text-center'>
+    <div id='utlity'className='text-white w-full h-full flex flex-col items-center font-LuckiestGuy text-center'>
     <h1 className='md:text-[40px] text-[30px] font-LuckiestGuy text-white text-center uppercase tracking-wide mb-2'> Utlity</h1>
 
     {/* first row */}

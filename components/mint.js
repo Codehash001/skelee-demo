@@ -152,8 +152,8 @@ useEffect(() => {
   return (
     <div className='font-Kanit text-white min-h-screen w-screen flex flex-col items-center justify-start lg:px-20 px-6 relative'>
 
-<h1 className='font-Kanit font-extrabold tracking-widest uppercase text-5xl text-center mt-6'>MINT</h1>
-<h1 className='tracking-wide uppercase text-xl text-center'>Early access</h1>
+<h1 className='font-LuckiestGuy font-extrabold tracking-widest uppercase text-5xl text-center mt-6'>MINT</h1>
+<h1 className='tracking-wide uppercase text-xl text-center font-LuckiestGuy'>Now Open</h1>
 
 {/* minting engine */}
 <div className='md:w-[800px] w-auto h-full flex md:flex-row flex-col items-center justify-between mt-4 filter md:backdrop-blur-md p-4 border border-white'>
@@ -190,7 +190,7 @@ isMintingDate ?
 </div>
 
 <div className='flex justify-between w-full font-medium mt-4 md:px-4'>
-<h1 className='md:text-lg text-center'>Mint Price<br/>.25 ETH</h1>
+<h1 className='md:text-lg text-center'>Mint Price<br/>.125 ETH</h1>
 <h1 className='md:text-lg text-center'>Total Supply<br/>8,000</h1>
 <h1 className='md:text-lg text-center'>Reveal Time<br/>FEB 2023</h1>
 
