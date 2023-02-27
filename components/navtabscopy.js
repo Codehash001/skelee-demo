@@ -183,7 +183,7 @@ className='w-auto h-[30px] cursor-pointer'
         </div>
     </div>
     <div className='flex flex-col items-start text-start mt-4 text-white'>
-      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px] hover:text-blue-500' onClick={() => toggleTabInt(2)}>
+      <div className='w-full uppercase py-2 border-b-2 border-white tracking-wider font-semibold text-[18px] hover:text-blue-500' onClick={() => toggleTabInt(2)}>
       MINT</div>
       <div className='w-full uppercase py-2 border-b-2 border-white tracking-wider font-semibold text-[18px]' onClick={() => toggleTabInt(6)}>
       About</div>              
