@@ -42,12 +42,11 @@ export default function Navtabs (){
 
 
         {toggleState === 1 ?(
-          <>
-          <img src='/homebg.png'
+           <>
+                <img src='/mintbg.png'
                 className='hidden md:flex object-cover w-screen h-full absolute -z-20'/>
-          <img src='/skeleemobilebg.png'
-          className='md:hidden flex object-cover w-full h-screen absolute -z-20'/>
-           
+                <img src='/skeleemobilemintpagebg.png'
+                className='md:hidden flex object-cover w-full h-screen absolute -z-20'/>
                 </>
                
                 ) :
@@ -216,6 +215,7 @@ className='w-auto h-[30px] cursor-pointer'
 
 <div className={!nav?'absolute w-full md:top-[90px] top-[110px] flex flex-col items-center ':'hidden'}>
 <div className='h-screen flex flex-col items-center'>
+  <img src='/Skelee-logo.png' className='md:h-[40px] h-[25px] w-auto'/>
   <h1 className='text-[18px] tracking-wide text-center max-w-screen mt-5'>
     Welcome<br/>
     to the world of Skelee,a community of <br/>
