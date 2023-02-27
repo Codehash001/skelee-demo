@@ -185,23 +185,23 @@ className='w-auto h-[30px] cursor-pointer'
     <div className='flex flex-col items-start text-start mt-4 text-white'>
       <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px] hover:text-blue-500' onClick={() => toggleTabInt(2)}>
       MINT</div>
-      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]' onClick={() => toggleTabInt(6)}>
+      <div className='w-full uppercase py-2 border-b-2 border-white tracking-wider font-semibold text-[18px]' onClick={() => toggleTabInt(6)}>
       About</div>              
-      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]' onClick={() => toggleTabInt(3)}>
+      <div className='w-full uppercase py-2 border-b-2 border-white tracking-wider font-semibold text-[18px]' onClick={() => toggleTabInt(3)}>
       Utlity</div>
-      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]' onClick={() => toggleTabInt(4)}>
+      <div className='w-full uppercase py-2 border-b-2 border-white tracking-wider font-semibold text-[18px]' onClick={() => toggleTabInt(4)}>
       Map</div>
-      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]' onClick={() => toggleTabInt(5)}>
+      <div className='w-full uppercase py-2 border-b-2 border-white tracking-wider font-semibold text-[18px]' onClick={() => toggleTabInt(5)}>
       FAQ</div>
-      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]'>
+      <div className='w-full uppercase py-2 border-b-2 border-white tracking-wider font-semibold text-[18px]'>
       Twitter</div>
-      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]'>
+      <div className='w-full uppercase py-2 border-b-2 border-white tracking-wider font-semibold text-[18px]'>
       Discord</div>
-      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]'>
+      <div className='w-full uppercase py-2 border-b-2 border-white tracking-wider font-semibold text-[18px]'>
       Instagram</div>
-      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]'>
+      <div className='w-full uppercase py-2 border-b-2 border-white tracking-wider font-semibold text-[18px]'>
       Reddit</div>
-      <div className='w-full uppercase py-2 border-b-2 border-black tracking-wider font-semibold text-[18px]'>
+      <div className='w-full uppercase py-2 border-b-2 border-white tracking-wider font-semibold text-[18px]'>
       Rare studios new york</div>
     </div>
   
