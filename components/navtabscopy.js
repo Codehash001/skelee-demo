@@ -215,7 +215,7 @@ className='w-auto h-[30px] cursor-pointer'
 
 <div className={!nav?'absolute w-full md:top-[90px] top-[110px] flex flex-col items-center ':'hidden'}>
 <div className='h-screen flex flex-col items-center'>
-  <img src='/Skelee-logo.png' className='md:h-[40px] h-[25px] w-auto'/>
+  <img src='/Skelee-logo.png' className='md:h-[40px] h-[25px] w-auto mt-8'/>
   <h1 className='text-[18px] tracking-wide text-center max-w-screen mt-8 font-LuckiestGuy'>
     Welcome<br/>
     to the world of Skelee,a community of <br/>
