@@ -218,7 +218,7 @@ className='w-auto h-[30px] cursor-pointer'
   <img src='/Skelee-logo.png' className='md:h-[40px] h-[25px] w-auto mt-8'/>
   <h1 className='text-[18px] tracking-wide text-center max-w-screen mt-8 font-LuckiestGuy'>
     Welcome<br/>
-    to the world of Skelee,a community of <br/>
+    to the world of Skelee, a community of <br/>
     immortal gamers
   </h1>
   <button className='md:hidden mt-5 rounded-md bg-[#3ae516] py-2 px-6 text-white font-mediumn font-Burbank uppercase'
