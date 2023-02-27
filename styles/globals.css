@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap');
 @import url('https://fonts.cdnfonts.com/css/gotham');
+@import url('https://db.onlinewebfonts.com/c/73978ae2ed24b316ebd6522bff8d0235?family=Burbank+Small+Bold');
 
 @tailwind base;
 @tailwind components;
@@ -14,10 +15,6 @@
   }
 }
 
-@font-face {
-font-family: 'Burbank';
-src: ur1('/font/Burbank.otf');
-}
 
 :root{
   --font-family: 'Roboto', sans-serif;
