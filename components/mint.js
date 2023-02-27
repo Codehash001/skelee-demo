@@ -8,11 +8,8 @@ import {
   isPausedState,
   isPublicSaleState,
   publicMint          } from '../ulits/interact'
-
-
-export default function Mint(){
-
-const mintingDate = new Date (2023, 3, 2, 0, 23, 30,);
+  
+  const mintingDate = new Date (2023, 3, 2, 0, 23, 30,);
 
 const getTimedelta=()=>{
   const now = new Date();
@@ -38,7 +35,11 @@ const getTimedelta=()=>{
     secs
   };
 
-}
+};
+
+
+export default function Mint(){
+
 
 const[countdown, setCountdown] = useState()
   const[loading, setLoading] = useState(true)
@@ -174,10 +175,10 @@ className='w-[400px] h-auto'/>
 <h1 className='text-xl text-center'>Loading..</h1>
 
 ):
-{/*isMintingDate ? 
+isMintingDate ? 
 (
-<h1 className='text-xl text-center'>Minting is Live!</h1> ) : */}
-( 
+<h1 className='text-xl text-center'>Minting is Live!</h1> ) : 
+(
 <>
 <h1 className='text-xl text-center mx-2'>{countdown.days}<br/>DAYS</h1>
 <h1 className='text-xl text-center mx-2'>{countdown.hours}<br/>HRS</h1>
