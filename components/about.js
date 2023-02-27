@@ -8,13 +8,13 @@ export default function About() {
     <div id='utlity'className='text-white w-screen h-full flex flex-col items-center font-Kanit text-center'>
 	<h1 className='md:text-[40px] text-[30px] font-LuckiestGuy text-white text-center uppercase tracking-wide mb-2'> About</h1>
 
-      <div className="flex md:flex-row flex-col items-center justify-between w-full my-4 md:px-16 px-4">
+      <div className="flex md:flex-row flex-col items-center justify-between w-full my-4 md:px-[100px] px-4">
       
       <img src='/skelee-about-image.png' className='h-[500px] w-auto hidden md:flex'/>
       
       <div className='flex flex-col items-center w-auto'>  
       
-      <img src='/Skelee-logo.png' className='h-[90px] w-auto mb-6'/>
+      <img src='/Skelee-logo.png' className='h-[50px] w-auto mb-6'/>
       
       <p className="text-center font-light text-lg md:w-[600px]">
       Welcome to an immortal gamer’s paradise, AKA SKELEE. A non-fungible token, that brings
