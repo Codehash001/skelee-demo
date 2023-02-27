@@ -164,8 +164,8 @@ className='w-[400px] h-auto'/>
 
 <div className='flex flex-col items-center justify-start w-full md:px-6 px-2 py-3 filter backdrop-blur-md'>
 <div className='md:flex justify-between w-full items-center'>
-<h1 className='text-lg text-center uppercase md:mt-0 mt-4'>New friends mint <br/> 02/24 11.00 - 22.30</h1>
-<h1 className='text-lg text-center uppercase md:mt-0 mt-4'>early access mint <br/> 02/24 11.00 - 22.30</h1>
+<h1 className='text-lg text-center uppercase md:mt-0 mt-4 font-LuckiestGuy'>New friends mint <br/> 02/24 11.00 - 22.30</h1>
+<h1 className='text-lg text-center uppercase md:mt-0 mt-4 font-LuckiestGuy'>early access mint <br/> 02/24 11.00 - 22.30</h1>
 </div>
 
 {/* countdown */}
@@ -204,7 +204,7 @@ isMintingDate ?
 
 </div> */}
 
-<button className='md:px-16 px-6 py-3 bg-black rounded-lg mt-6 hover:bg-white hover:text-black'
+<button className='md:px-16 px-6 py-3 bg-black rounded-lg mt-6 hover:bg-white hover:text-black font-LuckiestGuy'
 onClick={connectWalletHandler}>Connect Wallet</button>
 
 </div>
