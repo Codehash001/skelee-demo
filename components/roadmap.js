@@ -7,7 +7,7 @@ export default function Roadmap () {
 return (
 
 <>
-<div className="flex flex-col items-center justify-start min-h-srceen w-screen font-Kanit text-white">
+<div className="flex flex-col items-center justify-start min-h-srceen w-screen font-Burbank text-white">
   <h1 className="font-extrabold text-4xl text-center uppercase tracking-wide">Roadmap</h1>
 
   <div className='mt-6 flex flex-col items-center'>
