@@ -8,11 +8,11 @@ export default function About() {
     <div id='utlity'className='text-white w-screen h-full flex flex-col items-center font-Kanit text-center'>
 	<h1 className='md:text-[40px] text-[30px] font-LuckiestGuy text-white text-center uppercase tracking-wide mb-2'> About</h1>
 
-      <div className="flex md:flex-row flex-col items-center justify-between w-full my-4 md:px-[100px] px-4">
+      <div className="flex md:flex-row flex-col items-center justify-center w-full my-4 md:px-[100px] px-4">
       
-      <img src='/skelee-about-image.png' className='h-[500px] w-auto hidden md:flex'/>
+      <img src='/skelee-about-image.png' className='h-[500px] w-auto hidden md:flex mx-8'/>
       
-      <div className='flex flex-col items-center w-auto'>  
+      <div className='flex flex-col items-center w-auto mx-8'>  
       
       <img src='/Skelee-logo.png' className='h-[50px] w-auto mb-6'/>
       
