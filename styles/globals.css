@@ -15,6 +15,10 @@
   }
 }
 
+@font-face {
+font-family: 'Burbank Small Bold';
+src: url("https://db.onlinewebfonts.com/t/73978ae2ed24b316ebd6522bff8d0235.ttf") format("truetype");
+}
 
 :root{
   --font-family: 'Roboto', sans-serif;
