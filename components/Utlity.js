@@ -46,7 +46,7 @@ export default function Utlity() {
           <img src="/skelee-boot-utility-.png" className="w-[250px] h-[250px] rounded-lg"/>
           <h1 className='my-1 uppercase text-[#3ae516] text-[25px]'>Argumented Reality</h1>
           <p className='text-sm p-1'>Skelees argumented reality 'experience' will
-            <br/>provide a fully impressive and interactive gameplay
+            <br/>provide a fully impressive
             <br/>adventure that seamlessly blends
             <br/>the digital and physical world.
           </p>
