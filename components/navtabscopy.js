@@ -207,8 +207,10 @@ className='w-auto h-[30px] cursor-pointer'
       <div className='w-full uppercase py-2 border-b-2 border-white tracking-wider font-semibold text-[18px]'>
       Reddit</div>
       </a>
+      {/*
       <div className='w-full uppercase py-2 border-b-2 border-white tracking-wider font-semibold text-[18px]'>
-      Rare studios new york</div>
+      Rare studios new york</div> 
+      */}
     </div>
   
   </div>
