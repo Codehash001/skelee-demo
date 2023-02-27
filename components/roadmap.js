@@ -18,7 +18,7 @@ return (
         <span className="uppercase text-[#3ae516] text-[40px]">THE ARRIVAL</span><br/><br/>
          <span className="uppercase md:hidden">Skelee’s have arrived from the underworld. A community of gamers and late-night friends will join together in an epic adventure to victory.</span>
         <span className="uppercase hidden md:flex">Skelee’s have arrived from the underworld.</span>
-        <span className="uppercase hidden md:flex"> A community of gamers and late-night friends <br/> will join together in an epic <br/> adventure to victory.</span>
+        <span className="uppercase hidden md:flex"> A community of gamers and late-night friends <br/> will join together in an epic adventure  <br/>to victory.</span>
       </p>
       <img src="/skelees-arrival.png" className='w-[300px] h-[300px] md:mx-16 mx-4 md:hidden'/>
     </div>
