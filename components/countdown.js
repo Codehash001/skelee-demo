@@ -37,7 +37,7 @@ const calculateTimeLeft = () => {
         <span>{timeLeft.seconds}<br/>Seconds</span>
       </div>)
       :(
-      <h1 className='w-full h-full text-3xl text-center'>Minting is Live!<h1/>
+      <h1 className='w-full h-full text-3xl text-center'>Minting is Live!</h1>
       )
       }
     </div>
