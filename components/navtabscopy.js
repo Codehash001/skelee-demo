@@ -181,7 +181,7 @@ className='w-auto h-[30px] cursor-pointer'
       </a>
         <div onClick={handleNav}
         className='rounded-full hover:shadow-lg hover:shadow-gray-600 p-3 cursor-pointer bg-white'>
-          <AiOutlineMenu size={18} />
+          <AiOutlineClose size={16} />
         </div>
     </div>
     <div className='flex flex-col items-start text-start mt-4 text-white'>
