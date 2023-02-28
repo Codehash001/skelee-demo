@@ -27,14 +27,19 @@ const calculateTimeLeft = () => {
 	
         return(
      <>
-     <div className="font-LuckiestGuy text-white w-ful h-full text-xl text-center">
-      <p>
-        <span>{timeLeft.hours}</span>
-        <span>:</span>
-        <span>{timeLeft.minutes}</span>
-        <span>:</span>
-        <span>{timeLeft.seconds}</span>
-      </p>
+     <div className="font-LuckiestGuy text-white w-full h-full text-center">
+     {timeLeft.hours || timeLeft.minutes || timeLeft.seconds ?
+      (<div className="w-full h-full text-3xl text-center flex justify-center">
+        <span>{timeLeft.hours}<br/>Hours</span>
+
+        <span>{timeLeft.minutes}<br/>Minutes</span>
+
+        <span>{timeLeft.seconds}<br/>Seconds</span>
+      </div>)
+      :(
+      <h1 className='w-full h-full text-3xl text-center'>Minting is Live!<h1/>
+      )
+      }
     </div>
      </>
     )
