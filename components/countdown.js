@@ -27,7 +27,7 @@ const calculateTimeLeft = () => {
 	
         return(
      <>
-     <div className="font-LuckiestGuy text-white w-ful h-full text-xl text-center">
+     <div>
       <p>
         <span>{timeLeft.hours}</span>
         <span>:</span>
