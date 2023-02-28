@@ -29,12 +29,12 @@ const calculateTimeLeft = () => {
      <>
      <div className="font-LuckiestGuy text-white w-full h-full text-center">
      {timeLeft.hours || timeLeft.minutes || timeLeft.seconds ?
-      (<div className="w-full h-full text-2xl text-center flex justify-center">
-        <span>{timeLeft.hours}<br/>Hrs</span>
+      (<div className="w-full h-full text-3xl text-center flex justify-center">
+        <span className='mx-3'>{timeLeft.hours}<br/>Hrs</span>
 
-        <span>{timeLeft.minutes}<br/>Mins</span>
+        <span className='mx-3'>{timeLeft.minutes}<br/>Mins</span>
 
-        <span>{timeLeft.seconds}<br/>Secs</span>
+        <span className='mx-3'>{timeLeft.seconds}<br/>Secs</span>
       </div>)
       :(
       <h1 className='w-full h-full text-3xl text-center'>Minting is Live!</h1>
