@@ -6,7 +6,7 @@ export default function Footer(){
 	<div className='flex items-center jutify-between w-full h-auto'>
 		<div className='flex flex-col items-start jutify-between w-full h-auto'>
 		
-		  <img src='/Skelee-logo.png' className='md:h-[40px] h-[25px] w-auto'/>
+		  <a href='/'><img src='/Skelee-logo.png' className='md:h-[40px] h-[25px] w-auto'/></a>
 		  
 		  <div className='flex items-center jutify-start w-full h-auto md:mt-6 mt-3'>
 
