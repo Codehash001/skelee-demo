@@ -8,58 +8,14 @@ import {
   isPausedState,
   isPublicSaleState,
   publicMint          } from '../ulits/interact'
+
+import Countdown from "../components/countdown"
   
-  const mintingDate = new Date (2023, 3, 2, 0, 23, 30,);
-
-const getTimedelta=()=>{
-  const now = new Date();
-  
-  const Timedelta = (mintingDate.getTime() - now.getTime());
-
-  //diff in days
-  const days = Math.floor(Timedelta/(24*60*60*1000));
-
-  //diff in hours
-  const hours = Math.floor((Timedelta % (24 * 60 * 60 * 1000))/(60*60*1000));
-
-  //diff in mins
-  const mins = Math.floor((Timedelta % (60*60*1000))/(60 * 1000));
-
-  //diff in secs
-  const secs = Math.floor((Timedelta % (60 *1000))/(1000));
-
-  return {
-    days,
-    hours,
-    mins,
-    secs
-  };
-
-};
 
 
 export default function Mint(){
 
-
-const[countdown, setCountdown] = useState()
-  const[loading, setLoading] = useState(true)
-  const[isMintingDate, setIsMintingDate] = useState(true)
-
-  useEffect(()=> {
-    const interval = setInterval (() => {
-     const Timedelta = getTimedelta ()
-     setCountdown(Timedelta);
-     setLoading(false);
-     
-     if(Timedelta.secs < 0){
-      setIsMintingDate(true)
-     }
-    },1000 )
-
-    return ()=> clearInterval(interval)
   
-
-    });
     
     //end countdown widget
     
@@ -171,21 +127,7 @@ className='w-[400px] h-auto'/>
 {/* countdown */}
 <div className='flex w-full justify-center font-medium mt-4 px-6'>
 
-{loading? (
-<h1 className='text-xl text-center'>Loading..</h1>
-
-):
-isMintingDate ? 
-(
-<h1 className='text-xl text-center'>Minting is Live!</h1> ) : 
-(
-<>
-<h1 className='text-xl text-center mx-2'>{countdown.days}<br/>DAYS</h1>
-<h1 className='text-xl text-center mx-2'>{countdown.hours}<br/>HRS</h1>
-<h1 className='text-xl text-center mx-2'>{countdown.mins}<br/>MINS</h1>
-<h1 className='text-xl text-center mx-2'>{countdown.secs}<br/>SECS</h1>
-</>
-) }
+<Countdown/>
 
 </div>
 

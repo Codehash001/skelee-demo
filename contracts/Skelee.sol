@@ -6,20 +6,19 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/Strings.sol";
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol";
-import '@openzeppelin/contracts/finance/PaymentSplitter.sol';
 
-contract Skelee is ERC721A, Ownable, ReentrancyGuard, PaymentSplitter {
+contract Skelee is ERC721A, Ownable, ReentrancyGuard {
   using Strings for uint256;
 
   string public baseURI;
   string public baseExtension = ".json";
   string public notRevealedUri; 
 
-  uint256 public cost = 0.01 ether;
+  uint256 public cost = 0.0125 ether;
   uint256 public wlCost = 0 ether;
   uint256 public maxSupply = 8000;
-  uint256 public MaxperWallet = 100;
-  uint256 public MaxperWalletWL = 5;
+  uint256 public MaxperWallet = 1000;
+  uint256 public MaxperWalletWL = 1;
 
   bool public paused = false;
   bool public revealed = true;
@@ -28,17 +27,9 @@ contract Skelee is ERC721A, Ownable, ReentrancyGuard, PaymentSplitter {
 
   bytes32 public merkleRoot = 0;
 
-  uint256[] private _teamShares = [40,60]; //  Shaes out of 100
-    address[] private _team = [
-        0x32EB5d87d2956cdf380a0255774954A981720b35, // this first Account gets 50%
-        0x5aC5B05D0D7176AE5146eD094aCF9Ea2214caBE3 //this 2nd account gets 50%
-        ];
-
   constructor(
     string memory _initBaseURI
-  ) ERC721A("SKELEE", "skelee")
-    PaymentSplitter(_team, _teamShares)
-    {
+  ) ERC721A("Skelee", "Skelee") {
     setBaseURI(_initBaseURI);
     
   }
@@ -178,4 +169,9 @@ contract Skelee is ERC721A, Ownable, ReentrancyGuard, PaymentSplitter {
         publicSale = _state;
     }
   
+ 
+  function withdraw() public payable onlyOwner nonReentrant {
+    (bool success, ) = payable(msg.sender).call{value: address(this).balance}("");
+    require(success);
+  }
 }
