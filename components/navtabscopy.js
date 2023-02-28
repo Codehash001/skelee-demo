@@ -158,8 +158,8 @@ className='w-auto h-[30px] cursor-pointer'
 </a>
 
   <div onClick={handleNav}
-    className='flex md:hidden rounded-full bg-black cursor-pointer p-3 border border-white' >
-    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#FFFFFF"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
+    className='flex md:hidden rounded-full cursor-pointer p-3 border border-white' >
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#000000"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
   </div>
 
   {/* overlay */}
