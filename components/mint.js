@@ -199,7 +199,7 @@ onClick={connectWalletHandler}>Mint</button>
                 </div>
                 </>
             )    
-                
+           }     
 
 </div>
 
