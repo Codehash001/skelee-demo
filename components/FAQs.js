@@ -30,7 +30,7 @@ export default function FAQs() {
       </Accordion>
       
       <Accordion open={open === 2} animate={customAnimation} className='text-white  text-[21px] text-start'>
-        <AccordionHeader onClick={() => handleOpen(2)}>
+        <AccordionHeader onClick={() => handleOpen(2)} className='text-white  text-[21px] text-start'>
           What is an NFT?
         </AccordionHeader>
         <AccordionBody className='text-justify text-gray-300 text-[20px]'>
@@ -39,7 +39,7 @@ export default function FAQs() {
       </Accordion>
       
       <Accordion open={open === 3} animate={customAnimation} className='text-white  text-[22px] text-start'>
-        <AccordionHeader onClick={() => handleOpen(3)}>
+        <AccordionHeader onClick={() => handleOpen(3)} className='text-white  text-[21px] text-start'>
          When does the Mint start?
         </AccordionHeader>
         <AccordionBody className='text-justify text-gray-300 text-[20px]'>
@@ -48,7 +48,7 @@ export default function FAQs() {
       </Accordion>
       
       <Accordion open={open === 4} animate={customAnimation} className='text-white text-[21px] text-start'>
-        <AccordionHeader onClick={() => handleOpen(4)}>
+        <AccordionHeader onClick={() => handleOpen(4)} className='text-white  text-[21px] text-start'>
           How will minting work?
         </AccordionHeader>
         <AccordionBody className='text-justify text-gray-300 text-[20px]'>
@@ -66,7 +66,7 @@ export default function FAQs() {
       </Accordion>
       
       <Accordion open={open === 6} animate={customAnimation} className='text-white text-[21px] text-start'>
-        <AccordionHeader onClick={() => handleOpen(6)}>
+        <AccordionHeader onClick={() => handleOpen(6)} className='text-white  text-[21px] text-start'>
           Who can mint Skelee?
         </AccordionHeader>
         <AccordionBody className='text-justify text-gray-300 text-[20px]'>
@@ -75,7 +75,7 @@ export default function FAQs() {
       </Accordion>
 
       <Accordion open={open === 7} animate={customAnimation} className='text-white text-[21px] text-start'>
-        <AccordionHeader onClick={() => handleOpen(7)}>
+        <AccordionHeader onClick={() => handleOpen(7)} className='text-white  text-[21px] text-start'>
           What are the licensing right / Intellectual property?
         </AccordionHeader>
         <AccordionBody className='text-justify text-gray-300 text-[20px]'>
@@ -84,7 +84,7 @@ export default function FAQs() {
       </Accordion>
 
       <Accordion open={open === 8} animate={customAnimation} className='text-white text-[21px] text-start'>
-        <AccordionHeader onClick={() => handleOpen(8)}>
+        <AccordionHeader onClick={() => handleOpen(8)} className='text-white  text-[21px] text-start'>
           How to do I gain Access to the Skelee League Pass?
         </AccordionHeader>
         <AccordionBody className='text-justify text-gray-300 text-[20px]'>
@@ -95,7 +95,7 @@ To gain access to the Skelee Gaming Champions League, holders must obtain both t
       </Accordion>
 
       <Accordion open={open === 9} animate={customAnimation} className='text-white text-[21px] text-start'>
-        <AccordionHeader onClick={() => handleOpen(9)}>
+        <AccordionHeader onClick={() => handleOpen(9)} className='text-white  text-[21px] text-start'>
           Can I burn my Skelee?
         </AccordionHeader>
         <AccordionBody className='text-justify text-gray-300 text-[20px]'>
@@ -104,7 +104,7 @@ To gain access to the Skelee Gaming Champions League, holders must obtain both t
       </Accordion>
       
       <Accordion open={open === 10} animate={customAnimation} className='text-white text-[21px] text-start'>
-        <AccordionHeader onClick={() => handleOpen(10)}>
+        <AccordionHeader onClick={() => handleOpen(10)} className='text-white  text-[21px] text-start'>
           Are Skelee NFT’S on ERC-721 or ERC1155?
         </AccordionHeader>
         <AccordionBody className='text-justify text-gray-300 text-[20px]'>
@@ -113,7 +113,7 @@ To gain access to the Skelee Gaming Champions League, holders must obtain both t
       </Accordion>
       
       <Accordion open={open === 11} animate={customAnimation} className='text-white text-[21px] text-start'>
-        <AccordionHeader onClick={() => handleOpen(11)}>
+        <AccordionHeader onClick={() => handleOpen(11)} className='text-white  text-[21px] text-start'>
           Why are you using ERC-721A?
         </AccordionHeader>
         <AccordionBody className='text-justify text-gray-300 text-[20px]'>
@@ -122,7 +122,7 @@ To gain access to the Skelee Gaming Champions League, holders must obtain both t
       </Accordion>
       
       <Accordion open={open === 12} animate={customAnimation} className='text-white text-[21px] text-start'>
-        <AccordionHeader onClick={() => handleOpen(12)}>
+        <AccordionHeader onClick={() => handleOpen(12)} className='text-white  text-[21px] text-start'>
           What is web3 and why is it important?
         </AccordionHeader>
         <AccordionBody className='text-justify text-gray-300 text-[20px]'>
@@ -131,7 +131,7 @@ To gain access to the Skelee Gaming Champions League, holders must obtain both t
       </Accordion>
       
       <Accordion open={open === 13} animate={customAnimation} className='text-white text-[21px] text-start'>
-        <AccordionHeader onClick={() => handleOpen(13)}>
+        <AccordionHeader onClick={() => handleOpen(13)} className='text-white  text-[21px] text-start'>
           Where can I view my Skelee after purchasing it?
         </AccordionHeader>
         <AccordionBody className='text-justify text-gray-300 text-[20px]'>
@@ -140,7 +140,7 @@ To gain access to the Skelee Gaming Champions League, holders must obtain both t
       </Accordion>
       
        <Accordion open={open === 14} animate={customAnimation} className='text-white text-[21px] text-start'>
-        <AccordionHeader onClick={() => handleOpen(14)}>
+        <AccordionHeader onClick={() => handleOpen(14)} className='text-white  text-[21px] text-start'>
           Will there be other Skelee’s in the future?
         </AccordionHeader>
         <AccordionBody className='text-justify text-gray-300 text-[20px]'>
@@ -149,7 +149,7 @@ To gain access to the Skelee Gaming Champions League, holders must obtain both t
       </Accordion>
       
        <Accordion open={open === 15} animate={customAnimation} className='text-white text-[21px] text-start'>
-        <AccordionHeader onClick={() => handleOpen(15)}>
+        <AccordionHeader onClick={() => handleOpen(15)} className='text-white  text-[21px] text-start'>
           Will there be other characters in the future?
         </AccordionHeader>
         <AccordionBody className='text-justify text-gray-300 text-[20px]'>
@@ -158,7 +158,7 @@ To gain access to the Skelee Gaming Champions League, holders must obtain both t
       </Accordion>
       
        <Accordion open={open === 16} animate={customAnimation} className='text-white text-[21px] text-start'>
-        <AccordionHeader onClick={() => handleOpen(16)}>
+        <AccordionHeader onClick={() => handleOpen(16)} className='text-white  text-[21px] text-start'>
           Do Skelee’s breed?
         </AccordionHeader>
         <AccordionBody className='text-justify text-gray-300 text-[20px]'>
@@ -167,7 +167,7 @@ To gain access to the Skelee Gaming Champions League, holders must obtain both t
       </Accordion>
       
        <Accordion open={open === 17} animate={customAnimation} className='text-white text-[21px] text-start'>
-        <AccordionHeader onClick={() => handleOpen(17)}>
+        <AccordionHeader onClick={() => handleOpen(17)} className='text-white  text-[21px] text-start'>
           What is the royalty %?
         </AccordionHeader>
         <AccordionBody className='text-justify text-gray-300 text-[20px]'>
@@ -176,7 +176,7 @@ To gain access to the Skelee Gaming Champions League, holders must obtain both t
       </Accordion>
       
        <Accordion open={open === 18} animate={customAnimation} className='text-white text-[21px] text-start'>
-        <AccordionHeader onClick={() => handleOpen(18)}>
+        <AccordionHeader onClick={() => handleOpen(18)} className='text-white  text-[21px] text-start'>
          Who created Skelee?
         </AccordionHeader>
         <AccordionBody className='text-justify text-gray-300 text-[20px]'>
@@ -185,7 +185,7 @@ To gain access to the Skelee Gaming Champions League, holders must obtain both t
       </Accordion>
       
        <Accordion open={open === 19} animate={customAnimation} className='text-white text-[21px] text-start'>
-        <AccordionHeader onClick={() => handleOpen(19)}>
+        <AccordionHeader onClick={() => handleOpen(19)} className='text-white  text-[21px] text-start'>
           Will there be a metaverse?
         </AccordionHeader>
         <AccordionBody className='text-justify text-gray-300 text-[20px]'>
