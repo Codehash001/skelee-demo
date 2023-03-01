@@ -196,8 +196,8 @@ To gain access to the Skelee Gaming Champions League, holders must obtain both t
       </Accordion>
       
       
-      <Accordion open={open === 19} animate={customAnimation} className='text-white text-[21px] text-start md:mt-16 mt-6'>
-        <AccordionHeader onClick={() => handleOpen(19)} className='text-white  text-[21px] text-start'>
+      <Accordion open={open === 20} animate={customAnimation} className='text-white text-[21px] text-start md:mt-16 mt-6'>
+        <AccordionHeader onClick={() => handleOpen(20)} className='text-white  text-[21px] text-start'>
           Terms
         </AccordionHeader>
         <AccordionBody className='text-start text-gray-300 text-[20px] hover:text-[#3ae516]'>
