@@ -172,7 +172,7 @@ onClick={connectWalletHandler}>Connect Wallet</button>
                       />
                     </svg>
                   </button>
-                  <p className="font-LuckiestGuy flex items-center justify-center flex-1 grow text-center font-bold text-white text-2xl md:text-4xl p-2">
+                  <p className="font-LuckiestGuy flex items-center justify-center text-center font-bold text-white text-2xl md:text-3xl p-2">
                   {mintAmount}  
                   </p>
                   <button
