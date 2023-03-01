@@ -90,7 +90,7 @@ export default function FAQs() {
           How to do I gain Access to the Skelee League Pass?
         </AccordionHeader>
         <AccordionBody className='text-start text-gray-300 text-[20px]'>
-       3 months after selling out we will put the Skelee League Pass portal live. The Skelee League Pass will grant you access to our Gaming Champions League. Our first test on this with our holders will only serve as a beta experience. However, holders will have an opportunity to compete on a small scale and win real rewards.
+       After selling out we will put the Skelee League Pass portal live. The Skelee League Pass will grant you access to our Gaming Champions League. Our first test on this with our holders will only serve as a beta experience. However, holders will have an opportunity to compete on a small scale and win real rewards.
 
 To gain access to the Skelee Gaming Champions League, holders must obtain both the Skelee NFT and Skelee League Pass. Skelee holders will be able to claim their free Skelee League Pass to enter the Beta Gaming Champions League.
         </AccordionBody>
