@@ -19,6 +19,7 @@ export default function FAQs() {
   };
  
   return (
+  <>
     <div id='faqs'className='md:mx-16 mx-2 p-6 rounded-lg text-white'>
       <h1 className='md:text-[40px] text-[30px] font-Kanit text-white text-center uppercase font-semibold tracking-widest mb-8'> FAQ</h1>
       <Accordion open={open === 1} animate={customAnimation}  className='text-white  text-[21px] text-start'>
@@ -194,8 +195,10 @@ To gain access to the Skelee Gaming Champions League, holders must obtain both t
         </AccordionBody>
       </Accordion>
       
-      <Footer/>
+      
     </div>
+    <Footer/>
+    </>
   );
 }
 
