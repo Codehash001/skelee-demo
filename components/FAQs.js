@@ -57,7 +57,7 @@ export default function FAQs() {
       </Accordion>
       
       <Accordion open={open === 5} animate={customAnimation} className='text-white text-[21px] text-start'>
-        <AccordionHeader onClick={() => handleOpen(5)}>
+        <AccordionHeader onClick={() => handleOpen(5)} className='text-white text-[21px] text-start'>
           What are the benefits of acquiring a Skelee?
         </AccordionHeader>
         <AccordionBody className='text-justify text-gray-300 text-[20px]'>
