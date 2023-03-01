@@ -172,7 +172,7 @@ onClick={connectWalletHandler}>Connect Wallet</button>
                       />
                     </svg>
                   </button>
-                  <p className="font-LuckiestGuy flex items-center justify-center text-center font-bold text-white text-2xl md:text-3xl p-2">
+                  <p className="font-LuckiestGuy flex items-center justify-center text-center font-bold text-white text-2xl md:text-3xl p-2 mx-10">
                   {mintAmount}  
                   </p>
                   <button
@@ -194,7 +194,7 @@ onClick={connectWalletHandler}>Connect Wallet</button>
                       />
                     </svg>
                   </button> 
-                  <button className='px-10 py-3 bg-black rounded-lg hover:bg-white hover:text-black'
+                  <button className='px-10 py-3 bg-black rounded-lg hover:bg-white hover:text-black ml-16'
 onClick={connectWalletHandler}>Mint</button>
                 </div>
                 </>
