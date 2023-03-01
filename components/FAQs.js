@@ -200,8 +200,8 @@ To gain access to the Skelee Gaming Champions League, holders must obtain both t
         <AccordionHeader onClick={() => handleOpen(20)} className='text-white  text-[21px] text-start'>
           Terms
         </AccordionHeader>
-        <AccordionBody className='text-start text-gray-300 text-[20px] hover:text-[#3ae516]'>
-        <a href='/terms'>Review Terms</a>
+        <AccordionBody className='text-start text-gray-300 text-[20px]'>
+        <a href='/terms' className='hover:text-[#3ae516]'>Review Terms</a>
         </AccordionBody>
       </Accordion>
       
