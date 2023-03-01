@@ -151,7 +151,7 @@ className='w-[400px] h-auto'/>
 <button className='md:px-16 px-6 py-3 bg-black rounded-lg mt-6 hover:bg-white hover:text-black'
 onClick={connectWalletHandler}>Connect Wallet</button>
 ):(
-{/* Increment decrement buttons */}
+<>
             <div className="font-Kanit flex items-center justify-between w-full mt-5">
                   <button
                     className="w-8 h-8 md:w-10 md:h-10 flex items-center justify-center text-black hover:shadow-lg bg-black font-bold rounded-full p-2"
@@ -160,7 +160,7 @@ onClick={connectWalletHandler}>Connect Wallet</button>
                      <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-6 w-6 md:h-8 md:w-8"
-                      fill="#"
+                      fill="none"
                       viewBox="0 0 24 24"
                       stroke="#ffffff"
                     >
@@ -197,6 +197,7 @@ onClick={connectWalletHandler}>Connect Wallet</button>
                   <button className='px-6 py-3 bg-black rounded-lg mt-6 hover:bg-white hover:text-black ml-4'
 onClick={connectWalletHandler}>Mint</button>
                 </div>
+                </>
             )    
                 
 
