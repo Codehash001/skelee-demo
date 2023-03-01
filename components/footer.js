@@ -12,6 +12,7 @@ export default function Footer(){
 
 		    
 		    <h1 className='md:text-sm text-xs'>&#169;2023 RARE STUDIOS NEW YORK. All Rights Reserved.</h1>
+		    
 		  </div>
 		  
 		</div>
