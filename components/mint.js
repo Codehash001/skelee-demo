@@ -146,7 +146,7 @@ className='w-[400px] h-auto'/>
 
 </div> */}
 
-{walletAddress?
+{!walletAddress?
 (
 <button className='md:px-16 px-6 py-3 bg-black rounded-lg mt-6 hover:bg-white hover:text-black'
 onClick={connectWalletHandler}>Connect Wallet</button>
