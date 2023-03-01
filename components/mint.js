@@ -74,6 +74,7 @@ useEffect(() => {
 }, [onboard, previouslySelectedWallet])
 
   const connectWalletHandler = async () => {
+  preventDefault()
     const walletSelected = await onboard.walletSelect()
     if (walletSelected) {
       await onboard.walletCheck()
