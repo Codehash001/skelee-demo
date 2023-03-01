@@ -1,4 +1,5 @@
 import { useState, Fragment } from "react";
+import Footer from '../components/footer'
 import {
   Accordion,
   AccordionHeader,
@@ -192,6 +193,8 @@ To gain access to the Skelee Gaming Champions League, holders must obtain both t
         What is life without the future.
         </AccordionBody>
       </Accordion>
+      
+      <Footer/>
     </div>
   );
 }

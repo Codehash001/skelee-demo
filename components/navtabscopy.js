@@ -296,7 +296,7 @@ toggleState === 5 ? (
 <div className='min-h-screen'>
   <FAQ/>
   </div>
-  <Footer/>
+  
 </div>
 
 </>
