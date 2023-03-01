@@ -152,7 +152,7 @@ className='w-[400px] h-auto'/>
 onClick={connectWalletHandler}>Connect Wallet</button>
 ):(
 <>
-            <div className="font-Kanit flex items-center justify-between w-full mt-5">
+            <div className="font-Kanit flex items-center justify-evenly w-full mt-5">
                   <button
                     className="w-8 h-8 md:w-10 md:h-10 flex items-center justify-center text-black hover:shadow-lg bg-black font-bold rounded-full p-2"
                     onClick={decrementMintAmount}
@@ -194,7 +194,7 @@ onClick={connectWalletHandler}>Connect Wallet</button>
                       />
                     </svg>
                   </button> 
-                  <button className='px-6 py-3 bg-black rounded-lg mt-6 hover:bg-white hover:text-black ml-4'
+                  <button className='px-10 py-3 bg-black rounded-lg hover:bg-white hover:text-black ml-4'
 onClick={connectWalletHandler}>Mint</button>
                 </div>
                 </>
