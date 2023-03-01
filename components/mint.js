@@ -78,7 +78,6 @@ useEffect(() => {
     const walletSelected = await onboard.walletSelect()
     if (walletSelected) {
       await onboard.walletCheck()
-      preventDefault()
       window.location.reload(false)
     }
   }
