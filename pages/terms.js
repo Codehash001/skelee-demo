@@ -245,7 +245,7 @@ Waiver of Rights. The Company’s failure to enforce any right or provision of t
 
 16<br/>
 Contact Information<br/>
-If you have any questions about these Terms or the Interface, please contact the Company atrarestudiosnewyork@protonmail.com.
+If you have any questions about these Terms or the Interface, please contact the Company at rarestudiosnewyork@protonmail.com.
 
 
        
