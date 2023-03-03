@@ -215,26 +215,28 @@ onClick={connectWalletHandler}>Connect Wallet</button>
                   <button className='px-10 py-3 bg-black rounded-lg hover:bg-white hover:text-black ml-16'
 onClick={isEarlyAccessState ? FreeMintHandler : EarlyAccessMintHandler}>Mint</button>
                 </div>
-                </>
-            )    
-           }     
-
-</div>
-
-<div className="font-Kanit max-w-screen-sm">
+                
+                <div className="font-Kanit max-w-screen-sm mt-4">
               {status && (
               <div
                 className={`border ${
                   status.success ? 'border-green-500 text-white' : 'border-red-600 text-white'
                 } rounded-md text-start h-full px-4 py-4 w-full mx-auto mt-8 md:mt-5"`}
               >
-                <p className="flex flex-col space-y-2 text-sm md:text-base break-words ...">
+                <p className="flex flex-col w-auto">
                   {status.message}
                 </p>
               </div>
             )}
             </div> 
 </div>
+                </>
+            )    
+           }     
+
+</div>
+
+
 
 </div>
 
