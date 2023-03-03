@@ -42,8 +42,8 @@ export default function Mint(){
       
 
       setPaused(await isPausedState())
-      setIsFreeMintState(await isFreeMint_Live())
-      setIsEarlyAccessState(await isEarlyAccess_Live() && totalMinted >= 10) // change when mainnet
+      setIsFreeMintState(await isFreeMint_Live() && totalMinted < 10)  // change when mainnet
+      setIsEarlyAccessState(await isEarlyAccess_Live())
       
 
       setMaxMintAmount(
@@ -213,7 +213,7 @@ onClick={connectWalletHandler}>Connect Wallet</button>
                     </svg>
                   </button> 
                   <button className='px-10 py-3 bg-black rounded-lg hover:bg-white hover:text-black ml-16'
-onClick={isFreeMintState && totalMinted < 10 ? FreeMintHandler : EarlyAccessMintHandler}>Mint</button>
+onClick={isEarlyAccessState ? FreeMintHandler : EarlyAccessMintHandler}>Mint</button>
                 </div>
                 </>
             )    
