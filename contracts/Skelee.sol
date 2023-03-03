@@ -12,18 +12,22 @@ contract Skelee is ERC721A, Ownable, ReentrancyGuard {
 
   string public baseURI;
   string public baseExtension = ".json";
-  string public notRevealedUri; 
+  string public notRevealedUri; //set when ready deploy
 
-  uint256 public cost = 0.0125 ether;
+  uint256 public EarlyAccessCost = 0.125 ether; 
   uint256 public wlCost = 0 ether;
-  uint256 public maxSupply = 8000;
-  uint256 public MaxperWallet = 1000;
+  uint256 public maxSupply = 7777;
+  uint256 public FreeMintSupply = 10;  /// change value on mainnet deployment
+  uint256 public MaxperWallet = 5;
   uint256 public MaxperWalletWL = 1;
+  uint256 public MaxperWalletFreeMint = 1;
+  
 
-  bool public paused = false;
-  bool public revealed = true;
+  bool public paused = false; /// change state on mainnet deployment
+  bool public revealed = false;
   bool public wlMint = false;
-  bool public publicSale = true;
+  bool public EarlyAccess_Live = true; 
+  bool public FreeMint_Live = true; 
 
   bytes32 public merkleRoot = 0;
 
@@ -42,20 +46,38 @@ contract Skelee is ERC721A, Ownable, ReentrancyGuard {
         return 1;
     }
 
-  // public
-  function publicSaleMint(uint256 tokens) public payable nonReentrant {
+  // public-mint(EarlyAccess)
+  function EarlyAccessMint(uint256 tokens) public payable nonReentrant {
     require(!paused, "oops contract is paused");
-    require(publicSale, "Sale Hasn't started yet");
+    require(EarlyAccess_Live, "Sale Hasn't started yet");
     uint256 supply = totalSupply();
+    require(supply >= FreeMintSupply ,"This mint phase will start after FreeMint phase");
     require(tokens > 0, "need to mint at least 1 NFT");
     require(tokens <= MaxperWallet, "max mint amount per tx exceeded");
     require(supply + tokens <= maxSupply, "We Soldout");
-    require(_numberMinted(_msgSender()) + tokens <= MaxperWallet, " Max NFT Per Wallet exceeded");
-    require(msg.value >= cost * tokens, "insufficient funds");
+    require(_numberMinted(_msgSender()) + tokens <= MaxperWallet, " Max NFTs Per Wallet exceeded");
+    require(msg.value >= EarlyAccessCost * tokens, "insufficient funds");
 
       _safeMint(_msgSender(), tokens);
     
   }
+
+// FreeMint
+function FreeMint(uint256 tokens) public nonReentrant {
+    require(!paused, "oops contract is paused");
+    require(FreeMint_Live, "Sale Hasn't started yet");
+    uint256 supply = totalSupply();
+    require(tokens > 0, "need to mint at least 1 NFT");
+    require(tokens <= MaxperWallet, "max mint amount per tx exceeded");
+    require(supply + tokens <= maxSupply, "We Soldout");
+    require(supply + tokens <= FreeMintSupply, "We Soldout");
+    require(_numberMinted(_msgSender()) + tokens <= MaxperWalletFreeMint, " Max NFTs Per Wallet exceeded");
+
+
+      _safeMint(_msgSender(), tokens);
+    
+  }
+
 /// @dev White-listed mint
     function WlMint(uint256 tokens, bytes32[] calldata merkleProof) public payable nonReentrant {
     require(!paused, "oops contract is paused");
@@ -130,9 +152,13 @@ contract Skelee is ERC721A, Ownable, ReentrancyGuard {
     function setMaxperWalletWL(uint256 _limit) public onlyOwner {
     MaxperWalletWL = _limit;
   }
+
+   function setMaxperWalletFreeMint(uint256 _limit) public onlyOwner {
+    MaxperWalletFreeMint = _limit;
+  }
   
-  function setCost(uint256 _newCost) public onlyOwner {
-    cost = _newCost;
+  function setEarlyAccessCost(uint256 _newCost) public onlyOwner {
+    EarlyAccessCost = _newCost;
   }
   
   function setwlCost(uint256 _newCost) public onlyOwner {
@@ -144,7 +170,10 @@ contract Skelee is ERC721A, Ownable, ReentrancyGuard {
     maxSupply = _newsupply;
   }
 
- 
+  function setFreeMintSupply(uint256 _newsupply) public onlyOwner {
+    FreeMintSupply = _newsupply;
+  }
+
   function setBaseURI(string memory _newBaseURI) public onlyOwner {
     baseURI = _newBaseURI;
   }
@@ -165,8 +194,12 @@ contract Skelee is ERC721A, Ownable, ReentrancyGuard {
         wlMint = _state;
     }
 
-    function togglepublicSale(bool _state) external onlyOwner {
-        publicSale = _state;
+    function toggle_EarlyAccess_Live(bool _state) external onlyOwner {
+        EarlyAccess_Live = _state;
+    }
+
+    function toggle_FreeMint_Live(bool _state) external onlyOwner {
+        FreeMint_Live = _state;
     }
   
  

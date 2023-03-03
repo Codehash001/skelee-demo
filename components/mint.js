@@ -6,8 +6,10 @@ import {
   getTotalMinted,
   getMaxSupply,
   isPausedState,
-  isPublicSaleState,
-  publicMint          } from '../ulits/interact'
+  isFreeMint_Live,
+  isEarlyAccess_Live,
+  FreeMint, 
+  EarlyAccessMint         } from '../ulits/interact'
 
 import Countdown from "../components/countdown"
   
@@ -23,7 +25,8 @@ export default function Mint(){
   const [totalMinted, setTotalMinted] = useState(0)
   const [maxMintAmount, setMaxMintAmount] = useState(0)
   const [paused, setPaused] = useState(false)
-  const [isPublicSale, setIsPublicSale] = useState(false)
+  const [isEarlyAccessState, setIsEarlyAccessState] = useState(false)
+  const [isFreeMintState, setIsFreeMintState] = useState(false)
   
 
   const [status, setStatus] = useState(null)
@@ -36,10 +39,12 @@ export default function Mint(){
     const init = async () => {
       setMaxSupply(await getMaxSupply())
       setTotalMinted(await getTotalMinted())
+      
 
       setPaused(await isPausedState())
-      const isPublicSale = await isPublicSaleState()
-      setIsPublicSale(isPublicSale)
+      setIsFreeMintState(await isFreeMint_Live())
+      setIsEarlyAccessState(await isEarlyAccess_Live() && totalMinted >= 500)
+      
 
       setMaxMintAmount(
         isPublicSale ? config.maxMintAmount : '0'
@@ -93,10 +98,23 @@ useEffect(() => {
   }
 
 
-  const publicMintHandler = async () => {
+  const EarlyAccessMintHandler = async () => {
     setIsMinting(true)
 
-    const { success, status } = await publicMint(mintAmount)
+    const { success, status } = await EarlyAccessMint(mintAmount)
+
+    setStatus({
+      success,
+      message: status
+    })
+
+    setIsMinting(false)
+  }
+
+  const FreeMintHandler = async () => {
+    setIsMinting(true)
+
+    const { success, status } = await FreeMint(mintAmount)
 
     setStatus({
       success,
@@ -195,7 +213,7 @@ onClick={connectWalletHandler}>Connect Wallet</button>
                     </svg>
                   </button> 
                   <button className='px-10 py-3 bg-black rounded-lg hover:bg-white hover:text-black ml-16'
-onClick={connectWalletHandler}>Mint</button>
+onClick={isFreeMintState? FreeMintHandler : EarlyAccessMintHandler}>Mint</button>
                 </div>
                 </>
             )    
