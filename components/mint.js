@@ -43,7 +43,7 @@ export default function Mint(){
 
       setPaused(await isPausedState())
       setIsFreeMintState(await isFreeMint_Live())
-      setIsEarlyAccessState(await isEarlyAccess_Live() && totalMinted >= 500)
+      setIsEarlyAccessState(await isEarlyAccess_Live() && totalMinted >= 10) // change when mainnet
       
 
       setMaxMintAmount(
