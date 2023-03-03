@@ -47,7 +47,7 @@ export default function Mint(){
       
 
       setMaxMintAmount(
-        isPublicSale ? config.maxMintAmount : '0'
+        isEarlyAccessState ? config.maxMintAmount_EarlyAccess: config.maxMintAmount_FreeMint
       )
       
       
