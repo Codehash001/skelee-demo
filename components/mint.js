@@ -215,8 +215,13 @@ onClick={connectWalletHandler}>Connect Wallet</button>
                   <button className='px-10 py-3 bg-black rounded-lg hover:bg-white hover:text-black ml-16'
 onClick={isEarlyAccessState ? FreeMintHandler : EarlyAccessMintHandler}>Mint</button>
                 </div>
+                </>
                 
-                <div className="font-Kanit max-w-screen-sm mt-4">
+                
+            )    
+           } 
+           
+           <div className="font-Kanit max-w-screen-sm mt-4">
               {status && (
               <div
                 className={`border ${
@@ -229,10 +234,7 @@ onClick={isEarlyAccessState ? FreeMintHandler : EarlyAccessMintHandler}>Mint</bu
               </div>
             )}
             </div> 
-</div>
-                </>
-            )    
-           }     
+</div>    
 
 </div>
 
