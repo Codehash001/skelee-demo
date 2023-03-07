@@ -6,13 +6,14 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/Strings.sol";
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol";
+import "operator-filter-registry/src/DefaultOperatorFilterer.sol";
 
-contract Skelee is ERC721A, Ownable, ReentrancyGuard {
+contract Skelee is ERC721A, Ownable, ReentrancyGuard , DefaultOperatorFilterer {
   using Strings for uint256;
 
   string public baseURI;
   string public baseExtension = ".json";
-  string public notRevealedUri; //add not Revealed Uri
+  string public notRevealedUri = "ipfs://Qmey2wCFA83zzgcLG8aoFxUGHCtBGwBkrjDiHuDCxaE576 ";
 
   uint256 public EarlyAccessCost = 0.08 ether;
   uint256 public PublicMintCost = 0.125 ether;
@@ -47,6 +48,30 @@ contract Skelee is ERC721A, Ownable, ReentrancyGuard {
   }
       function _startTokenId() internal view virtual override returns (uint256) {
         return 0;
+    }
+    
+    function setApprovalForAll(address operator, bool approved) public override onlyAllowedOperatorApproval(operator) {
+        super.setApprovalForAll(operator, approved);
+    }
+
+    function approve(address operator, uint256 tokenId) public override onlyAllowedOperatorApproval(operator) {
+        super.approve(operator, tokenId);
+    }
+
+    function transferFrom(address from, address to, uint256 tokenId) public override onlyAllowedOperator(from) {
+        super.transferFrom(from, to, tokenId);
+    }
+
+    function safeTransferFrom(address from, address to, uint256 tokenId) public override onlyAllowedOperator(from) {
+        super.safeTransferFrom(from, to, tokenId);
+    }
+
+    function safeTransferFrom(address from, address to, uint256 tokenId, bytes memory data)
+        public
+        override
+        onlyAllowedOperator(from)
+    {
+        super.safeTransferFrom(from, to, tokenId, data);
     }
 
 
